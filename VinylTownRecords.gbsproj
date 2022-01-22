@@ -9207,16 +9207,46 @@
                     "collisionGroup": "",
                     "script": [
                         {
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Thank you for being \nmy dumb son's friend",
+                                                "I mean my DEAR son's \nfriend. ",
+                                                "Please don't tell my wife. "
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "dd1f921f-ecb1-45e3-84b8-2fd56c95b317"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "L0"
+                                        },
+                                        "id": "909d3b26-29be-4642-a54b-1aa7c7af6f81"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "0f1b6a84-53d9-4ad5-adfa-9c8d20b32a6d"
+                        },
+                        {
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Thank you for being \nmy dumb son's friend",
-                                    "I mean my DEAR son's \nfriend. ",
-                                    "Please don't tell my wife. "
+                                    "Seriously. Please don't."
                                 ],
                                 "avatarId": ""
                             },
-                            "id": "dd1f921f-ecb1-45e3-84b8-2fd56c95b317"
+                            "id": "a8d14280-bb10-436f-945c-688d0c60cf2f"
                         }
                     ],
                     "startScript": [],
@@ -50447,16 +50477,16 @@
         }
     ],
     "settings": {
-        "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
-        "startX": 0,
-        "startY": 0,
+        "startSceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+        "startX": 1,
+        "startY": 1,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 117,
-        "worldScrollY": 120,
+        "worldScrollX": 2,
+        "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,
