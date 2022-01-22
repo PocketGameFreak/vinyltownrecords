@@ -601,7 +601,7 @@
                                 "variable": "18",
                                 "operator": "==",
                                 "comparator": "0",
-                                "__collapseElse": true
+                                "__collapseElse": false
                             },
                             "children": {
                                 "true": [
@@ -664,19 +664,20 @@
                                         "id": "4c591613-5a6b-49e1-8c0f-c835d7e17e45"
                                     }
                                 ],
-                                "false": []
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Come on!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d97a3ab6-14ef-44a5-88d3-c5c533d307a0"
+                                    }
+                                ]
                             },
                             "id": "83931465-71a4-492b-9a5a-3aec0c9801cc"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Come on!"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "d97a3ab6-14ef-44a5-88d3-c5c533d307a0"
                         }
                     ],
                     "startScript": [],
@@ -751,6 +752,13 @@
                                 "sceneId": "1b7f9ffd-2bbb-470b-9189-c2ac435d2a55",
                                 "fadeSpeed": "2"
                             }
+                        },
+                        {
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "20"
+                            },
+                            "id": "ada969f0-c4d4-4d2e-884a-146895f97434"
                         }
                     ],
                     "id": "fc139bcd-a16b-4151-a9de-7b7e88e437d6",
@@ -1486,48 +1494,95 @@
                     "height": 1,
                     "script": [
                         {
-                            "command": "EVENT_TEXT",
+                            "command": "EVENT_IF_FALSE",
                             "args": {
-                                "text": [
-                                    "Hurry up!"
-                                ],
-                                "avatarId": ""
+                                "variable": "19",
+                                "__collapseElse": true,
+                                "__collapse": false
                             },
-                            "id": "f5ff9cfa-be1c-4838-8d68-583800fa152a"
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Hurry up!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "f5ff9cfa-be1c-4838-8d68-583800fa152a"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "7b1720ff-656f-4c9d-8f1d-b8c479ba0060"
                         }
                     ],
                     "leaveScript": [
                         {
-                            "command": "EVENT_ACTOR_MOVE_TO",
+                            "command": "EVENT_IF_FALSE",
                             "args": {
-                                "actorId": "963dc022-75db-48fa-a6f1-102c7da1237c",
-                                "x": {
-                                    "type": "number",
-                                    "value": 26
-                                },
-                                "y": {
-                                    "type": "number",
-                                    "value": 34
-                                },
-                                "moveType": "diagonal",
-                                "useCollisions": true
+                                "variable": "19",
+                                "__collapseElse": true
                             },
-                            "id": "f1c880db-ffdc-4acf-8b27-87ae7ac5d8b6"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_SET_POSITION",
-                            "args": {
-                                "actorId": "963dc022-75db-48fa-a6f1-102c7da1237c",
-                                "x": {
-                                    "type": "number",
-                                    "value": 10
-                                },
-                                "y": {
-                                    "type": "number",
-                                    "value": 9
-                                }
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "963dc022-75db-48fa-a6f1-102c7da1237c",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 26
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 34
+                                            },
+                                            "moveType": "diagonal",
+                                            "useCollisions": true,
+                                            "__collapse": true
+                                        },
+                                        "id": "f1c880db-ffdc-4acf-8b27-87ae7ac5d8b6"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_POSITION",
+                                        "args": {
+                                            "actorId": "963dc022-75db-48fa-a6f1-102c7da1237c",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 10
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 9
+                                            }
+                                        },
+                                        "id": "689f3f22-5ae3-49f8-8429-9df903fb04f5"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "963dc022-75db-48fa-a6f1-102c7da1237c",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "down"
+                                            }
+                                        },
+                                        "id": "bb73e6fc-33ad-435b-b81f-6ef6522f34a6"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "19",
+                                            "__collapse": true
+                                        },
+                                        "id": "9ee1a031-26bc-40e3-b16a-b7e9262d287b"
+                                    }
+                                ],
+                                "false": []
                             },
-                            "id": "689f3f22-5ae3-49f8-8429-9df903fb04f5"
+                            "id": "725fa9f2-abc1-4892-9611-efeab39a5e2b"
                         }
                     ]
                 },
@@ -1540,32 +1595,52 @@
                     "height": 2,
                     "script": [
                         {
-                            "command": "EVENT_TEXT",
+                            "command": "EVENT_IF_FALSE",
                             "args": {
-                                "text": [
-                                    "Here's my place! \nCome in!"
+                                "variable": "20",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Here's my place! \nCome in!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "5290d6f4-08be-45dd-96cc-5c3e640be8d7"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                        "args": {
+                                            "actorId": "963dc022-75db-48fa-a6f1-102c7da1237c",
+                                            "x": 0,
+                                            "y": -1,
+                                            "moveType": "vertical",
+                                            "useCollisions": false
+                                        },
+                                        "id": "bcb20096-2148-4cfd-bd0e-6eb518cbefd2"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "963dc022-75db-48fa-a6f1-102c7da1237c"
+                                        },
+                                        "id": "3ca26d09-6b8a-460f-8d04-6f63fd7896e0"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "20"
+                                        },
+                                        "id": "dcc72591-8e1d-4ef6-aca8-6aec266afd2e"
+                                    }
                                 ],
-                                "avatarId": ""
+                                "false": []
                             },
-                            "id": "5290d6f4-08be-45dd-96cc-5c3e640be8d7"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
-                            "args": {
-                                "actorId": "963dc022-75db-48fa-a6f1-102c7da1237c",
-                                "x": 0,
-                                "y": -1,
-                                "moveType": "vertical",
-                                "useCollisions": false
-                            },
-                            "id": "bcb20096-2148-4cfd-bd0e-6eb518cbefd2"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "963dc022-75db-48fa-a6f1-102c7da1237c"
-                            },
-                            "id": "3ca26d09-6b8a-460f-8d04-6f63fd7896e0"
+                            "id": "5b1592aa-58a4-430d-adbb-e5512eead2f4"
                         }
                     ],
                     "leaveScript": []
@@ -8942,75 +9017,6 @@
             "height": 18,
             "actors": [
                 {
-                    "id": "566c8812-a204-45b5-b93a-c113c10c20de",
-                    "spriteSheetId": "40dcd163-9f72-4861-8131-b01eb9baa000",
-                    "x": 12,
-                    "y": 5,
-                    "movementType": "faceInteraction",
-                    "direction": "down",
-                    "script": [
-                        {
-                            "id": "8208a6a1-7d0e-465b-ac1f-16868e6d250e",
-                            "command": "EVENT_IF_FALSE",
-                            "args": {
-                                "variable": "14"
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "94a866d1-d4cd-485b-8519-364104412bdb",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": "Have you tried\nusing this radio?"
-                                        }
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "id": "aedfbb0e-a49e-4b10-a334-cc217f44e9d8",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": "Yeah it doesn't\nfit does it?"
-                                        }
-                                    },
-                                    {
-                                        "id": "6bd9950b-775e-4d5b-96f1-0e5488317c87",
-                                        "command": "EVENT_ACTOR_EMOTE",
-                                        "args": {
-                                            "actorId": "566c8812-a204-45b5-b93a-c113c10c20de",
-                                            "emoteId": "a410a4c7-a37d-48ea-917b-f531ba557841"
-                                        }
-                                    },
-                                    {
-                                        "id": "5728dc6b-4c2c-4255-aa1b-b1f6211a2219",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": "But it's all I\nhave right now..."
-                                        }
-                                    },
-                                    {
-                                        "id": "f06cbcf4-9788-46ed-80bb-f7aca4ec925f",
-                                        "command": "EVENT_SET_TRUE",
-                                        "args": {
-                                            "variable": "2"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ],
-                    "spriteType": "actor",
-                    "startScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "name": "Radio Guy",
-                    "updateScript": [],
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "collisionGroup": ""
-                },
-                {
                     "id": "9603b702-aa07-4ad7-8906-16112f308854",
                     "spriteSheetId": "a0442b6a-634f-44da-9962-77938e3ed839",
                     "x": 15,
@@ -9162,6 +9168,73 @@
                     "moveSpeed": 1,
                     "animSpeed": 15,
                     "collisionGroup": ""
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "46a3db76-878e-4896-892b-d1afa7d5e2f0",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Welcome to my house!",
+                                    "Don't mind my dad."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "e2c92161-794c-4afb-bb84-a9e800c23cc9"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "caf57523-4780-4ec1-88a7-364c11e47396",
+                    "x": 11,
+                    "y": 13
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "c475c713-9fd8-455a-b9bc-8c62b2b8fd5e",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Thank you for being \nmy dumb son's friend",
+                                    "I mean my DEAR son's \nfriend. ",
+                                    "Please don't tell my wife. "
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "dd1f921f-ecb1-45e3-84b8-2fd56c95b317"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "2f00f5ba-88fb-416b-9303-9b92a2a4c43a",
+                    "x": 12,
+                    "y": 5
                 }
             ],
             "triggers": [
@@ -49602,7 +49675,7 @@
         },
         {
             "id": "14",
-            "name": "Used Radio"
+            "name": "Used Radiourr"
         },
         {
             "id": "15",
@@ -49638,11 +49711,19 @@
         },
         {
             "id": "17",
-            "name": "Introduced"
+            "name": "Not New in Town"
         },
         {
             "id": "18",
             "name": "BFF"
+        },
+        {
+            "id": "19",
+            "name": "Hurried"
+        },
+        {
+            "id": "20",
+            "name": "Entered BFF House"
         }
     ],
     "engineFieldValues": [
@@ -49660,7 +49741,7 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 517,
+        "worldScrollX": 0,
         "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": true,
