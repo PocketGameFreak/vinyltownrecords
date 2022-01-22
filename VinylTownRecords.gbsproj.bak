@@ -10672,14 +10672,6 @@
             "collisions": [],
             "script": [
                 {
-                    "id": "82ba937b-2e7f-4044-a567-50f9c91be84d",
-                    "command": "EVENT_MUSIC_PLAY",
-                    "args": {
-                        "musicId": "4f144f63-6005-4e99-b570-92a526201bd3",
-                        "loop": false
-                    }
-                },
-                {
                     "id": "ff79b819-b435-4ef8-af20-07302038959f",
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
@@ -14182,14 +14174,6 @@
                     }
                 },
                 {
-                    "id": "cd305da2-f0dc-4063-b4fc-71dafbc15c0b",
-                    "command": "EVENT_MUSIC_PLAY",
-                    "args": {
-                        "musicId": "f3f9e9c8-604a-49ce-8cf8-8da3ae3a9bd2",
-                        "loop": true
-                    }
-                },
-                {
                     "id": "8a9ed399-aa4b-49d0-854d-8752a796d21c",
                     "command": "EVENT_TEXT",
                     "args": {
@@ -15810,7 +15794,8 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "27",
-                                "__collapseElse": false
+                                "__collapseElse": false,
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -17456,15 +17441,136 @@
                     "collisionGroup": "",
                     "script": [
                         {
-                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                            "command": "EVENT_TEXT",
                             "args": {
-                                "type": "beep",
-                                "pitch": 4,
-                                "frequency": 200,
-                                "duration": 0.5,
-                                "wait": true
+                                "text": [
+                                    "Do you want to pet \nthe cat?"
+                                ],
+                                "avatarId": "",
+                                "__collapse": false
                             },
-                            "id": "6d007b73-dbc2-433d-b31e-78bbba6cd1d0"
+                            "id": "8815bee9-65a8-43ad-ab1a-9828880e9002"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "27",
+                                "trueText": "Yes",
+                                "falseText": "No",
+                                "__collapse": false
+                            },
+                            "id": "fe5889f9-165e-49aa-864b-049ecd397883"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "27",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_WAIT",
+                                        "args": {
+                                            "time": 1
+                                        },
+                                        "id": "14100d3c-6516-4464-b7dc-ef49f56f7511"
+                                    },
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "28",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": "0",
+                                            "maxValue": 1,
+                                            "clamp": false
+                                        },
+                                        "id": "0060b1be-e451-4cbb-8749-5c63b0cc7450"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "28",
+                                            "__collapseElse": false,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Purrrrr"
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "333405f8-e4a0-42fd-b4f7-00d85728e804"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "4bc2c3bd-f20f-4497-af7c-38d1653b6e72"
+                                                    },
+                                                    "id": "8d2428e9-3008-4bca-9335-5d4db3db31f3"
+                                                },
+                                                {
+                                                    "command": "EVENT_INC_VALUE",
+                                                    "args": {
+                                                        "variable": "0",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "43e47be7-c5a0-4290-8961-46bb10542df5"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "62ecc274-3e8e-4f49-9da0-32ccab871f1f"
+                                                    },
+                                                    "id": "ec4ba416-6c3d-403a-b93c-a1f70b9b3a9c"
+                                                },
+                                                {
+                                                    "command": "EVENT_CAMERA_SHAKE",
+                                                    "args": {
+                                                        "time": 0.5,
+                                                        "shakeDirection": "vertical"
+                                                    },
+                                                    "id": "79a66a50-a440-4f32-b937-8fc81d0efd90"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "player",
+                                                        "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "97387229-3ca9-4932-a543-d8fb3c1c9d28"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Hissssssss",
+                                                            "She didn't like that"
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "a4239a9f-671d-49b4-a681-33fbbbe4ab6f"
+                                                }
+                                            ]
+                                        },
+                                        "id": "5395731b-5d54-4b78-a7bf-a94a4752a666"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "87c78f1b-f1e2-4d87-a669-bccb0e437550"
                         }
                     ],
                     "startScript": [],
@@ -17487,7 +17593,19 @@
                     "paletteId": "",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Missy Petting \nHigh Score",
+                                    "Gabby 7\nBardle $00$"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "441904d7-bb8a-4e75-8d80-2a01a09f32cc"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -46272,7 +46390,7 @@
     "variables": [
         {
             "id": "0",
-            "name": "Quest1"
+            "name": "PetCount"
         },
         {
             "id": "1",
@@ -46454,17 +46572,17 @@
         }
     ],
     "settings": {
-        "startSceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
-        "startX": 2,
-        "startY": 1,
+        "startSceneId": "a5f430d1-da9c-4313-934a-79da3c40bbdc",
+        "startX": 0,
+        "startY": 3,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 703,
-        "worldScrollY": 582,
-        "zoom": 225,
+        "worldScrollX": 400,
+        "worldScrollY": 106,
+        "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
