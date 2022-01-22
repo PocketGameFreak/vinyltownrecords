@@ -23187,7 +23187,30 @@
                     "y": 9
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "30c86513-533c-4e9a-9128-470de0113f38",
+                    "x": 9,
+                    "y": 16,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
+                                "x": 31,
+                                "y": 41,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "c7ec54a8-7758-4fe3-8efa-ea78efb2b9a7"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [
                 {
                     "command": "EVENT_MUSIC_PLAY",
@@ -52069,8 +52092,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1667,
-        "worldScrollY": 474,
+        "worldScrollX": 1404,
+        "worldScrollY": 500,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
