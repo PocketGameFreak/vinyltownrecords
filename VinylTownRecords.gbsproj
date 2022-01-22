@@ -18011,8 +18011,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "febff444-ed7c-475f-907b-bd74d02c9960",
-                    "x": 26,
-                    "y": 24
+                    "x": 24,
+                    "y": 26
                 },
                 {
                     "name": "",
@@ -18362,7 +18362,19 @@
                     "animSpeed": 15,
                     "paletteId": "",
                     "isPinned": false,
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "The Merry Mermaids\nI don't like this one...",
+                                    "...but they were \ngrandpa's favorites."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "0f00776e-07a0-49fa-9709-763dc08b814b"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -18497,7 +18509,7 @@
                                             "text": [
                                                 "Bardle!! "
                                             ],
-                                            "avatarId": ""
+                                            "avatarId": "3242e475-df77-4bbc-8e78-2b6027f3c002"
                                         },
                                         "id": "c3dfb4ce-64df-4826-8584-5f1994c45db0"
                                     },
@@ -18532,7 +18544,7 @@
                                                 "Well... the Bard event of\nVinyltown at least.",
                                                 "LET'S GO"
                                             ],
-                                            "avatarId": ""
+                                            "avatarId": "3242e475-df77-4bbc-8e78-2b6027f3c002"
                                         },
                                         "id": "c5533e37-742e-4013-9e05-34ca9c153ad6"
                                     },
@@ -18636,7 +18648,7 @@
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "0036cba5-4e75-4d2e-ae8b-9b065032d881",
+                        "musicId": "3ba795df-2457-47bf-b8b2-2ab4c64b0cc7",
                         "loop": true
                     },
                     "id": "edc9839c-56e6-466b-be35-98c7b741702e"
@@ -47526,6 +47538,13 @@
             "type": "uge"
         },
         {
+            "id": "3ba795df-2457-47bf-b8b2-2ab4c64b0cc7",
+            "name": "record_shop",
+            "filename": "record_shop.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "c25381f7-d680-4419-9fd1-362efa5796bd",
             "name": "rival_theme",
             "filename": "rival_theme.uge",
@@ -47717,6 +47736,13 @@
             "width": 16,
             "height": 16,
             "filename": "Gabby.png"
+        },
+        {
+            "id": "3242e475-df77-4bbc-8e78-2b6027f3c002",
+            "name": "Jerry",
+            "width": 16,
+            "height": 16,
+            "filename": "Jerry.png"
         },
         {
             "id": "6845dca5-d9d8-472a-93a7-81889d878516",
@@ -47981,9 +48007,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 817,
-        "worldScrollY": 1100,
-        "zoom": 275,
+        "worldScrollX": 628,
+        "worldScrollY": 664,
+        "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
