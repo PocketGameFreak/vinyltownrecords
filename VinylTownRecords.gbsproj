@@ -16593,9 +16593,9 @@
                 15,
                 15,
                 15,
-                15,
-                15,
-                15,
+                0,
+                0,
+                0,
                 15,
                 15,
                 15,
@@ -17359,7 +17359,7 @@
                             "command": "EVENT_IF_FALSE",
                             "args": {
                                 "variable": "1",
-                                "__collapseElse": true
+                                "__collapseElse": false
                             },
                             "children": {
                                 "true": [
@@ -17375,7 +17375,74 @@
                                         "id": "d03e1fc5-af7f-42d4-a99b-df3a12869549"
                                     }
                                 ],
-                                "false": []
+                                "false": [
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "3",
+                                            "__collapseElse": false,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923"
+                                                    },
+                                                    "id": "6557e402-36d7-421e-99eb-f68de89f6d38"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "What?! \nHow did you beat me!",
+                                                            "Urg. Fine."
+                                                        ],
+                                                        "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                    },
+                                                    "id": "21f35861-f24b-4136-9e74-f5a6e0115212"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Talk to that guy?\nNo way."
+                                                        ],
+                                                        "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                    },
+                                                    "id": "e5f9fa5c-c2bf-4d6a-8201-b064cec20753"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "a410a4c7-a37d-48ea-917b-f531ba557841"
+                                                    },
+                                                    "id": "66f85143-e40f-4e77-8aef-b4d42f12f8cf"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "It's important huh?",
+                                                            "Maybe if you can beat\nmy high score.",
+                                                            "In what?\nPetting Missy, duh.",
+                                                            "I put up a score \nchart in her corner.",
+                                                            "You're last."
+                                                        ],
+                                                        "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                    },
+                                                    "id": "76917f1d-873b-45e5-9c19-ea472e00a279"
+                                                }
+                                            ]
+                                        },
+                                        "id": "0c2d6ad2-ad96-428f-9294-8c43277d4fa0"
+                                    }
+                                ]
                             },
                             "id": "f49014c2-523d-46d4-8f0c-1a2a33bf8fa0"
                         }
@@ -17490,7 +17557,8 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "27",
-                                "__collapseElse": false
+                                "__collapseElse": false,
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -17635,7 +17703,7 @@
                             "args": {
                                 "text": [
                                     "Missy Petting \nHigh Score",
-                                    "Gabby 5\nBardle $00$"
+                                    "Boss 37\nGabby 5\nBardle $00$"
                                 ],
                                 "avatarId": ""
                             },
@@ -17643,7 +17711,30 @@
                         }
                     ],
                     "startScript": [],
-                    "updateScript": [],
+                    "updateScript": [
+                        {
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "0",
+                                "operator": "==",
+                                "comparator": 6,
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "3"
+                                        },
+                                        "id": "59b40e93-4847-435c-a837-55da32cd07ef"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "4a6a7dcc-d8c8-43ea-91a5-ef33c734bd67"
+                        }
+                    ],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
@@ -17839,7 +17930,7 @@
                     "hit3Script": [],
                     "id": "cff335f0-7630-452c-817e-8ed63a6894a5",
                     "x": 17,
-                    "y": 16
+                    "y": 19
                 },
                 {
                     "name": "",
@@ -17852,7 +17943,70 @@
                     "paletteId": "",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "4",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Bunch of old records \nno one wants to buy.",
+                                                "Is that Boss' band?\nBetter ignore that..."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d58421fa-2e3d-48c1-ad56-902ee4b32627"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923"
+                                        },
+                                        "id": "d8865d9c-3d6e-42de-a641-da244519ab88"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "There's a cat toy at\nthe bottom!",
+                                                "Better take that\nfor later."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "7d58dc07-18bc-4e96-af74-da00be074501"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "4"
+                                        },
+                                        "id": "85ea45a0-b5e7-4626-8bcf-a60ec1ad26c2"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Bunch of old records \nno one wants to buy.",
+                                                "Is that Boss' band?\nBetter ignore that..."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "264c0852-7409-4012-bd0d-2bd6ba245205"
+                                    }
+                                ]
+                            },
+                            "id": "6d6fc1e3-abd9-4fb7-914c-4ea6652383e7"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -17873,7 +18027,19 @@
                     "paletteId": "",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Bunch of old records \nno one wants to buy.",
+                                    "Is that Boss' band?\nBetter ignore that..."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "e584df22-8861-4380-9b3f-5e492ca38505"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -17964,6 +18130,14 @@
                         "speed": "2"
                     },
                     "id": "c3528f21-42ce-46d4-ae3b-425d68c629b9"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "0036cba5-4e75-4d2e-ae8b-9b065032d881",
+                        "loop": true
+                    },
+                    "id": "edc9839c-56e6-466b-be35-98c7b741702e"
                 }
             ],
             "playerHit1Script": [],
@@ -47123,11 +47297,11 @@
         },
         {
             "id": "3",
-            "name": "Quest4"
+            "name": "BeatGabby"
         },
         {
             "id": "4",
-            "name": "Quest5"
+            "name": "HasCattoy"
         },
         {
             "id": "5",
@@ -47284,6 +47458,10 @@
         {
             "id": "d26ab9fa-e96e-4b85-9029-1cf65b5d1015__L0",
             "name": "Pets"
+        },
+        {
+            "id": "b7d1618f-1012-4af2-a6e1-0b3609dab525__L0",
+            "name": "questpetstart"
         }
     ],
     "engineFieldValues": [
@@ -47301,8 +47479,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 828,
-        "worldScrollY": 988,
+        "worldScrollX": 829,
+        "worldScrollY": 1000,
         "zoom": 275,
         "customColorsEnabled": true,
         "sgbEnabled": false,
