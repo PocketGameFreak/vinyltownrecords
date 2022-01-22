@@ -17822,7 +17822,8 @@
             "height": 27,
             "imageWidth": 408,
             "imageHeight": 216,
-            "filename": "RecordShop_InteriorMapWIP1.png"
+            "filename": "RecordShop_InteriorMapWIP1.png",
+            "tileColors": []
         },
         {
             "id": "1da35172-aea4-40b4-8215-7992d9245b34",
@@ -34951,9 +34952,9 @@
             "numFrames": 1,
             "type": "static",
             "filename": "RecordShop_AisleShelf.png",
-            "checksum": "6d32bff93fb3a764f36437b489ca28723771eecf",
+            "checksum": "df05fefdde2e41dd88dfad055ed40a916a9c01c0",
             "width": 16,
-            "height": 44,
+            "height": 48,
             "states": [
                 {
                     "id": "77c1bdb1-bafb-417f-8d6f-8306f20acb45",
@@ -34966,7 +34967,86 @@
                             "frames": [
                                 {
                                     "id": "1b735e2b-7aa1-4d05-8b3e-715d3d4838d5",
-                                    "tiles": []
+                                    "tiles": [
+                                        {
+                                            "id": "b626a97b-213c-4940-a634-af3feea1794e",
+                                            "x": 0,
+                                            "y": 32,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "9c417fb9-71bb-447f-af20-a00c76d9cfa8",
+                                            "x": 0,
+                                            "y": 16,
+                                            "sliceX": 0,
+                                            "sliceY": 16,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "1002300d-6ab2-478c-a865-4c3ddd2cf88f",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 32,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "bed0e32f-9d70-456d-83a0-719da9367ac1",
+                                            "x": 8,
+                                            "y": 32,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "803023b8-1073-44a4-a05c-cfd2d4fd6a72",
+                                            "x": 8,
+                                            "y": 16,
+                                            "sliceX": 8,
+                                            "sliceY": 16,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "6d0e3d4e-7521-42b5-bedc-bd3dd2c0f2c7",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 32,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        }
+                                    ]
                                 }
                             ]
                         },
@@ -35036,9 +35116,9 @@
                     ]
                 }
             ],
-            "numTiles": 0,
-            "canvasWidth": 32,
-            "canvasHeight": 32,
+            "numTiles": 3,
+            "canvasWidth": 16,
+            "canvasHeight": 48,
             "boundsX": 0,
             "boundsY": 0,
             "boundsWidth": 16,
@@ -46929,6 +47009,14 @@
             "name": "Chosen"
         },
         {
+            "id": "27",
+            "name": "Pet Cat"
+        },
+        {
+            "id": "28",
+            "name": "Can I pet"
+        },
+        {
             "id": "871ea302-1cc1-463c-b9d7-530aac38fe81__L0",
             "name": "Spoken to gardener"
         },
@@ -46991,14 +47079,6 @@
         {
             "id": "d26ab9fa-e96e-4b85-9029-1cf65b5d1015__L0",
             "name": "Pets"
-        },
-        {
-            "id": "27",
-            "name": "Pet Cat"
-        },
-        {
-            "id": "28",
-            "name": "Can I pet"
         }
     ],
     "engineFieldValues": [
@@ -47046,8 +47126,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            205,
-            532,
+            198,
+            513,
             30
         ],
         "showNavigator": true,
