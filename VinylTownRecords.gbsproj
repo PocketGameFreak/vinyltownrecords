@@ -23417,7 +23417,7 @@
                             "args": {
                                 "text": [
                                     "I'm man's best friend",
-                                    "And woman's worst ENEMY"
+                                    "And woman's worst \nENEMY"
                                 ],
                                 "avatarId": ""
                             },
@@ -23469,10 +23469,119 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "27",
-                                "__collapseElse": true
+                                "__collapseElse": false
                             },
                             "children": {
-                                "true": [],
+                                "true": [
+                                    {
+                                        "command": "EVENT_WAIT",
+                                        "args": {
+                                            "time": 1
+                                        },
+                                        "id": "7fa06459-9ced-4088-844d-24a9b0cca45d"
+                                    },
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "28",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": "0",
+                                            "maxValue": 1,
+                                            "clamp": false
+                                        },
+                                        "id": "77b175f1-a9c1-4bf5-b2a0-a5e686dfe6fd"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "28",
+                                            "__collapseElse": false,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Purrrrr"
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "fdb4c4f8-087d-467e-84bc-7eaa98069d15"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "4bc2c3bd-f20f-4497-af7c-38d1653b6e72"
+                                                    },
+                                                    "id": "c47086a3-c58c-439e-9ca0-0a68602eb7c7"
+                                                },
+                                                {
+                                                    "command": "EVENT_INC_VALUE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "db1821c7-327f-43d9-87f1-dfcb4de3bbab"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "You have pet $L0$ times"
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "6425290c-17ae-4ac8-99fa-d6719c5c28b1"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "62ecc274-3e8e-4f49-9da0-32ccab871f1f"
+                                                    },
+                                                    "id": "cb3d1711-f868-4eed-b0f6-0fdca45dc80f"
+                                                },
+                                                {
+                                                    "command": "EVENT_CAMERA_SHAKE",
+                                                    "args": {
+                                                        "time": 0.5,
+                                                        "shakeDirection": "vertical"
+                                                    },
+                                                    "id": "9e846269-4a85-4f6e-b7de-d6b7bed25903"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "player",
+                                                        "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "781e7083-9d1e-4ac4-ba37-800a394db40f"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Hissssssss",
+                                                            "She didn't like that"
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "83d7749f-6015-47e2-98b0-c63894ed64ef"
+                                                }
+                                            ]
+                                        },
+                                        "id": "54467eb1-23a8-4514-abab-59b311a4e1aa"
+                                    }
+                                ],
                                 "false": []
                             },
                             "id": "b02b02e2-3b99-43c4-af5d-f68130ff3a5c"
@@ -23558,6 +23667,15 @@
             "imageHeight": 144,
             "filename": "Fight_Menu_Test_Yes.png",
             "tileColors": []
+        },
+        {
+            "id": "d3331508-e67c-45b8-aaad-32429464e7e1",
+            "name": "RecordShop_InteriorMapWIP1",
+            "width": 51,
+            "height": 27,
+            "imageWidth": 408,
+            "imageHeight": 216,
+            "filename": "RecordShop_InteriorMapWIP1.png"
         },
         {
             "id": "1da35172-aea4-40b4-8215-7992d9245b34",
@@ -52374,11 +52492,15 @@
         },
         {
             "id": "d26ab9fa-e96e-4b85-9029-1cf65b5d1015__L0",
-            "name": "Local 0"
+            "name": "Pets"
         },
         {
             "id": "27",
             "name": "Pet Cat"
+        },
+        {
+            "id": "28",
+            "name": "Can I pet"
         }
     ],
     "engineFieldValues": [
