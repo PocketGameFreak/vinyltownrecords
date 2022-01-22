@@ -17354,7 +17354,32 @@
                     "paletteId": "",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "1",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The customers await...",
+                                                "You, not me."
+                                            ],
+                                            "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                        },
+                                        "id": "d03e1fc5-af7f-42d4-a99b-df3a12869549"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "f49014c2-523d-46d4-8f0c-1a2a33bf8fa0"
+                        }
+                    ],
                     "startScript": [
                         {
                             "command": "EVENT_TEXT",
@@ -17675,14 +17700,136 @@
                             "id": "897c9565-670f-4da4-a8ef-3f75284a6409"
                         },
                         {
-                            "command": "EVENT_TEXT",
+                            "command": "EVENT_IF_TRUE",
                             "args": {
-                                "text": [
-                                    "hi"
-                                ],
-                                "avatarId": ""
+                                "variable": "1",
+                                "__collapseElse": true
                             },
-                            "id": "24593599-94ef-4b61-9be2-25ab7d3f7583"
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "2",
+                                            "__collapseElse": true,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "I can't believe it..."
+                                                        ],
+                                                        "avatarId": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d"
+                                                    },
+                                                    "id": "0f45c097-b29a-48c4-8c02-cddfce673097"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "4bc2c3bd-f20f-4497-af7c-38d1653b6e72"
+                                                    },
+                                                    "id": "c686a256-3465-405d-902a-dab21f43c1ab"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "I'm coming back \nevery day!"
+                                                        ],
+                                                        "avatarId": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d"
+                                                    },
+                                                    "id": "8d880f0a-c366-4ee4-83c4-87067174b18c"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "b7d1618f-1012-4af2-a6e1-0b3609dab525",
+                                                        "emoteId": "e9e38933-9942-44ca-943c-a85fa46d8139"
+                                                    },
+                                                    "id": "5bb4d8e6-3f23-4dc6-91f4-3e230bb0c9c6"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "As long as you buy I\ndon't care"
+                                                        ],
+                                                        "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                    },
+                                                    "id": "175b411f-25a7-489e-8f87-8e22ef5db844"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "She's so dreamy"
+                                                        ],
+                                                        "avatarId": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d"
+                                                    },
+                                                    "id": "50e44bd2-db62-4793-aac3-51c2f656d48f"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "4bc2c3bd-f20f-4497-af7c-38d1653b6e72"
+                                                    },
+                                                    "id": "a441995e-81ef-4784-8f3a-62462de0528a"
+                                                }
+                                            ]
+                                        },
+                                        "id": "0d559921-5f06-434b-8dec-aa4047414e19"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Can you help me?\nOh... um... ",
+                                                "I'm not really \ninto vinyl...",
+                                                "Actually I don't\nhave a player",
+                                                "But that ogre at the\ncounter... "
+                                            ],
+                                            "avatarId": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d"
+                                        },
+                                        "id": "24593599-94ef-4b61-9be2-25ab7d3f7583"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "4bc2c3bd-f20f-4497-af7c-38d1653b6e72"
+                                        },
+                                        "id": "8908833f-6a8b-422a-9c1d-4860c74df84c"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Could you get her to \ncome over here?",
+                                                "I'll buy a whole rack!"
+                                            ],
+                                            "avatarId": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d"
+                                        },
+                                        "id": "3e06aa21-5c7f-4834-bad5-9a8c9c491f39"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "1"
+                                        },
+                                        "id": "a856902c-2971-4b32-9145-e504013f71a0"
+                                    }
+                                ]
+                            },
+                            "id": "305d56be-f2f9-4e83-80b7-566b27843a11"
                         }
                     ],
                     "startScript": [],
@@ -17746,7 +17893,18 @@
                     "animSpeed": 15,
                     "paletteId": "",
                     "isPinned": false,
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "cool records"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "ec0abd4a-178f-449c-b3cc-964a438ac442"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -40873,7 +41031,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc005.png",
-            "checksum": "fe2a346e79ea7e5c00b74d726e273a056cbffb28",
+            "checksum": "d9cef0d4a415ad0dbe0155b497f6e9d604f0e76f",
             "width": 96,
             "height": 16,
             "states": [
@@ -46957,11 +47115,11 @@
         },
         {
             "id": "1",
-            "name": "Quest2"
+            "name": "QuestLoveStart"
         },
         {
             "id": "2",
-            "name": "Quest3"
+            "name": "QuestLoveEnd"
         },
         {
             "id": "3",
@@ -47144,7 +47302,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 828,
-        "worldScrollY": 1088,
+        "worldScrollY": 988,
         "zoom": 275,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -47173,8 +47331,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            198,
-            513,
+            205,
+            531,
             30
         ],
         "showNavigator": true,
