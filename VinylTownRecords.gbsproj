@@ -379,52 +379,28 @@
                     "x": 21,
                     "y": 24,
                     "movementType": "faceInteraction",
-                    "direction": "up",
+                    "direction": "down",
                     "script": [
                         {
-                            "id": "81f7693e-8544-4bb2-bf47-b8963fe90982",
-                            "command": "EVENT_IF_TRUE",
+                            "command": "EVENT_TEXT",
                             "args": {
-                                "variable": "15"
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "a991435c-89ad-4303-b6f0-a18054cc0ea7",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": "I guess it was a\nmisunderstanding."
-                                        }
-                                    },
-                                    {
-                                        "id": "be420a1a-743e-4afc-a997-daf721708b34",
-                                        "command": "EVENT_SET_TRUE",
-                                        "args": {
-                                            "variable": "4"
-                                        }
-                                    }
+                                "text": [
+                                    "Hey! Fight me!"
                                 ],
-                                "false": [
-                                    {
-                                        "id": "1063f8a8-90b7-4126-b6e4-1daf7c359c87",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": "What is that guy\nlooking at?"
-                                        }
-                                    },
-                                    {
-                                        "id": "7a86534c-dd9f-4005-b2e7-c880ea3f9014",
-                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                        "args": {
-                                            "actorId": "a85c4ba5-9bc0-4daa-94bc-4ef68a690659",
-                                            "direction": {
-                                                "type": "direction",
-                                                "value": "up"
-                                            }
-                                        }
-                                    }
-                                ]
-                            }
+                                "avatarId": ""
+                            },
+                            "id": "e9b1e525-25e7-4573-b011-f0cc7373afc0"
+                        },
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "33996414-6197-4bf8-abd4-edd75cb7933d",
+                                "x": 0,
+                                "y": 0,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "4350a195-befd-4500-b6ba-1a45cac7dec2"
                         }
                     ],
                     "spriteType": "actor",
@@ -1343,146 +1319,11 @@
                     "leaveScript": []
                 },
                 {
-                    "trigger": "walk",
-                    "id": "dafc3710-6d6c-464f-9619-fb8235a2c238",
-                    "x": 42,
-                    "y": 42,
-                    "width": 2,
-                    "height": 10,
-                    "script": [
-                        {
-                            "id": "89c1617c-808b-4295-8e8f-fae839d0be44",
-                            "command": "EVENT_GROUP",
-                            "args": {
-                                "__label": "Flower Quest"
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "22bb46dc-6c92-432a-a70c-d992849b4e04",
-                                        "command": "EVENT_ACTOR_SHOW",
-                                        "args": {
-                                            "actorId": "c4058748-207b-4686-9668-bff37e5bceea"
-                                        }
-                                    },
-                                    {
-                                        "id": "654c9318-b8cd-4d44-8294-5d690a9a22b9",
-                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
-                                        "args": {
-                                            "actorId": "c4058748-207b-4686-9668-bff37e5bceea",
-                                            "x": 0,
-                                            "y": 1,
-                                            "moveType": "horizontal",
-                                            "useCollisions": false
-                                        }
-                                    },
-                                    {
-                                        "id": "555ccd20-b4fd-4076-8405-a783a551a83a",
-                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                        "args": {
-                                            "actorId": "c4058748-207b-4686-9668-bff37e5bceea",
-                                            "direction": {
-                                                "type": "direction",
-                                                "value": "left"
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": "c3cba2b3-d7fe-43e6-ae02-efb884036e1b",
-                                        "command": "EVENT_ACTOR_EMOTE",
-                                        "args": {
-                                            "actorId": "c4058748-207b-4686-9668-bff37e5bceea",
-                                            "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923"
-                                        }
-                                    },
-                                    {
-                                        "id": "accaff96-22e4-4253-8753-9acecbdfd0ca",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "HEY!!!\nKEEP OFF MY\nFLOWERS!"
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
-                                        "id": "23f6fc04-440e-4d51-acff-3b1e8653c3f9",
-                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "x": -2,
-                                            "y": 0,
-                                            "moveType": "horizontal",
-                                            "useCollisions": false
-                                        }
-                                    },
-                                    {
-                                        "id": "17e03201-fa20-446c-b6f6-e587ceed3809",
-                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                        "args": {
-                                            "actorId": "player",
-                                            "direction": {
-                                                "type": "direction",
-                                                "value": "right"
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": "9ea793c7-38cd-4313-995a-8ac485e99beb",
-                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                        "args": {
-                                            "actorId": "c4058748-207b-4686-9668-bff37e5bceea",
-                                            "direction": {
-                                                "type": "direction",
-                                                "value": "up"
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": "dcff18de-a435-4194-b00b-ccc5ef4b13f3",
-                                        "command": "EVENT_ACTOR_EMOTE",
-                                        "args": {
-                                            "actorId": "c4058748-207b-4686-9668-bff37e5bceea",
-                                            "emoteId": "62ecc274-3e8e-4f49-9da0-32ccab871f1f"
-                                        }
-                                    },
-                                    {
-                                        "id": "b499e285-3bc9-45b1-96ce-9f29f46a3e54",
-                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
-                                        "args": {
-                                            "actorId": "c4058748-207b-4686-9668-bff37e5bceea",
-                                            "x": 0,
-                                            "y": -1,
-                                            "moveType": "horizontal",
-                                            "useCollisions": false
-                                        }
-                                    },
-                                    {
-                                        "id": "31ddde01-9911-4145-9cd6-4b35c2635136",
-                                        "command": "EVENT_ACTOR_HIDE",
-                                        "args": {
-                                            "actorId": "c4058748-207b-4686-9668-bff37e5bceea"
-                                        }
-                                    },
-                                    {
-                                        "id": "2ccc46ed-fda5-4861-827f-cff47764b1e0",
-                                        "command": "EVENT_SET_TRUE",
-                                        "args": {
-                                            "variable": "6"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ],
-                    "leaveScript": []
-                },
-                {
                     "name": "",
                     "id": "3b4da94d-9092-436e-b3d7-4a8520126abb",
-                    "x": 26,
+                    "x": 20,
                     "y": 41,
-                    "width": 2,
+                    "width": 9,
                     "height": 1,
                     "script": [
                         {
@@ -21723,9 +21564,137 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
+        },
+        {
+            "name": "Fight!",
+            "backgroundId": "8ef0b8ee-a56a-4203-85a5-366e991054a5",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "id": "33996414-6197-4bf8-abd4-edd75cb7933d",
+            "x": 1265,
+            "y": 324.25,
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "2f91bd17-5bc2-4e92-b07d-da3b5f24b72d",
+                    "x": 4,
+                    "y": 14
+                }
+            ],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "3989183f-ed79-48e6-a7ca-45ae91ce2112",
+                    "x": 1,
+                    "y": 15,
+                    "width": 3,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "6d54547e-f56f-404e-bef0-fe8ada462b77",
+                                "x": 0,
+                                "y": 0,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "1bd2c05f-4b64-4f6d-96bc-9502f39bcaba"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "a827b612-578f-4cb9-a2bf-fd54b197b83f"
+        },
+        {
+            "name": "Scene 15",
+            "backgroundId": "a2c52c1f-c64b-4960-9d05-16232be0b41d",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "id": "6d54547e-f56f-404e-bef0-fe8ada462b77",
+            "x": 1442,
+            "y": 304,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "5052acab-e993-41e9-8823-89f468397338"
+                },
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 3
+                    },
+                    "id": "ce144169-3a01-4d7b-9d59-2b79c5c3b901"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
+                        "x": 21,
+                        "y": 25,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "cea74e65-8ded-405f-bb77-680540504c17"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
         }
     ],
     "backgrounds": [
+        {
+            "id": "8ef0b8ee-a56a-4203-85a5-366e991054a5",
+            "name": "Fight_Menu_Test_1",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Fight_Menu_Test_1.png"
+        },
+        {
+            "id": "a2c52c1f-c64b-4960-9d05-16232be0b41d",
+            "name": "Fight_Menu_Test_No",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Fight_Menu_Test_No.png"
+        },
         {
             "id": "1da35172-aea4-40b4-8215-7992d9245b34",
             "name": "black",
@@ -50485,9 +50454,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2,
-        "worldScrollY": 0,
-        "zoom": 100,
+        "worldScrollX": 1478,
+        "worldScrollY": 101,
+        "zoom": 150,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -50515,9 +50484,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            359,
-            205,
-            205
+            709,
+            30,
+            30
         ],
         "showNavigator": true,
         "defaultFontId": "948c169c-8e4b-491c-a5f0-66898bbf45d9",
