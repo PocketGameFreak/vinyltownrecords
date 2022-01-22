@@ -14,55 +14,6 @@
             "height": 56,
             "actors": [
                 {
-                    "id": "abf9e863-28c0-4c03-bd4f-201ed2a055c2",
-                    "spriteSheetId": "3939e8d2-3987-4a22-953e-f1d82134eccf",
-                    "x": 25,
-                    "y": 14,
-                    "movementType": "static",
-                    "direction": "down",
-                    "script": [
-                        {
-                            "id": "5277ceed-f26c-4644-9dee-b7d090a4ebb9",
-                            "command": "EVENT_ACTOR_PUSH",
-                            "args": {
-                                "continue": false
-                            }
-                        }
-                    ],
-                    "moveSpeed": 0.5,
-                    "frame": 0,
-                    "spriteType": "static",
-                    "startScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "name": "Rock",
-                    "updateScript": [],
-                    "animSpeed": 15,
-                    "collisionGroup": ""
-                },
-                {
-                    "id": "d12d5092-2716-441d-bab0-0e15fe715f5e",
-                    "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
-                    "x": 21,
-                    "y": 18,
-                    "movementType": "static",
-                    "direction": "down",
-                    "animate": true,
-                    "animSpeed": 63,
-                    "frame": 0,
-                    "script": [],
-                    "spriteType": "static",
-                    "startScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "name": "Duck",
-                    "updateScript": [],
-                    "moveSpeed": 1,
-                    "collisionGroup": ""
-                },
-                {
                     "id": "c73c195d-5cc8-4417-bdb0-b0c55c4b6188",
                     "spriteSheetId": "52ad34df-f245-4b2a-b94c-a82af1002871",
                     "x": 24,
@@ -339,41 +290,6 @@
                     "collisionGroup": ""
                 },
                 {
-                    "id": "076a0612-024a-426a-85fc-3e1054b9f74e",
-                    "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
-                    "x": 4,
-                    "y": 6,
-                    "movementType": "static",
-                    "direction": "down",
-                    "script": [
-                        {
-                            "id": "9769786a-b499-4657-917e-05c7e96cf2f4",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": "Meow!"
-                            }
-                        },
-                        {
-                            "id": "c585ca68-8cb8-4a26-bcff-072845e80702",
-                            "command": "EVENT_SET_TRUE",
-                            "args": {
-                                "variable": "13"
-                            }
-                        }
-                    ],
-                    "frame": 0,
-                    "spriteType": "static",
-                    "startScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "name": "Cat",
-                    "updateScript": [],
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "collisionGroup": ""
-                },
-                {
                     "id": "a85c4ba5-9bc0-4daa-94bc-4ef68a690659",
                     "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
                     "x": 21,
@@ -415,51 +331,6 @@
                     "collisionGroup": ""
                 },
                 {
-                    "id": "5cf6eb6c-be62-4efc-9cbb-14a8efac21a8",
-                    "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
-                    "x": 21,
-                    "y": 16,
-                    "movementType": "faceInteraction",
-                    "direction": "down",
-                    "script": [
-                        {
-                            "id": "b1c3d75d-d579-47af-8f3e-4cd96178fbb0",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": "Check out this\nsweet duck!"
-                            }
-                        },
-                        {
-                            "id": "0830a973-dd64-44ad-ad07-a677a31a27aa",
-                            "command": "EVENT_SET_TRUE",
-                            "args": {
-                                "variable": "15"
-                            }
-                        },
-                        {
-                            "id": "8ffac2a0-a735-40f1-b51e-dd270cc09ba9",
-                            "command": "EVENT_ACTOR_SET_DIRECTION",
-                            "args": {
-                                "actorId": "5cf6eb6c-be62-4efc-9cbb-14a8efac21a8",
-                                "direction": {
-                                    "type": "direction",
-                                    "value": "down"
-                                }
-                            }
-                        }
-                    ],
-                    "spriteType": "actor",
-                    "startScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "name": "Oblivious Guy",
-                    "updateScript": [],
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "collisionGroup": ""
-                },
-                {
                     "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
                     "spriteType": "static",
                     "direction": "down",
@@ -486,50 +357,6 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "name": "Sign Post",
-                    "updateScript": [],
-                    "collisionGroup": ""
-                },
-                {
-                    "spriteSheetId": "46a3db76-878e-4896-892b-d1afa7d5e2f0",
-                    "spriteType": "actor",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "id": "8e54ced2-d4e9-4eb9-9dcf-b6122f973ace",
-                    "x": 36,
-                    "y": 24,
-                    "movementType": "faceInteraction",
-                    "script": [
-                        {
-                            "id": "687b8207-3228-4376-8517-bb7327e777fb",
-                            "command": "EVENT_ACTOR_EMOTE",
-                            "args": {
-                                "actorId": "$self$",
-                                "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923"
-                            }
-                        },
-                        {
-                            "id": "2c8ba53e-becc-4a5f-8b4f-a34e41ad48f9",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Oh you got me!"
-                                ]
-                            }
-                        },
-                        {
-                            "id": "226d1384-37ce-44f8-a831-aa3f84c9e478",
-                            "command": "EVENT_SET_TRUE",
-                            "args": {
-                                "variable": "10"
-                            }
-                        }
-                    ],
-                    "startScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "name": "Hider",
                     "updateScript": [],
                     "collisionGroup": ""
                 },
@@ -50454,8 +50281,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1478,
-        "worldScrollY": 101,
+        "worldScrollX": 868,
+        "worldScrollY": 1,
         "zoom": 150,
         "customColorsEnabled": true,
         "sgbEnabled": false,
