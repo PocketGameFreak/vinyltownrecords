@@ -17756,6 +17756,69 @@
                     "id": "1a993f10-d477-4cb0-90f8-32c658067027",
                     "x": 20,
                     "y": 8
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9f0d6d92-625c-4b3e-b109-aaa33b3b8fb0",
+                    "direction": "left",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "9a84fe31-08db-445f-b461-290e3f7f22b9",
+                    "x": 24,
+                    "y": 19
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9f0d6d92-625c-4b3e-b109-aaa33b3b8fb0",
+                    "direction": "left",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "8f299903-7478-4c8f-86a8-cf30bb9b4c34",
+                    "x": 29,
+                    "y": 19
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9f0d6d92-625c-4b3e-b109-aaa33b3b8fb0",
+                    "direction": "left",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "9a04143a-747f-4561-a1cf-5811642d26dc",
+                    "x": 19,
+                    "y": 19
                 }
             ],
             "triggers": [],
@@ -34952,7 +35015,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "RecordShop_AisleShelf.png",
-            "checksum": "df05fefdde2e41dd88dfad055ed40a916a9c01c0",
+            "checksum": "44fc4a7aedaca88257a654572f59ace55473f18b",
             "width": 16,
             "height": 48,
             "states": [
@@ -35122,7 +35185,7 @@
             "boundsX": 0,
             "boundsY": 0,
             "boundsWidth": 16,
-            "boundsHeight": 16,
+            "boundsHeight": 44,
             "animSpeed": 15
         },
         {
@@ -46638,146 +46701,6 @@
     ],
     "music": [
         {
-            "id": "05ef4530-7c73-4949-9a26-c61ff0df5f16",
-            "name": "Rulz_BattleTheme",
-            "filename": "Rulz_BattleTheme.mod",
-            "settings": {},
-            "type": "mod"
-        },
-        {
-            "id": "4e70bb53-9a1c-4236-8da8-5de56b3fbd6a",
-            "name": "Rulz_BattleTheme",
-            "filename": "Rulz_BattleTheme.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "4653812c-82b6-44ce-93b8-eea1d4b6fa71",
-            "name": "Rulz_FastPaceSpeedRace",
-            "filename": "Rulz_FastPaceSpeedRace.mod",
-            "settings": {},
-            "type": "mod"
-        },
-        {
-            "id": "a7c68b7f-00bc-4872-9ce8-fe5e62f9b565",
-            "name": "Rulz_FastPaceSpeedRace",
-            "filename": "Rulz_FastPaceSpeedRace.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "e571be0d-bbaa-44ae-a411-c2b2e6c5ff24",
-            "name": "Rulz_GonaSpace",
-            "filename": "Rulz_GonaSpace.mod",
-            "settings": {},
-            "type": "mod"
-        },
-        {
-            "id": "46f8a9fd-46ca-4fbf-944c-4f981c7f3bde",
-            "name": "Rulz_GonaSpace",
-            "filename": "Rulz_GonaSpace.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "2e3e140a-ae8d-4970-8e8b-37b2119c7208",
-            "name": "Rulz_Into the woods",
-            "filename": "Rulz_Into the woods.mod",
-            "settings": {},
-            "type": "mod"
-        },
-        {
-            "id": "2fde4e03-8397-42a5-8d1e-a4f4e56816a1",
-            "name": "Rulz_Into the woods",
-            "filename": "Rulz_Into the woods.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "83b79b0b-6af5-4a01-ac40-2f86fd36ece8",
-            "name": "Rulz_Intro",
-            "filename": "Rulz_Intro.mod",
-            "settings": {},
-            "type": "mod"
-        },
-        {
-            "id": "4f144f63-6005-4e99-b570-92a526201bd3",
-            "name": "Rulz_Intro",
-            "filename": "Rulz_Intro.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "0f78c331-7318-48ca-8a6c-a57c15ef423a",
-            "name": "Rulz_LightMood",
-            "filename": "Rulz_LightMood.mod",
-            "settings": {},
-            "type": "mod"
-        },
-        {
-            "id": "326b3cbc-1e3d-4a43-846f-c962ece2c317",
-            "name": "Rulz_LightMood",
-            "filename": "Rulz_LightMood.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "180f6b13-2ccc-4af9-8ebf-3e3931f2e824",
-            "name": "Rulz_Outside",
-            "filename": "Rulz_Outside.mod",
-            "settings": {},
-            "type": "mod"
-        },
-        {
-            "id": "9aac47ff-51d7-48bf-9f15-1ce01b3872a4",
-            "name": "Rulz_Outside",
-            "filename": "Rulz_Outside.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "a98fc4b6-810e-4fb7-93ee-ef17be6ce95a",
-            "name": "Rulz_Pause_Underground",
-            "filename": "Rulz_Pause_Underground.mod",
-            "settings": {},
-            "type": "mod"
-        },
-        {
-            "id": "a48b4a96-9a5a-4511-b38a-98d56dd996ba",
-            "name": "Rulz_Pause_Underground",
-            "filename": "Rulz_Pause_Underground.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "be5e3dd0-dc4f-46b3-aefe-9897de0775c3",
-            "name": "Rulz_SpaceEmergency",
-            "filename": "Rulz_SpaceEmergency.mod",
-            "settings": {},
-            "type": "mod"
-        },
-        {
-            "id": "0635da5d-4c5a-46c1-a946-1634056bdd95",
-            "name": "Rulz_SpaceEmergency",
-            "filename": "Rulz_SpaceEmergency.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "4f7446cc-f5b4-4749-8fd0-f587afe35747",
-            "name": "Rulz_UndergroundCave",
-            "filename": "Rulz_UndergroundCave.mod",
-            "settings": {},
-            "type": "mod"
-        },
-        {
-            "id": "b64b574c-2ba2-428f-925f-8aff5a299af2",
-            "name": "Rulz_UndergroundCave",
-            "filename": "Rulz_UndergroundCave.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
             "id": "381345e5-0165-4dac-a453-72c7ae6db899",
             "name": "battle_start",
             "filename": "battle_start.uge",
@@ -46785,23 +46708,16 @@
             "type": "uge"
         },
         {
-            "id": "8bb61a6e-2fc7-4046-957e-43a73af44a63",
-            "name": "big battle",
-            "filename": "big battle.uge",
+            "id": "7cf496a8-03ce-4b38-9b0d-096e4e26c060",
+            "name": "big_battle",
+            "filename": "big_battle.uge",
             "settings": {},
             "type": "uge"
         },
         {
-            "id": "f3f9e9c8-604a-49ce-8cf8-8da3ae3a9bd2",
-            "name": "cool song",
-            "filename": "cool song.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "764821c0-02fa-424c-9bb2-ac6cd6cb2880",
-            "name": "rival theme",
-            "filename": "rival theme.uge",
+            "id": "c25381f7-d680-4419-9fd1-362efa5796bd",
+            "name": "rival_theme",
+            "filename": "rival_theme.uge",
             "settings": {},
             "type": "uge"
         },
@@ -46811,6 +46727,153 @@
             "filename": "template.mod",
             "settings": {},
             "type": "mod"
+        },
+        {
+            "id": "0036cba5-4e75-4d2e-ae8b-9b065032d881",
+            "name": "town_theme",
+            "filename": "town_theme.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "a3999f5b-1538-4f7c-82da-f6d2c95b5e35",
+            "name": "z_BattleTheme",
+            "filename": "z_BattleTheme.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "734266ad-936c-44ab-8376-afe2d58a16d5",
+            "name": "z_BattleTheme",
+            "filename": "z_BattleTheme.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "200a9f9b-f654-4b7c-b2af-e4b9f7f34947",
+            "name": "z_FastPaceSpeedRace",
+            "filename": "z_FastPaceSpeedRace.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "f8e066da-f106-4b50-8f1b-0b9375941154",
+            "name": "z_FastPaceSpeedRace",
+            "filename": "z_FastPaceSpeedRace.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "e5739347-924b-4e28-a54a-f2e57c7e6584",
+            "name": "z_GonaSpace",
+            "filename": "z_GonaSpace.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "e9adae18-9441-449a-aa58-cb6bc27a23a3",
+            "name": "z_GonaSpace",
+            "filename": "z_GonaSpace.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "4f092786-347b-4938-ae57-2f5a03168b5b",
+            "name": "z_Into the woods",
+            "filename": "z_Into the woods.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "0667064a-1653-47c9-b005-9a796ae09829",
+            "name": "z_Into the woods",
+            "filename": "z_Into the woods.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "cb0ed259-0fe2-4051-a144-ab39273e9cc0",
+            "name": "z_Intro",
+            "filename": "z_Intro.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "80a31ff6-38d8-4069-b69e-a69538624d41",
+            "name": "z_Intro",
+            "filename": "z_Intro.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "831c0ac6-c9fe-47f1-bc5e-cdf9db8fb363",
+            "name": "z_LightMood",
+            "filename": "z_LightMood.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "8da2accd-adf7-4b71-8282-327fc1ae9527",
+            "name": "z_LightMood",
+            "filename": "z_LightMood.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "8661e011-1f0d-43cc-b120-8a981816e9e4",
+            "name": "z_Outside",
+            "filename": "z_Outside.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "3ec80023-32f9-40b4-a510-0d8b8042909f",
+            "name": "z_Outside",
+            "filename": "z_Outside.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "6686ef32-a5b8-4056-99b7-59cf321b314c",
+            "name": "z_Pause_Underground",
+            "filename": "z_Pause_Underground.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "b6212c30-0a25-4db4-819c-03123982bf7a",
+            "name": "z_Pause_Underground",
+            "filename": "z_Pause_Underground.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "06680bdc-288a-41a1-a7c6-61b8597b7cc8",
+            "name": "z_SpaceEmergency",
+            "filename": "z_SpaceEmergency.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "a244245f-7195-4d25-9a5a-f053c18d0294",
+            "name": "z_SpaceEmergency",
+            "filename": "z_SpaceEmergency.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "e62ba2c0-60c4-4f27-b019-3048fd7cd1f0",
+            "name": "z_UndergroundCave",
+            "filename": "z_UndergroundCave.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "8a1ad5e6-d8d6-498e-9774-0056848b4bbd",
+            "name": "z_UndergroundCave",
+            "filename": "z_UndergroundCave.uge",
+            "settings": {},
+            "type": "uge"
         }
     ],
     "fonts": [
@@ -46830,6 +46893,13 @@
         }
     ],
     "avatars": [
+        {
+            "id": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d",
+            "name": "Customer",
+            "width": 16,
+            "height": 16,
+            "filename": "Customer.png"
+        },
         {
             "id": "b5db412d-8d19-4bfe-8f3b-bdc309433e33",
             "name": "Gabby",
@@ -47097,7 +47167,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 828,
-        "worldScrollY": 888,
+        "worldScrollY": 788,
         "zoom": 275,
         "customColorsEnabled": true,
         "sgbEnabled": false,
