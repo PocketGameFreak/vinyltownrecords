@@ -16592,10 +16592,10 @@
                 15,
                 15,
                 15,
+                0,
+                0,
                 15,
-                0,
-                0,
-                0,
+                15,
                 15,
                 15,
                 15,
@@ -17359,7 +17359,8 @@
                             "command": "EVENT_IF_FALSE",
                             "args": {
                                 "variable": "1",
-                                "__collapseElse": false
+                                "__collapseElse": false,
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -17376,6 +17377,30 @@
                                     }
                                 ],
                                 "false": [
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "2",
+                                            "__collapseElse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Heh. Sucker.\n",
+                                                            "Don't worry I'll give you\na cut."
+                                                        ],
+                                                        "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                    },
+                                                    "id": "3c2f6cf5-ce4f-4876-b7ef-44e10b4213bd"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "e7055aef-9c81-402e-9973-4267cdfdba1c"
+                                    },
                                     {
                                         "command": "EVENT_IF_TRUE",
                                         "args": {
@@ -17398,11 +17423,131 @@
                                                     "args": {
                                                         "text": [
                                                             "What?! \nHow did you beat me!",
-                                                            "Urg. Fine."
+                                                            "Urg. Fine.\nI'll talk to him."
                                                         ],
                                                         "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
                                                     },
                                                     "id": "21f35861-f24b-4136-9e74-f5a6e0115212"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "args": {
+                                                        "actorId": "cff335f0-7630-452c-817e-8ed63a6894a5",
+                                                        "x": {
+                                                            "type": "number",
+                                                            "value": 17
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 13
+                                                        },
+                                                        "moveType": "vertical",
+                                                        "useCollisions": true
+                                                    },
+                                                    "id": "b8ce21c8-a9f8-4b5e-8f08-33c1062ddad7"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "What do you want?"
+                                                        ],
+                                                        "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                    },
+                                                    "id": "34177e9f-3ca3-4bfb-875d-4a814a24d46b"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Wowowowowowow\nShe's talking to me!"
+                                                        ],
+                                                        "avatarId": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d"
+                                                    },
+                                                    "id": "193e9a61-19b8-4cff-8d3f-cf5ee00f0ed1"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Uh... What's your \nproblem?"
+                                                        ],
+                                                        "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                    },
+                                                    "id": "80b05f60-e592-4c58-8e46-6186a5009fcf"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "She's just as rude as\neveryone says~"
+                                                        ],
+                                                        "avatarId": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d"
+                                                    },
+                                                    "id": "48b09872-c670-4448-bed6-dd3775d36a6d"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "cff335f0-7630-452c-817e-8ed63a6894a5",
+                                                        "emoteId": "4bc2c3bd-f20f-4497-af7c-38d1653b6e72"
+                                                    },
+                                                    "id": "d4804454-2105-4c53-b0c0-11948df40411"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Oh... you're one of\nthose.",
+                                                            "There's a 2 vinyl \nminimum to be bullied"
+                                                        ],
+                                                        "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                    },
+                                                    "id": "0d3c622d-79fb-4d67-88a5-1d454fa4e032"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "I'll buy anything for\nyou!"
+                                                        ],
+                                                        "avatarId": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d"
+                                                    },
+                                                    "id": "2c630c99-cdef-40dd-8cb2-2be90255d028"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Sweet, sweet \ncommision money."
+                                                        ],
+                                                        "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                    },
+                                                    "id": "49ce1410-73d3-4f87-807c-e1d083aba6cd"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "args": {
+                                                        "actorId": "cff335f0-7630-452c-817e-8ed63a6894a5",
+                                                        "x": {
+                                                            "type": "number",
+                                                            "value": 17
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 19
+                                                        },
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    },
+                                                    "id": "bc9dd37b-f45c-46c6-817a-4fa96da158ee"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_TRUE",
+                                                    "args": {
+                                                        "variable": "2"
+                                                    },
+                                                    "id": "f45b078a-3112-47ff-bac0-34efab6ee29e"
                                                 }
                                             ],
                                             "false": [
@@ -17563,33 +17708,11 @@
                             "children": {
                                 "true": [
                                     {
-                                        "command": "EVENT_WAIT",
+                                        "command": "EVENT_IF_TRUE",
                                         "args": {
-                                            "time": 1
-                                        },
-                                        "id": "14100d3c-6516-4464-b7dc-ef49f56f7511"
-                                    },
-                                    {
-                                        "command": "EVENT_VARIABLE_MATH",
-                                        "args": {
-                                            "vectorX": "28",
-                                            "operation": "set",
-                                            "other": "rnd",
-                                            "vectorY": "L0",
-                                            "value": "0",
-                                            "minValue": "0",
-                                            "maxValue": 4,
-                                            "clamp": false
-                                        },
-                                        "id": "0060b1be-e451-4cbb-8749-5c63b0cc7450"
-                                    },
-                                    {
-                                        "command": "EVENT_IF_VALUE",
-                                        "args": {
-                                            "variable": "28",
-                                            "operator": "==",
-                                            "comparator": 4,
-                                            "__collapseElse": false
+                                            "variable": "4",
+                                            "__collapseElse": true,
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -17597,79 +17720,191 @@
                                                     "command": "EVENT_ACTOR_EMOTE",
                                                     "args": {
                                                         "actorId": "$self$",
-                                                        "emoteId": "4bc2c3bd-f20f-4497-af7c-38d1653b6e72"
+                                                        "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923"
                                                     },
-                                                    "id": "8d2428e9-3008-4bca-9335-5d4db3db31f3"
-                                                },
-                                                {
-                                                    "command": "EVENT_INC_VALUE",
-                                                    "args": {
-                                                        "variable": "0",
-                                                        "__collapse": false
-                                                    },
-                                                    "id": "43e47be7-c5a0-4290-8961-46bb10542df5"
+                                                    "id": "38ca73c7-4e81-4450-87ab-210abff3df2a"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Purrrrr"
+                                                            "Missy eyes the toy\nin your hand."
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "333405f8-e4a0-42fd-b4f7-00d85728e804"
-                                                }
-                                            ],
-                                            "false": [
+                                                    "id": "9a993975-4d69-4074-8c0f-37ead9ef4c37"
+                                                },
                                                 {
-                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "command": "EVENT_TEXT",
                                                     "args": {
-                                                        "actorId": "$self$",
-                                                        "emoteId": "62ecc274-3e8e-4f49-9da0-32ccab871f1f"
+                                                        "text": [
+                                                            "Mwroar...\nrrrr..."
+                                                        ],
+                                                        "avatarId": ""
                                                     },
-                                                    "id": "ec4ba416-6c3d-403a-b93c-a1f70b9b3a9c"
+                                                    "id": "befaaf8a-bbdf-4de1-bb9b-83f2f26c0610"
                                                 },
                                                 {
                                                     "command": "EVENT_CAMERA_SHAKE",
                                                     "args": {
-                                                        "time": 0.5,
-                                                        "shakeDirection": "vertical"
+                                                        "time": 1,
+                                                        "shakeDirection": "horizontal"
                                                     },
-                                                    "id": "79a66a50-a440-4f32-b937-8fc81d0efd90"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "player",
-                                                        "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "97387229-3ca9-4932-a543-d8fb3c1c9d28"
+                                                    "id": "7f41c130-0f45-4dcf-abef-285e79a9037e"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Hissssssss",
-                                                            "She didn't like that..."
+                                                            "She swipes the toy from\nyour hands!"
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "a4239a9f-671d-49b4-a681-33fbbbe4ab6f"
+                                                    "id": "18edc67c-66d4-40fc-8d14-c1123ae0d658"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Heh."
+                                                            "As Missy attacks \nyou sneak in a few pets"
                                                         ],
-                                                        "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                        "avatarId": ""
                                                     },
-                                                    "id": "83040bd8-e28a-41d7-bff7-df8842e88d5d"
+                                                    "id": "6b297f56-b142-4aac-a072-278cd0aad260"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_VALUE",
+                                                    "args": {
+                                                        "variable": "0",
+                                                        "value": {
+                                                            "type": "number",
+                                                            "value": 6
+                                                        }
+                                                    },
+                                                    "id": "f6017f46-1431-489c-8ada-67ff74d7b09c"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_FALSE",
+                                                    "args": {
+                                                        "variable": "4"
+                                                    },
+                                                    "id": "810f38ad-13ce-4424-86cb-39f94275c51c"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_WAIT",
+                                                    "args": {
+                                                        "time": 1
+                                                    },
+                                                    "id": "14100d3c-6516-4464-b7dc-ef49f56f7511"
+                                                },
+                                                {
+                                                    "command": "EVENT_VARIABLE_MATH",
+                                                    "args": {
+                                                        "vectorX": "28",
+                                                        "operation": "set",
+                                                        "other": "rnd",
+                                                        "vectorY": "L0",
+                                                        "value": "0",
+                                                        "minValue": "0",
+                                                        "maxValue": 4,
+                                                        "clamp": false
+                                                    },
+                                                    "id": "0060b1be-e451-4cbb-8749-5c63b0cc7450"
+                                                },
+                                                {
+                                                    "command": "EVENT_IF_VALUE",
+                                                    "args": {
+                                                        "variable": "28",
+                                                        "operator": "==",
+                                                        "comparator": 4,
+                                                        "__collapseElse": true,
+                                                        "__collapse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "emoteId": "4bc2c3bd-f20f-4497-af7c-38d1653b6e72"
+                                                                },
+                                                                "id": "8d2428e9-3008-4bca-9335-5d4db3db31f3"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_INC_VALUE",
+                                                                "args": {
+                                                                    "variable": "0",
+                                                                    "__collapse": false
+                                                                },
+                                                                "id": "43e47be7-c5a0-4290-8961-46bb10542df5"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Purrrrr"
+                                                                    ],
+                                                                    "avatarId": ""
+                                                                },
+                                                                "id": "333405f8-e4a0-42fd-b4f7-00d85728e804"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "emoteId": "62ecc274-3e8e-4f49-9da0-32ccab871f1f"
+                                                                },
+                                                                "id": "ec4ba416-6c3d-403a-b93c-a1f70b9b3a9c"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_CAMERA_SHAKE",
+                                                                "args": {
+                                                                    "time": 0.5,
+                                                                    "shakeDirection": "vertical"
+                                                                },
+                                                                "id": "79a66a50-a440-4f32-b937-8fc81d0efd90"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "player",
+                                                                    "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "97387229-3ca9-4932-a543-d8fb3c1c9d28"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Hissssssss",
+                                                                        "She didn't like that..."
+                                                                    ],
+                                                                    "avatarId": ""
+                                                                },
+                                                                "id": "a4239a9f-671d-49b4-a681-33fbbbe4ab6f"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Heh."
+                                                                    ],
+                                                                    "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                                },
+                                                                "id": "83040bd8-e28a-41d7-bff7-df8842e88d5d"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "1e4a89f8-df36-4b1f-9107-f04896ec6a39"
                                                 }
                                             ]
                                         },
-                                        "id": "1e4a89f8-df36-4b1f-9107-f04896ec6a39"
+                                        "id": "0cd8b1d3-28e8-4900-8e9e-c12b27b65e32"
                                     }
                                 ],
                                 "false": []
@@ -17847,7 +18082,7 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "As long as you buy I\ndon't care"
+                                                            "Perfect. As long as \nyou're buying."
                                                         ],
                                                         "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
                                                     },
