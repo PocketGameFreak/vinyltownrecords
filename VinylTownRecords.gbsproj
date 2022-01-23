@@ -15160,120 +15160,6 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__collapse": true,
-                        "__label": "Intial HP Set up"
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_GROUP",
-                                "args": {
-                                    "__label": "Tens"
-                                },
-                                "children": {
-                                    "true": [
-                                        {
-                                            "command": "EVENT_VARIABLE_MATH",
-                                            "args": {
-                                                "vectorX": "L5",
-                                                "operation": "set",
-                                                "other": "var",
-                                                "vectorY": "29",
-                                                "value": "0",
-                                                "minValue": "0",
-                                                "maxValue": "255",
-                                                "clamp": false
-                                            },
-                                            "id": "a6284249-4907-4f45-b134-82cede4ac6ef"
-                                        },
-                                        {
-                                            "command": "EVENT_VARIABLE_MATH",
-                                            "args": {
-                                                "vectorX": "L5",
-                                                "operation": "div",
-                                                "other": "val",
-                                                "vectorY": "0",
-                                                "value": 10,
-                                                "minValue": "0",
-                                                "maxValue": "255",
-                                                "clamp": false
-                                            },
-                                            "id": "c16fdd2b-8de6-471a-9cd7-893090b7ddb3"
-                                        },
-                                        {
-                                            "command": "EVENT_ACTOR_SET_FRAME",
-                                            "args": {
-                                                "actorId": "973a5504-bf96-45a7-afda-39c9151a3525",
-                                                "frame": {
-                                                    "type": "variable",
-                                                    "value": "L5"
-                                                },
-                                                "__collapse": false
-                                            },
-                                            "id": "2c11ecbc-647d-4a9e-94bf-39eba131247a"
-                                        },
-                                        {
-                                            "command": "EVENT_GROUP",
-                                            "args": {
-                                                "__label": "Ones"
-                                            },
-                                            "children": {
-                                                "true": [
-                                                    {
-                                                        "command": "EVENT_VARIABLE_MATH",
-                                                        "args": {
-                                                            "vectorX": "L5",
-                                                            "operation": "set",
-                                                            "other": "var",
-                                                            "vectorY": "29",
-                                                            "value": "0",
-                                                            "minValue": "0",
-                                                            "maxValue": "255",
-                                                            "clamp": false
-                                                        },
-                                                        "id": "0e2e67f7-4d03-4b96-b61c-529545110497"
-                                                    },
-                                                    {
-                                                        "command": "EVENT_VARIABLE_MATH",
-                                                        "args": {
-                                                            "vectorX": "L5",
-                                                            "operation": "mod",
-                                                            "other": "val",
-                                                            "vectorY": "0",
-                                                            "value": 10,
-                                                            "minValue": "0",
-                                                            "maxValue": "255",
-                                                            "clamp": false
-                                                        },
-                                                        "id": "3791f08e-fc15-4807-965d-726250461736"
-                                                    },
-                                                    {
-                                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                                        "args": {
-                                                            "actorId": "30b42107-1c8f-43cd-8f72-fe72ebf29f53",
-                                                            "frame": {
-                                                                "type": "variable",
-                                                                "value": "L5"
-                                                            },
-                                                            "__collapse": false
-                                                        },
-                                                        "id": "ae6221d2-34ec-4116-9530-4b1b6f32940c"
-                                                    }
-                                                ]
-                                            },
-                                            "id": "493effd3-b63b-4c22-b98d-558a8fa64320"
-                                        }
-                                    ]
-                                },
-                                "id": "13f42818-5117-4ada-98ba-c7335cd54318"
-                            }
-                        ]
-                    },
-                    "id": "a146575f-8223-4223-94fd-f77d7d7ddd89"
-                },
-                {
-                    "command": "EVENT_GROUP",
-                    "args": {
-                        "__collapse": true,
                         "__label": "Battle Setup"
                     },
                     "children": {
@@ -15346,15 +15232,133 @@
                 },
                 {
                     "command": "EVENT_LOOP",
-                    "args": {},
+                    "args": {
+                        "__collapse": false
+                    },
                     "children": {
                         "true": [
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__collapse": true,
+                                    "__label": "Intial HP Set up",
+                                    "__comment": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__label": "Tens",
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_VARIABLE_MATH",
+                                                        "args": {
+                                                            "vectorX": "L5",
+                                                            "operation": "set",
+                                                            "other": "var",
+                                                            "vectorY": "29",
+                                                            "value": "0",
+                                                            "minValue": "0",
+                                                            "maxValue": "255",
+                                                            "clamp": false
+                                                        },
+                                                        "id": "a6284249-4907-4f45-b134-82cede4ac6ef"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_VARIABLE_MATH",
+                                                        "args": {
+                                                            "vectorX": "L5",
+                                                            "operation": "div",
+                                                            "other": "val",
+                                                            "vectorY": "0",
+                                                            "value": 10,
+                                                            "minValue": "0",
+                                                            "maxValue": "255",
+                                                            "clamp": false
+                                                        },
+                                                        "id": "c16fdd2b-8de6-471a-9cd7-893090b7ddb3"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                                        "args": {
+                                                            "actorId": "973a5504-bf96-45a7-afda-39c9151a3525",
+                                                            "frame": {
+                                                                "type": "variable",
+                                                                "value": "L5"
+                                                            },
+                                                            "__collapse": false
+                                                        },
+                                                        "id": "2c11ecbc-647d-4a9e-94bf-39eba131247a"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Ones"
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_VARIABLE_MATH",
+                                                                    "args": {
+                                                                        "vectorX": "L5",
+                                                                        "operation": "set",
+                                                                        "other": "var",
+                                                                        "vectorY": "29",
+                                                                        "value": "0",
+                                                                        "minValue": "0",
+                                                                        "maxValue": "255",
+                                                                        "clamp": false
+                                                                    },
+                                                                    "id": "0e2e67f7-4d03-4b96-b61c-529545110497"
+                                                                },
+                                                                {
+                                                                    "command": "EVENT_VARIABLE_MATH",
+                                                                    "args": {
+                                                                        "vectorX": "L5",
+                                                                        "operation": "mod",
+                                                                        "other": "val",
+                                                                        "vectorY": "0",
+                                                                        "value": 10,
+                                                                        "minValue": "0",
+                                                                        "maxValue": "255",
+                                                                        "clamp": false
+                                                                    },
+                                                                    "id": "3791f08e-fc15-4807-965d-726250461736"
+                                                                },
+                                                                {
+                                                                    "command": "EVENT_ACTOR_SET_FRAME",
+                                                                    "args": {
+                                                                        "actorId": "30b42107-1c8f-43cd-8f72-fe72ebf29f53",
+                                                                        "frame": {
+                                                                            "type": "variable",
+                                                                            "value": "L5"
+                                                                        },
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "ae6221d2-34ec-4116-9530-4b1b6f32940c"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "493effd3-b63b-4c22-b98d-558a8fa64320"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "13f42818-5117-4ada-98ba-c7335cd54318"
+                                        }
+                                    ]
+                                },
+                                "id": "a146575f-8223-4223-94fd-f77d7d7ddd89"
+                            },
                             {
                                 "command": "EVENT_IF_EXPRESSION",
                                 "args": {
                                     "expression": "$29$ <= 0",
                                     "__collapseElse": false,
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "children": {
                                     "true": [
@@ -15392,232 +15396,232 @@
                                             "id": "be77e2df-3ccb-45a8-8e62-78126e81674f"
                                         }
                                     ],
-                                    "false": [
+                                    "false": []
+                                },
+                                "id": "d6135a98-48bd-4505-a1b8-aaaf82143607"
+                            },
+                            {
+                                "command": "EVENT_IF_EXPRESSION",
+                                "args": {
+                                    "expression": "$L1$ <=0",
+                                    "__collapseElse": false,
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
                                         {
-                                            "command": "EVENT_IF_EXPRESSION",
+                                            "command": "EVENT_TEXT",
                                             "args": {
-                                                "expression": "$L1$ <=0",
+                                                "text": [
+                                                    "You win!"
+                                                ],
+                                                "avatarId": ""
+                                            },
+                                            "id": "d2cd9a9a-d5a2-421a-8e7a-78d4a33f5b40"
+                                        },
+                                        {
+                                            "command": "EVENT_SET_TRUE",
+                                            "args": {
+                                                "variable": "32"
+                                            },
+                                            "id": "660ddb19-ed80-44c9-9009-27fb3087a521"
+                                        },
+                                        {
+                                            "command": "EVENT_SWITCH_SCENE",
+                                            "args": {
+                                                "sceneId": "d82abcc0-4fab-4ed9-9d56-9410993f7871",
+                                                "x": 8,
+                                                "y": 8,
+                                                "direction": "",
+                                                "fadeSpeed": "2"
+                                            },
+                                            "id": "a7bf2012-e3d5-4125-a15c-359c49921189"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "5868948e-0962-40b8-aa88-4d95228bc514"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Player Turn",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_MENU",
+                                            "args": {
+                                                "variable": "33",
+                                                "items": 2,
+                                                "option1": "Attack",
+                                                "option2": "Defend",
+                                                "option3": "",
+                                                "option4": "",
+                                                "option5": "",
+                                                "option6": "",
+                                                "option7": "",
+                                                "option8": "",
+                                                "cancelOnB": true,
+                                                "layout": "menu",
+                                                "cancelOnLastOption": false,
+                                                "__collapse": false,
+                                                "__comment": false
+                                            },
+                                            "id": "3ddd04e1-0ab1-4e62-8e77-81ae37d82e81"
+                                        },
+                                        {
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "33",
+                                                "operator": "==",
+                                                "comparator": 1,
                                                 "__collapseElse": false,
-                                                "__collapse": false
+                                                "__collapse": true
                                             },
                                             "children": {
                                                 "true": [
                                                     {
+                                                        "command": "EVENT_VARIABLE_MATH",
+                                                        "args": {
+                                                            "vectorX": "T0",
+                                                            "operation": "set",
+                                                            "other": "rnd",
+                                                            "vectorY": "L0",
+                                                            "value": "0",
+                                                            "minValue": 1,
+                                                            "maxValue": 5,
+                                                            "clamp": false
+                                                        },
+                                                        "id": "064e5d45-1426-440e-831d-42971d3e4684"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_VARIABLE_MATH",
+                                                        "args": {
+                                                            "vectorX": "L1",
+                                                            "operation": "sub",
+                                                            "other": "var",
+                                                            "vectorY": "T0",
+                                                            "value": "0",
+                                                            "minValue": "0",
+                                                            "maxValue": "255",
+                                                            "clamp": true
+                                                        },
+                                                        "id": "fe64250d-e2e8-4053-a1e5-ed2b20f360a3"
+                                                    },
+                                                    {
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
-                                                                "You win!"
+                                                                "You flail furiously. \n$T0$ damage!"
                                                             ],
                                                             "avatarId": ""
                                                         },
-                                                        "id": "d2cd9a9a-d5a2-421a-8e7a-78d4a33f5b40"
-                                                    },
-                                                    {
-                                                        "command": "EVENT_SET_TRUE",
-                                                        "args": {
-                                                            "variable": "32"
-                                                        },
-                                                        "id": "660ddb19-ed80-44c9-9009-27fb3087a521"
-                                                    },
-                                                    {
-                                                        "command": "EVENT_SWITCH_SCENE",
-                                                        "args": {
-                                                            "sceneId": "d82abcc0-4fab-4ed9-9d56-9410993f7871",
-                                                            "x": 8,
-                                                            "y": 8,
-                                                            "direction": "",
-                                                            "fadeSpeed": "2"
-                                                        },
-                                                        "id": "a7bf2012-e3d5-4125-a15c-359c49921189"
+                                                        "id": "7c86d1ec-ba96-4cfa-bba5-748add976c2e"
                                                     }
                                                 ],
                                                 "false": [
                                                     {
-                                                        "command": "EVENT_GROUP",
+                                                        "command": "EVENT_IF_VALUE",
                                                         "args": {
-                                                            "__label": "Player Turn",
-                                                            "__collapse": false
+                                                            "variable": "33",
+                                                            "operator": "==",
+                                                            "comparator": 2,
+                                                            "__collapseElse": true
                                                         },
                                                         "children": {
                                                             "true": [
                                                                 {
-                                                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                    "command": "EVENT_SET_TRUE",
                                                                     "args": {
-                                                                        "customEventId": "40ebad48-8618-4a4f-bd23-d8bd6efc7694",
-                                                                        "$variable[0]$": "L5",
-                                                                        "$variable[1]$": "29",
-                                                                        "$variable[2]$": "30",
-                                                                        "$actor[0]$": "973a5504-bf96-45a7-afda-39c9151a3525",
-                                                                        "$actor[1]$": "30b42107-1c8f-43cd-8f72-fe72ebf29f53",
-                                                                        "__comment": true,
-                                                                        "__collapse": false
+                                                                        "variable": "6"
                                                                     },
-                                                                    "id": "20073263-4c4b-4a4f-905d-35e60d3931fd"
-                                                                },
-                                                                {
-                                                                    "command": "EVENT_MENU",
-                                                                    "args": {
-                                                                        "variable": "33",
-                                                                        "items": 2,
-                                                                        "option1": "Attack",
-                                                                        "option2": "Defend",
-                                                                        "option3": "",
-                                                                        "option4": "",
-                                                                        "option5": "",
-                                                                        "option6": "",
-                                                                        "option7": "",
-                                                                        "option8": "",
-                                                                        "cancelOnB": true,
-                                                                        "layout": "menu",
-                                                                        "cancelOnLastOption": false,
-                                                                        "__collapse": false,
-                                                                        "__comment": false
-                                                                    },
-                                                                    "id": "3ddd04e1-0ab1-4e62-8e77-81ae37d82e81"
-                                                                },
-                                                                {
-                                                                    "command": "EVENT_IF_VALUE",
-                                                                    "args": {
-                                                                        "variable": "33",
-                                                                        "operator": "==",
-                                                                        "comparator": 1,
-                                                                        "__collapseElse": false,
-                                                                        "__collapse": true
-                                                                    },
-                                                                    "children": {
-                                                                        "true": [
-                                                                            {
-                                                                                "command": "EVENT_VARIABLE_MATH",
-                                                                                "args": {
-                                                                                    "vectorX": "T0",
-                                                                                    "operation": "set",
-                                                                                    "other": "rnd",
-                                                                                    "vectorY": "L0",
-                                                                                    "value": "0",
-                                                                                    "minValue": 1,
-                                                                                    "maxValue": 5,
-                                                                                    "clamp": false
-                                                                                },
-                                                                                "id": "064e5d45-1426-440e-831d-42971d3e4684"
-                                                                            },
-                                                                            {
-                                                                                "command": "EVENT_VARIABLE_MATH",
-                                                                                "args": {
-                                                                                    "vectorX": "L1",
-                                                                                    "operation": "sub",
-                                                                                    "other": "var",
-                                                                                    "vectorY": "T0",
-                                                                                    "value": "0",
-                                                                                    "minValue": "0",
-                                                                                    "maxValue": "255",
-                                                                                    "clamp": true
-                                                                                },
-                                                                                "id": "fe64250d-e2e8-4053-a1e5-ed2b20f360a3"
-                                                                            },
-                                                                            {
-                                                                                "command": "EVENT_TEXT",
-                                                                                "args": {
-                                                                                    "text": [
-                                                                                        "You flail furiously. \n$T0$ damage!"
-                                                                                    ],
-                                                                                    "avatarId": ""
-                                                                                },
-                                                                                "id": "7c86d1ec-ba96-4cfa-bba5-748add976c2e"
-                                                                            }
-                                                                        ],
-                                                                        "false": [
-                                                                            {
-                                                                                "command": "EVENT_IF_VALUE",
-                                                                                "args": {
-                                                                                    "variable": "33",
-                                                                                    "operator": "==",
-                                                                                    "comparator": 2,
-                                                                                    "__collapseElse": true
-                                                                                },
-                                                                                "children": {
-                                                                                    "true": [
-                                                                                        {
-                                                                                            "command": "EVENT_SET_TRUE",
-                                                                                            "args": {
-                                                                                                "variable": "6"
-                                                                                            },
-                                                                                            "id": "915bb30e-2b18-4467-866c-aabd41eeb975"
-                                                                                        },
-                                                                                        {
-                                                                                            "command": "EVENT_TEXT",
-                                                                                            "args": {
-                                                                                                "text": [
-                                                                                                    "You cover your soft squishy face"
-                                                                                                ],
-                                                                                                "avatarId": ""
-                                                                                            },
-                                                                                            "id": "3cb45dd0-ed68-43e7-88bb-2b9fc5106ab5"
-                                                                                        }
-                                                                                    ],
-                                                                                    "false": []
-                                                                                },
-                                                                                "id": "d94f4cb7-d8e6-4a61-bae9-49183240f135"
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": "ca567cce-5bad-4929-a162-3cb0abdf939e"
-                                                                }
-                                                            ]
-                                                        },
-                                                        "id": "7d30c7a1-7287-432c-950e-44ea08ef2074"
-                                                    },
-                                                    {
-                                                        "command": "EVENT_GROUP",
-                                                        "args": {
-                                                            "__label": "Enemy Turn"
-                                                        },
-                                                        "children": {
-                                                            "true": [
-                                                                {
-                                                                    "command": "EVENT_TEXT",
-                                                                    "args": {
-                                                                        "text": [
-                                                                            "Jerry is ready to tango."
-                                                                        ],
-                                                                        "avatarId": ""
-                                                                    },
-                                                                    "id": "ea2f4036-c1be-4301-979a-a344b8c372a8"
-                                                                },
-                                                                {
-                                                                    "command": "EVENT_VARIABLE_MATH",
-                                                                    "args": {
-                                                                        "vectorX": "29",
-                                                                        "operation": "sub",
-                                                                        "other": "val",
-                                                                        "vectorY": "L0",
-                                                                        "value": 1,
-                                                                        "minValue": "0",
-                                                                        "maxValue": "255",
-                                                                        "clamp": true
-                                                                    },
-                                                                    "id": "097782b3-f00c-4532-90e6-9f0d0e568756"
+                                                                    "id": "915bb30e-2b18-4467-866c-aabd41eeb975"
                                                                 },
                                                                 {
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
                                                                         "text": [
-                                                                            "Jerry smacks you around!"
+                                                                            "You cover your soft squishy face"
                                                                         ],
                                                                         "avatarId": ""
                                                                     },
-                                                                    "id": "5051bb83-c28e-4835-a750-12937e8fa63e"
+                                                                    "id": "3cb45dd0-ed68-43e7-88bb-2b9fc5106ab5"
                                                                 }
-                                                            ]
+                                                            ],
+                                                            "false": []
                                                         },
-                                                        "id": "d8fa62d3-0393-42d6-a418-9737cf4e70c3"
+                                                        "id": "d94f4cb7-d8e6-4a61-bae9-49183240f135"
                                                     }
                                                 ]
                                             },
-                                            "id": "5868948e-0962-40b8-aa88-4d95228bc514"
+                                            "id": "ca567cce-5bad-4929-a162-3cb0abdf939e"
                                         }
                                     ]
                                 },
-                                "id": "d6135a98-48bd-4505-a1b8-aaaf82143607"
+                                "id": "7d30c7a1-7287-432c-950e-44ea08ef2074"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Enemy Turn",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "Jerry is ready \nto tango."
+                                                ],
+                                                "avatarId": ""
+                                            },
+                                            "id": "ea2f4036-c1be-4301-979a-a344b8c372a8"
+                                        },
+                                        {
+                                            "command": "EVENT_VARIABLE_MATH",
+                                            "args": {
+                                                "vectorX": "T0",
+                                                "operation": "set",
+                                                "other": "rnd",
+                                                "vectorY": "L0",
+                                                "value": "0",
+                                                "minValue": 2,
+                                                "maxValue": 4,
+                                                "clamp": false
+                                            },
+                                            "id": "ea340149-1a81-4683-a873-9d88e4eb0049"
+                                        },
+                                        {
+                                            "command": "EVENT_VARIABLE_MATH",
+                                            "args": {
+                                                "vectorX": "29",
+                                                "operation": "sub",
+                                                "other": "var",
+                                                "vectorY": "T0",
+                                                "value": 1,
+                                                "minValue": 1,
+                                                "maxValue": 3,
+                                                "clamp": true
+                                            },
+                                            "id": "097782b3-f00c-4532-90e6-9f0d0e568756"
+                                        },
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "Jerry smacks you \naround for $T0$!"
+                                                ],
+                                                "avatarId": "",
+                                                "__collapse": false
+                                            },
+                                            "id": "5051bb83-c28e-4835-a750-12937e8fa63e"
+                                        }
+                                    ]
+                                },
+                                "id": "d8fa62d3-0393-42d6-a418-9737cf4e70c3"
                             }
                         ]
                     },
@@ -45722,6 +45726,13 @@
             "type": "uge"
         },
         {
+            "id": "d31b7253-76eb-43f9-8ca6-16c98890efe1",
+            "name": "sfx_song_classical",
+            "filename": "sfx_song_classical.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "00d01862-aaea-48a6-a398-cdcc15cd94a5",
             "name": "sfx_song_pop",
             "filename": "sfx_song_pop.uge",
@@ -46063,6 +46074,10 @@
         {
             "id": "2fcfc5c6-5f22-4f0e-8751-baff30c427d9__L1",
             "name": "EnemyHP"
+        },
+        {
+            "id": "2fcfc5c6-5f22-4f0e-8751-baff30c427d9__L5",
+            "name": "Local 5"
         }
     ],
     "engineFieldValues": [
@@ -46080,8 +46095,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1466,
-        "worldScrollY": 1570,
+        "worldScrollX": 1439,
+        "worldScrollY": 1572,
         "zoom": 275,
         "customColorsEnabled": true,
         "sgbEnabled": false,
