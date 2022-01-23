@@ -21345,6 +21345,132 @@
                     "id": "2d707e0b-12df-47bc-934a-1ac364445fe2",
                     "x": 62,
                     "y": 40
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "2b18f935-85a3-4f38-9f52-e5c4ea20776a",
+                    "direction": "left",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    " \"I just love to stand on\nthis bench and gaze...",
+                                    "...at our beautiful \nfountain statue.\""
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "396aeeca-bc32-4762-82b7-eaa53f3151f5"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "9799db90-208f-40c8-a684-39abf3d0f3c1",
+                    "x": 54,
+                    "y": 16
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "2b18f935-85a3-4f38-9f52-e5c4ea20776a",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You might think running \na flower shop in..",
+                                    "...front of a club \nwouldn't work.",
+                                    "But a lot of boyfriends\nhave mistakes to...",
+                                    "...make up for in the\nmorning."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "2536f07b-9f08-4156-b741-a9d3afb51b66"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "78fff8a9-a226-44ba-8f25-0ce2e38677f0",
+                    "x": 58,
+                    "y": 43
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "13a45525-d032-4f89-bbfe-d8c0946f666e",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "64cb3fed-95b8-4e59-b7f9-fb2782f46903",
+                    "x": 64,
+                    "y": 40
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "c475c713-9fd8-455a-b9bc-8c62b2b8fd5e",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "I can't wait for The \nBattle of the Bards!",
+                                    "Just gotta look over \nmy records...",
+                                    "Pop is healing...",
+                                    "Pop is healing...",
+                                    "Pop is healing...",
+                                    "I'm never going to \nremember all this!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "f79dbfc3-7f46-4e79-a26c-7b33631ee6a0"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "49261f19-e603-4352-b62e-098dcfda3a49",
+                    "x": 35,
+                    "y": 42
                 }
             ],
             "triggers": [
@@ -51931,7 +52057,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 524,
+        "worldScrollY": 498,
         "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -51960,8 +52086,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            203,
-            508,
+            206,
+            516,
             30
         ],
         "showNavigator": true,
