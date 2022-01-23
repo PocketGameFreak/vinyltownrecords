@@ -15502,8 +15502,8 @@
                 0
             ],
             "id": "2fcfc5c6-5f22-4f0e-8751-baff30c427d9",
-            "x": 667.1999999999999,
-            "y": 600.8,
+            "x": 999.1999999999999,
+            "y": 1032.8,
             "actors": [
                 {
                     "name": "Tens",
@@ -16393,486 +16393,6 @@
                         ]
                     },
                     "id": "45f0c58e-0730-4c4c-abe6-d7204e40cb04"
-                }
-            ],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": []
-        },
-        {
-            "name": "Scene 14",
-            "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
-            "width": 20,
-            "height": 18,
-            "type": "TOPDOWN",
-            "paletteIds": [],
-            "spritePaletteIds": [],
-            "collisions": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                0,
-                0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "id": "d82abcc0-4fab-4ed9-9d56-9410993f7871",
-            "x": 465.6,
-            "y": 546.7636363636364,
-            "actors": [
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "46a3db76-878e-4896-892b-d1afa7d5e2f0",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Bardle! Le'ts fight!"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "dd5a8d2f-9bbc-4f67-99b2-e65672f023d0"
-                        },
-                        {
-                            "command": "EVENT_SWITCH_SCENE",
-                            "args": {
-                                "sceneId": "2fcfc5c6-5f22-4f0e-8751-baff30c427d9",
-                                "x": 0,
-                                "y": 1,
-                                "direction": "",
-                                "fadeSpeed": "2"
-                            },
-                            "id": "a3e3f24d-d903-4c7a-a722-78a6714730cd"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "34a0abe3-d98e-4b10-8482-8f908c86cc5a",
-                    "x": 8,
-                    "y": 7
-                }
-            ],
-            "triggers": [],
-            "script": [
-                {
-                    "command": "EVENT_IF_FALSE",
-                    "args": {
-                        "variable": "L0",
-                        "__collapseElse": true,
-                        "__collapse": true
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_SET_TRUE",
-                                "args": {
-                                    "variable": "L0"
-                                },
-                                "id": "452ed538-58de-42ee-9863-9c7ecdc0eff2"
-                            },
-                            {
-                                "command": "EVENT_GROUP",
-                                "args": {
-                                    "__label": "Player Stats",
-                                    "__collapse": false
-                                },
-                                "children": {
-                                    "true": [
-                                        {
-                                            "command": "EVENT_SET_VALUE",
-                                            "args": {
-                                                "variable": "29",
-                                                "value": {
-                                                    "type": "number",
-                                                    "value": 23
-                                                }
-                                            },
-                                            "id": "6ab0bd28-53df-4622-80e6-5abc5d4f7551"
-                                        },
-                                        {
-                                            "command": "EVENT_SET_VALUE",
-                                            "args": {
-                                                "variable": "30",
-                                                "value": {
-                                                    "type": "number",
-                                                    "value": 23
-                                                }
-                                            },
-                                            "id": "67cbbf04-d01d-4c53-a0cc-5e54150bc9cc"
-                                        }
-                                    ]
-                                },
-                                "id": "aa65e059-1647-4da6-b6a6-a2e20e5f3992"
-                            }
-                        ],
-                        "false": []
-                    },
-                    "id": "e77b377f-0c25-493e-a207-78752d0cb5dc"
                 }
             ],
             "playerHit1Script": [],
@@ -21304,7 +20824,19 @@
                     "paletteId": "",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "I'll meet you there!\n",
+                                    "The club is just down\nthe road."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "dc211a62-452a-4902-a1c5-9053dd3db2be"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -21426,14 +20958,22 @@
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "881f5873-9520-4fda-8dd3-0d69dd869e88"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "64cb3fed-95b8-4e59-b7f9-fb2782f46903",
                     "x": 64,
-                    "y": 40
+                    "y": 39
                 },
                 {
                     "name": "",
@@ -21471,6 +21011,279 @@
                     "id": "49261f19-e603-4352-b62e-098dcfda3a49",
                     "x": 35,
                     "y": 42
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "c475c713-9fd8-455a-b9bc-8c62b2b8fd5e",
+                    "direction": "left",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You're here to sign up?\nNo problem, just sign-"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "9f0ad381-fa71-4c99-bea6-29ebd0f0b021"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Rivale appears"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_SHOW",
+                                        "args": {
+                                            "actorId": "64cb3fed-95b8-4e59-b7f9-fb2782f46903"
+                                        },
+                                        "id": "572a5d8d-e2d0-4159-9576-7a2408916b0a"
+                                    },
+                                    {
+                                        "command": "EVENT_MUSIC_PLAY",
+                                        "args": {
+                                            "musicId": "1b0b3849-4b2e-4853-8376-74789ece8794",
+                                            "loop": true
+                                        },
+                                        "id": "b6c3a9cb-43e3-47ec-9706-41051ac20a31"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "up"
+                                            }
+                                        },
+                                        "id": "02e531d1-b7e6-4e26-a647-b406225cd4ed"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "player",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "up"
+                                            }
+                                        },
+                                        "id": "8b717288-4556-4762-89bb-a29306f49db9"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923"
+                                        },
+                                        "id": "11d7f872-de92-4757-9ae4-2b0ed613513a"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923"
+                                        },
+                                        "id": "0f5c8592-6e24-41a9-8700-64368994dc1b"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Bardley? Is that you?"
+                                            ],
+                                            "avatarId": "59225e9f-63db-4a49-8d0f-76522c25d1c9"
+                                        },
+                                        "id": "7432552f-5b8e-4069-b1e0-20ee5a4a6575"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "64cb3fed-95b8-4e59-b7f9-fb2782f46903",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 65
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 45
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "da9e7910-41d2-45a6-a3b7-a2a71b4e9bbb"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "64cb3fed-95b8-4e59-b7f9-fb2782f46903",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "right"
+                                            }
+                                        },
+                                        "id": "ffc09f63-8869-4e3a-b070-2d327a94dd9d"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "player",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "left"
+                                            }
+                                        },
+                                        "id": "74c1ba81-f507-4de1-959d-5d00cd426754"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "left"
+                                            }
+                                        },
+                                        "id": "1d8d9dcf-310a-44e5-8588-771cc97ea149"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "No... of course not.\nHe's dead, after all.",
+                                                "You mortals look so\nsimilar. ",
+                                                "But you must be his\ngrandchild.",
+                                                "You look just like he\ndid. ",
+                                                "The day I won the \ntitle of Best Bard."
+                                            ],
+                                            "avatarId": "59225e9f-63db-4a49-8d0f-76522c25d1c9"
+                                        },
+                                        "id": "702be934-5852-4109-ba1b-cb21b7bd87df"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "62ecc274-3e8e-4f49-9da0-32ccab871f1f"
+                                        },
+                                        "id": "d550cbd2-a6d7-4757-b08f-d1ab5cae5b16"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Are you entering the\ncontest?",
+                                                "How quaint. "
+                                            ],
+                                            "avatarId": "59225e9f-63db-4a49-8d0f-76522c25d1c9"
+                                        },
+                                        "id": "ec4a9607-5436-407b-a2f5-baeffbb90251"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_POSITION",
+                                        "args": {
+                                            "actorId": "c702d215-c9a1-4ad7-86b5-e22caa1ed5ff",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 49
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 45
+                                            }
+                                        },
+                                        "id": "e19b095e-63e4-42fa-b6c0-178a3b0acf1a"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "c702d215-c9a1-4ad7-86b5-e22caa1ed5ff",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 62
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 45
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "c1d0cdae-32da-4170-9d80-3b0c71b69961"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Bardle! Don't listen \nto him!",
+                                                "He's just an old \nblood-sucker!"
+                                            ],
+                                            "avatarId": "3242e475-df77-4bbc-8e78-2b6027f3c002"
+                                        },
+                                        "id": "bad6f721-4ae6-4b7d-8332-a28f8e5fc257"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Is that an insect \nbuzzing around?",
+                                                "Remind me to swat\nthat later. "
+                                            ],
+                                            "avatarId": "59225e9f-63db-4a49-8d0f-76522c25d1c9"
+                                        },
+                                        "id": "45f3fc56-88fa-4a81-946e-29f87e27f0bf"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "c702d215-c9a1-4ad7-86b5-e22caa1ed5ff",
+                                            "emoteId": "62ecc274-3e8e-4f49-9da0-32ccab871f1f"
+                                        },
+                                        "id": "60db6a0c-84e9-4bad-a258-cbfe6a226380"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Bardle...\nYes.",
+                                                "I need a new rival.\nLet's see if you'll do."
+                                            ],
+                                            "avatarId": "59225e9f-63db-4a49-8d0f-76522c25d1c9"
+                                        },
+                                        "id": "4f4dc7c5-892d-4063-a96c-ddb4a9c80015"
+                                    },
+                                    {
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "2fcfc5c6-5f22-4f0e-8751-baff30c427d9",
+                                            "x": 0,
+                                            "y": 0,
+                                            "direction": "",
+                                            "fadeSpeed": "2"
+                                        },
+                                        "id": "a1647a58-91cd-4a63-8a24-83938a51c715"
+                                    }
+                                ]
+                            },
+                            "id": "f4d2b7a1-8e57-4bdf-afe9-dde2011fac68"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "575fca21-76b1-4e79-9e27-9d8a2e14544f",
+                    "x": 69,
+                    "y": 45
                 }
             ],
             "triggers": [
@@ -21565,6 +21378,90 @@
                                 "avatarId": ""
                             },
                             "id": "a221a8dd-bc0e-4e88-8752-e5e295c7a019"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "dc1149a2-6029-42c8-a55c-360184f7d4dc",
+                    "x": 10,
+                    "y": 33,
+                    "width": 2,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Hey Bardle! Don't go \nback there!"
+                                ],
+                                "avatarId": "3242e475-df77-4bbc-8e78-2b6027f3c002"
+                            },
+                            "id": "0f7f2b31-f979-4194-88ed-5a9f9bffa095"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "69ed016e-bcd8-427e-8da9-f5793e9969da",
+                    "x": 11,
+                    "y": 18,
+                    "width": 2,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Don't enter other \npeople's homes!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "093dc9f1-0350-4cf8-9757-f67cb378a4b3"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "67bf6fb9-0dd3-49c0-83d7-da4dc2ac2a32",
+                    "x": 5,
+                    "y": 22,
+                    "width": 2,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Don't enter other \npeople's homes!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "ca18b862-9bc1-4535-b5cc-66d1aeebbbbe"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "5cd187de-0d3a-40b8-afcf-a3211ba388dd",
+                    "x": 78,
+                    "y": 6,
+                    "width": 2,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Don't enter other \npeople's homes!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "dd22792d-1c86-4c49-95cd-13b17b0dc754"
                         }
                     ],
                     "leaveScript": []
@@ -51754,6 +51651,13 @@
             "filename": "Jerry.png"
         },
         {
+            "id": "59225e9f-63db-4a49-8d0f-76522c25d1c9",
+            "name": "Rivale",
+            "width": 16,
+            "height": 16,
+            "filename": "Rivale.png"
+        },
+        {
             "id": "6845dca5-d9d8-472a-93a7-81889d878516",
             "name": "danger",
             "width": 16,
@@ -52056,8 +51960,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 498,
+        "worldScrollX": 219,
+        "worldScrollY": 513,
         "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,

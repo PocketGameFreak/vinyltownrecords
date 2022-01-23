@@ -9231,38 +9231,6 @@
             "collisions": [],
             "script": [
                 {
-                    "command": "EVENT_SET_INPUT_SCRIPT",
-                    "args": {
-                        "input": [
-                            "select"
-                        ],
-                        "override": true,
-                        "__scriptTabs": "press",
-                        "__collapse": true
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_SCENE_PUSH_STATE",
-                                "args": {},
-                                "id": "9cc0b09f-c479-4872-a6c7-cc084507ebfd"
-                            },
-                            {
-                                "command": "EVENT_SWITCH_SCENE",
-                                "args": {
-                                    "sceneId": "a6fb696d-8bac-4c9d-97b4-f1e03e74f920",
-                                    "x": 0,
-                                    "y": 0,
-                                    "direction": "",
-                                    "fadeSpeed": "2"
-                                },
-                                "id": "e54f453f-9cca-4913-abcc-9e8a75dc80be"
-                            }
-                        ]
-                    },
-                    "id": "2bade7f0-aae9-4411-a8eb-ef6cc90197a8"
-                },
-                {
                     "id": "ff79b819-b435-4ef8-af20-07302038959f",
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
@@ -14861,135 +14829,155 @@
                             "children": {
                                 "true": [
                                     {
-                                        "command": "EVENT_ACTOR_SHOW",
+                                        "command": "EVENT_IF_FALSE",
                                         "args": {
-                                            "actorId": "febff444-ed7c-475f-907b-bd74d02c9960"
+                                            "variable": "L0",
+                                            "__collapseElse": true
                                         },
-                                        "id": "70c2df83-e34f-4b51-b3f3-614fea751a93"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_MOVE_TO",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "x": {
-                                                "type": "number",
-                                                "value": 22
-                                            },
-                                            "y": {
-                                                "type": "number",
-                                                "value": 24
-                                            },
-                                            "moveType": "horizontal",
-                                            "useCollisions": false
-                                        },
-                                        "id": "ee7d4fcb-3ef9-497b-b754-7a5263482e3f"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_MOVE_TO",
-                                        "args": {
-                                            "actorId": "febff444-ed7c-475f-907b-bd74d02c9960",
-                                            "x": {
-                                                "type": "number",
-                                                "value": 24
-                                            },
-                                            "y": {
-                                                "type": "number",
-                                                "value": 24
-                                            },
-                                            "moveType": "horizontal",
-                                            "useCollisions": false
-                                        },
-                                        "id": "6e7a8ef5-29be-4c30-8686-57560a14da40"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Bardle!! "
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_SHOW",
+                                                    "args": {
+                                                        "actorId": "febff444-ed7c-475f-907b-bd74d02c9960"
+                                                    },
+                                                    "id": "70c2df83-e34f-4b51-b3f3-614fea751a93"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": {
+                                                            "type": "number",
+                                                            "value": 22
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 24
+                                                        },
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    },
+                                                    "id": "ee7d4fcb-3ef9-497b-b754-7a5263482e3f"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "args": {
+                                                        "actorId": "febff444-ed7c-475f-907b-bd74d02c9960",
+                                                        "x": {
+                                                            "type": "number",
+                                                            "value": 24
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 24
+                                                        },
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    },
+                                                    "id": "6e7a8ef5-29be-4c30-8686-57560a14da40"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Bardle!! "
+                                                        ],
+                                                        "avatarId": "3242e475-df77-4bbc-8e78-2b6027f3c002"
+                                                    },
+                                                    "id": "c3dfb4ce-64df-4826-8584-5f1994c45db0"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "febff444-ed7c-475f-907b-bd74d02c9960",
+                                                        "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923"
+                                                    },
+                                                    "id": "6d9e5603-3f40-40b9-a522-da98259f58ca"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "args": {
+                                                        "actorId": "febff444-ed7c-475f-907b-bd74d02c9960",
+                                                        "direction": {
+                                                            "type": "direction",
+                                                            "value": "left"
+                                                        }
+                                                    },
+                                                    "id": "30be1ebe-5b71-4b1b-94b6-fdc71b41c43c"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "There you are!",
+                                                            "Entries are open!\nDown at the club!",
+                                                            "for what?\nWHAT ELSE?!",
+                                                            "BATTLE OF THE\nBAAAAARDS",
+                                                            "THE Bard event of the \nyear!!!",
+                                                            "Well... the Bard event of\nVinyltown at least.",
+                                                            "LET'S GO"
+                                                        ],
+                                                        "avatarId": "3242e475-df77-4bbc-8e78-2b6027f3c002"
+                                                    },
+                                                    "id": "c5533e37-742e-4013-9e05-34ca9c153ad6"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Go for it. \n",
+                                                            "I'm gonna wring out \nanother sale here."
+                                                        ],
+                                                        "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                    },
+                                                    "id": "c565bf09-3154-4839-bd60-e66a3b44aebf"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Oh boy!"
+                                                        ],
+                                                        "avatarId": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d"
+                                                    },
+                                                    "id": "d0d21d2a-fcbe-4e78-91cc-fccee376caee"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "args": {
+                                                        "actorId": "febff444-ed7c-475f-907b-bd74d02c9960",
+                                                        "x": {
+                                                            "type": "number",
+                                                            "value": 24
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 26
+                                                        },
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    },
+                                                    "id": "6116505d-7437-4eab-9d2d-4fafb00e4b62"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_HIDE",
+                                                    "args": {
+                                                        "actorId": "febff444-ed7c-475f-907b-bd74d02c9960"
+                                                    },
+                                                    "id": "67588376-c7bb-48fa-ba6e-d538158c887e"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_TRUE",
+                                                    "args": {
+                                                        "variable": "L0"
+                                                    },
+                                                    "id": "a7ce1afd-1dc6-4aeb-a32a-275fead72dd8"
+                                                }
                                             ],
-                                            "avatarId": "3242e475-df77-4bbc-8e78-2b6027f3c002"
+                                            "false": []
                                         },
-                                        "id": "c3dfb4ce-64df-4826-8584-5f1994c45db0"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_EMOTE",
-                                        "args": {
-                                            "actorId": "febff444-ed7c-475f-907b-bd74d02c9960",
-                                            "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923"
-                                        },
-                                        "id": "6d9e5603-3f40-40b9-a522-da98259f58ca"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                        "args": {
-                                            "actorId": "febff444-ed7c-475f-907b-bd74d02c9960",
-                                            "direction": {
-                                                "type": "direction",
-                                                "value": "left"
-                                            }
-                                        },
-                                        "id": "30be1ebe-5b71-4b1b-94b6-fdc71b41c43c"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "There you are!",
-                                                "Entries are open!\nDown at the club!",
-                                                "for what?\nWHAT ELSE?!",
-                                                "BATTLE OF THE\nBAAAAARDS",
-                                                "THE Bard event of the \nyear!!!",
-                                                "Well... the Bard event of\nVinyltown at least.",
-                                                "LET'S GO"
-                                            ],
-                                            "avatarId": "3242e475-df77-4bbc-8e78-2b6027f3c002"
-                                        },
-                                        "id": "c5533e37-742e-4013-9e05-34ca9c153ad6"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Go for it. \n",
-                                                "I'm gonna wring out \nanother sale here."
-                                            ],
-                                            "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
-                                        },
-                                        "id": "c565bf09-3154-4839-bd60-e66a3b44aebf"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Oh boy!"
-                                            ],
-                                            "avatarId": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d"
-                                        },
-                                        "id": "d0d21d2a-fcbe-4e78-91cc-fccee376caee"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_MOVE_TO",
-                                        "args": {
-                                            "actorId": "febff444-ed7c-475f-907b-bd74d02c9960",
-                                            "x": {
-                                                "type": "number",
-                                                "value": 24
-                                            },
-                                            "y": {
-                                                "type": "number",
-                                                "value": 26
-                                            },
-                                            "moveType": "horizontal",
-                                            "useCollisions": false
-                                        },
-                                        "id": "6116505d-7437-4eab-9d2d-4fafb00e4b62"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_HIDE",
-                                        "args": {
-                                            "actorId": "$self$"
-                                        },
-                                        "id": "67588376-c7bb-48fa-ba6e-d538158c887e"
+                                        "id": "3f6a8128-1fd1-4a78-aaf4-807547a23599"
                                     }
                                 ],
                                 "false": []
@@ -15080,56 +15068,6 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "playerSpriteSheetId": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26"
-        },
-        {
-            "name": "Menu",
-            "backgroundId": "619a3c1f-bbb8-46b4-8fc8-49048d6b3cc1",
-            "width": 20,
-            "height": 18,
-            "type": "TOPDOWN",
-            "paletteIds": [],
-            "spritePaletteIds": [],
-            "collisions": [],
-            "id": "a6fb696d-8bac-4c9d-97b4-f1e03e74f920",
-            "x": 255.2,
-            "y": 598.4,
-            "actors": [],
-            "triggers": [],
-            "script": [
-                {
-                    "command": "EVENT_ACTOR_HIDE",
-                    "args": {
-                        "actorId": "$self$"
-                    },
-                    "id": "dc7cb0f8-5b9c-4163-9142-63167c98f4a3"
-                },
-                {
-                    "command": "EVENT_AWAIT_INPUT",
-                    "args": {
-                        "input": [
-                            "a",
-                            "b",
-                            "left",
-                            "up",
-                            "down",
-                            "start",
-                            "select",
-                            "right"
-                        ]
-                    },
-                    "id": "9d241600-14f3-4392-8d34-b3abd2111927"
-                },
-                {
-                    "command": "EVENT_SCENE_POP_STATE",
-                    "args": {
-                        "fadeSpeed": "2"
-                    },
-                    "id": "a5e02e92-4526-4ef7-8315-4d0cffc76c73"
-                }
-            ],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": []
         },
         {
             "name": "Scene 15",
@@ -15502,8 +15440,8 @@
                 0
             ],
             "id": "2fcfc5c6-5f22-4f0e-8751-baff30c427d9",
-            "x": 999.1999999999999,
-            "y": 1032.8,
+            "x": 997.9999999999999,
+            "y": 1034.8,
             "actors": [
                 {
                     "name": "Tens",
@@ -15558,6 +15496,72 @@
                     "id": "30b42107-1c8f-43cd-8f72-fe72ebf29f53",
                     "x": 8,
                     "y": 13
+                },
+                {
+                    "name": "Tens",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "17900491-abc3-4c4a-86c4-f8dfad0db212",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 255,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "40ebad48-8618-4a4f-bd23-d8bd6efc7694",
+                                "$actor[1]$": "30b42107-1c8f-43cd-8f72-fe72ebf29f53",
+                                "$variable[0]$": "T1",
+                                "$variable[1]$": "29",
+                                "$variable[2]$": "30"
+                            },
+                            "id": "5fcecdc9-bd6f-4a10-9757-75191af5e89d"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "c95b0e40-f055-4058-8cff-29be7fbe9c85",
+                    "x": 6,
+                    "y": 15
+                },
+                {
+                    "name": "Tens",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "17900491-abc3-4c4a-86c4-f8dfad0db212",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 255,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "40ebad48-8618-4a4f-bd23-d8bd6efc7694",
+                                "$actor[1]$": "30b42107-1c8f-43cd-8f72-fe72ebf29f53",
+                                "$variable[0]$": "T1",
+                                "$variable[1]$": "29",
+                                "$variable[2]$": "30"
+                            },
+                            "id": "039f4eb7-bb6b-40f9-bf8e-83a821e2069d"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "9b157698-d3fb-4aed-8746-eefde4819cf1",
+                    "x": 8,
+                    "y": 15
                 }
             ],
             "triggers": [],
@@ -15572,7 +15576,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Battle Setup"
                     },
                     "children": {
@@ -15644,9 +15648,20 @@
                     "id": "9d6ddacd-77a6-4754-8d78-0f9f3524c588"
                 },
                 {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "29",
+                        "value": {
+                            "type": "number",
+                            "value": 23
+                        }
+                    },
+                    "id": "8da03b90-8042-4c0c-981e-e694e563f092"
+                },
+                {
                     "command": "EVENT_LOOP",
                     "args": {
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -51605,6 +51620,13 @@
             "type": "uge"
         },
         {
+            "id": "bbb6e487-cc60-4d9d-b8c1-a04d75ffce04",
+            "name": "sfx_song_scary",
+            "filename": "sfx_song_scary.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
@@ -51943,6 +51965,10 @@
         {
             "id": "2fcfc5c6-5f22-4f0e-8751-baff30c427d9__L5",
             "name": "Local 5"
+        },
+        {
+            "id": "36e5104d-042a-428d-bfbf-323bcfc3062c__L0",
+            "name": "Bardled"
         }
     ],
     "engineFieldValues": [
@@ -51952,16 +51978,16 @@
         }
     ],
     "settings": {
-        "startSceneId": "918525e2-8e90-4f4b-adf4-8966c0d48220",
-        "startX": 59,
-        "startY": 44,
+        "startSceneId": "a5f430d1-da9c-4313-934a-79da3c40bbdc",
+        "startX": 0,
+        "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 219,
-        "worldScrollY": 513,
+        "worldScrollX": 86,
+        "worldScrollY": 516,
         "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -51990,8 +52016,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            206,
-            516,
+            205,
+            514,
             30
         ],
         "showNavigator": true,
