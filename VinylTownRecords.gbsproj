@@ -10473,7 +10473,7 @@
                             "A massive crowd...\nAll chanting my name..."
                         ],
                         "avatarId": "",
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -14958,9 +14958,9 @@
                                     {
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
-                                            "sceneId": "6a82648b-e0fe-4a31-861e-0c4af5b83ba2",
-                                            "x": 0,
-                                            "y": 0,
+                                            "sceneId": "d82abcc0-4fab-4ed9-9d56-9410993f7871",
+                                            "x": 9,
+                                            "y": 15,
                                             "direction": "",
                                             "fadeSpeed": "2"
                                         },
@@ -15267,7 +15267,7 @@
                                                         "command": "EVENT_GROUP",
                                                         "args": {
                                                             "__label": "Player Turn",
-                                                            "__collapse": true
+                                                            "__collapse": false
                                                         },
                                                         "children": {
                                                             "true": [
@@ -15387,7 +15387,42 @@
                                                             "__label": "Enemy Turn"
                                                         },
                                                         "children": {
-                                                            "true": []
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": [
+                                                                            "Jerry is ready to tango."
+                                                                        ],
+                                                                        "avatarId": ""
+                                                                    },
+                                                                    "id": "ea2f4036-c1be-4301-979a-a344b8c372a8"
+                                                                },
+                                                                {
+                                                                    "command": "EVENT_VARIABLE_MATH",
+                                                                    "args": {
+                                                                        "vectorX": "29",
+                                                                        "operation": "sub",
+                                                                        "other": "val",
+                                                                        "vectorY": "L0",
+                                                                        "value": 1,
+                                                                        "minValue": "0",
+                                                                        "maxValue": "255",
+                                                                        "clamp": true
+                                                                    },
+                                                                    "id": "097782b3-f00c-4532-90e6-9f0d0e568756"
+                                                                },
+                                                                {
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": [
+                                                                            "Jerry smacks you around!"
+                                                                        ],
+                                                                        "avatarId": ""
+                                                                    },
+                                                                    "id": "5051bb83-c28e-4835-a750-12937e8fa63e"
+                                                                }
+                                                            ]
                                                         },
                                                         "id": "d8fa62d3-0393-42d6-a418-9737cf4e70c3"
                                                     }
@@ -45776,17 +45811,17 @@
         }
     ],
     "settings": {
-        "startSceneId": "d82abcc0-4fab-4ed9-9d56-9410993f7871",
-        "startX": 9,
-        "startY": 16,
+        "startSceneId": "a5f430d1-da9c-4313-934a-79da3c40bbdc",
+        "startX": 1,
+        "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 338.3999938964844,
-        "worldScrollY": 348,
-        "zoom": 125,
+        "worldScrollX": 227,
+        "worldScrollY": 589,
+        "zoom": 175,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -45814,8 +45849,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            205,
-            507,
+            212,
+            525,
             30
         ],
         "showNavigator": true,
