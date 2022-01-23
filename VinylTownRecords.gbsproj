@@ -4976,7 +4976,7 @@
                                             "id": "dd21c899-25f7-41d8-a419-3a72e0b99ccb",
                                             "command": "EVENT_SWITCH_SCENE",
                                             "args": {
-                                                "sceneId": "fd223a5f-7148-4705-98a7-b0ef56cb5c74",
+                                                "sceneId": "a6fb696d-8bac-4c9d-97b4-f1e03e74f920",
                                                 "x": 0,
                                                 "y": 0,
                                                 "direction": "",
@@ -10238,428 +10238,6 @@
             "type": "TOPDOWN"
         },
         {
-            "id": "382961a1-e615-4b92-92a7-f1a791b50b7a",
-            "name": "Logo",
-            "backgroundId": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
-            "x": 141,
-            "y": 75,
-            "width": 20,
-            "height": 18,
-            "actors": [],
-            "triggers": [],
-            "collisions": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "script": [
-                {
-                    "id": "8343c54c-07a1-4d30-892c-91db234b8d9b",
-                    "command": "EVENT_ACTOR_HIDE",
-                    "args": {
-                        "actorId": "player"
-                    }
-                },
-                {
-                    "id": "dfb4c321-31ae-4e7f-a400-aae4088043d5",
-                    "command": "EVENT_OVERLAY_SHOW",
-                    "args": {
-                        "color": "black",
-                        "x": 0,
-                        "y": 0
-                    }
-                },
-                {
-                    "id": "e88fcc15-89a0-4db6-b069-aeffe9cb222b",
-                    "command": "EVENT_OVERLAY_MOVE_TO",
-                    "args": {
-                        "x": 0,
-                        "y": 18,
-                        "speed": "1"
-                    }
-                },
-                {
-                    "id": "0677a82b-f7cf-429e-9259-dba979146cc5",
-                    "command": "EVENT_WAIT",
-                    "args": {
-                        "time": 2
-                    }
-                },
-                {
-                    "id": "9daba1e6-c056-494a-babc-caa87913aa32",
-                    "command": "EVENT_SWITCH_SCENE",
-                    "args": {
-                        "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
-                        "x": 0,
-                        "y": 0,
-                        "direction": "",
-                        "fadeSpeed": "2"
-                    }
-                }
-            ],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "type": "TOPDOWN"
-        },
-        {
             "id": "4912bee2-387a-472f-ae4f-6679b6149517",
             "name": "Title Screen",
             "backgroundId": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -10671,6 +10249,38 @@
             "triggers": [],
             "collisions": [],
             "script": [
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "select"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SCENE_PUSH_STATE",
+                                "args": {},
+                                "id": "9cc0b09f-c479-4872-a6c7-cc084507ebfd"
+                            },
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "a6fb696d-8bac-4c9d-97b4-f1e03e74f920",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "e54f453f-9cca-4913-abcc-9e8a75dc80be"
+                            }
+                        ]
+                    },
+                    "id": "2bade7f0-aae9-4411-a8eb-ef6cc90197a8"
+                },
                 {
                     "id": "ff79b819-b435-4ef8-af20-07302038959f",
                     "command": "EVENT_ACTOR_HIDE",
@@ -10719,9 +10329,9 @@
                                             "id": "a5dddc76-e5fe-424a-9b2b-1ad1834acefb",
                                             "command": "EVENT_SWITCH_SCENE",
                                             "args": {
-                                                "sceneId": "a5f430d1-da9c-4313-934a-79da3c40bbdc",
-                                                "x": 1,
-                                                "y": 1,
+                                                "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+                                                "x": 17,
+                                                "y": 4,
                                                 "direction": "right",
                                                 "fadeSpeed": "4"
                                             }
@@ -11128,986 +10738,6 @@
                 0,
                 0,
                 0
-            ],
-            "type": "TOPDOWN"
-        },
-        {
-            "id": "fd223a5f-7148-4705-98a7-b0ef56cb5c74",
-            "name": "Menu Page 1",
-            "backgroundId": "93d8839f-c19c-4eb2-a386-b0bb77068521",
-            "x": 974.6666666666667,
-            "y": 882.3333333333336,
-            "width": 20,
-            "height": 18,
-            "actors": [
-                {
-                    "id": "d983c34a-9eba-4cb3-83cf-4e6ddb6d39ad",
-                    "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
-                    "x": 2,
-                    "y": 4,
-                    "movementType": "faceInteraction",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 255,
-                    "script": [],
-                    "name": "Quest1",
-                    "spriteType": "actor",
-                    "startScript": [
-                        {
-                            "id": "b6fb4423-b40f-412c-9627-8c4c32925b80",
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "0",
-                                "__collapseElse": true,
-                                "__label": "Quest Check",
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "1812029d-4227-4138-aef6-9114ae38d70c",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    }
-                                ],
-                                "false": []
-                            }
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "updateScript": [],
-                    "collisionGroup": ""
-                },
-                {
-                    "id": "044598b7-a634-427d-9c88-e998fabe8d9a",
-                    "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
-                    "x": 2,
-                    "y": 6,
-                    "movementType": "faceInteraction",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 255,
-                    "script": [],
-                    "name": "Quest2",
-                    "spriteType": "actor",
-                    "startScript": [
-                        {
-                            "id": "04611271-d567-4ab7-978a-ec267dfb9fca",
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "1",
-                                "__collapseElse": true,
-                                "__label": "Quest Check",
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "5f9e2a68-2944-4c5d-9051-916f6c96a84f",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    }
-                                ],
-                                "false": []
-                            }
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "updateScript": [],
-                    "collisionGroup": ""
-                },
-                {
-                    "id": "6d80f0f6-047d-4494-811d-5f526e58959e",
-                    "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
-                    "x": 2,
-                    "y": 8,
-                    "movementType": "faceInteraction",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 255,
-                    "script": [],
-                    "name": "Quest3",
-                    "spriteType": "actor",
-                    "startScript": [
-                        {
-                            "id": "a9fd8357-40f2-4f70-aeb2-2f35ba0f264b",
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "2",
-                                "__collapseElse": true,
-                                "__label": "Quest Check",
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "d6de506d-8e84-48b8-a401-c9b89f9703e9",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    }
-                                ],
-                                "false": []
-                            }
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "updateScript": [],
-                    "collisionGroup": ""
-                },
-                {
-                    "id": "51558c54-c7e2-46d1-9015-f7b83a6a4ff4",
-                    "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
-                    "x": 2,
-                    "y": 11,
-                    "movementType": "faceInteraction",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 255,
-                    "script": [],
-                    "name": "Quest4",
-                    "spriteType": "actor",
-                    "startScript": [
-                        {
-                            "id": "9dcf896a-e20c-4f72-98bf-15a460cebc1a",
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "3",
-                                "__collapseElse": true,
-                                "__label": "Quest Check",
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "17425ca3-62ed-469e-be79-6b95ced884a5",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    }
-                                ],
-                                "false": []
-                            }
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "updateScript": [],
-                    "collisionGroup": ""
-                },
-                {
-                    "id": "62ecd9f0-005a-402f-8ad0-8ec8c3b514f3",
-                    "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
-                    "x": 2,
-                    "y": 13,
-                    "movementType": "faceInteraction",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 255,
-                    "script": [],
-                    "name": "Quest5",
-                    "spriteType": "actor",
-                    "startScript": [
-                        {
-                            "id": "e5e8c4c3-dc57-4166-afd4-edffbc0dde1a",
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "4",
-                                "__collapseElse": true,
-                                "__label": "Quest Check",
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "d52fb07d-8a11-4287-8ef0-83b08261a153",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    }
-                                ],
-                                "false": []
-                            }
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "updateScript": [],
-                    "collisionGroup": ""
-                },
-                {
-                    "id": "4c9409a4-0872-486e-a1a1-5b74caaa6960",
-                    "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
-                    "x": 2,
-                    "y": 15,
-                    "movementType": "faceInteraction",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 255,
-                    "script": [],
-                    "name": "Quest6",
-                    "spriteType": "actor",
-                    "startScript": [
-                        {
-                            "id": "e169421e-3ef5-487f-8a9d-46f2f9356ff4",
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "5",
-                                "__collapseElse": true,
-                                "__label": "Quest Check",
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "50309f30-230f-4bcb-966e-ea275b3adeaf",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    }
-                                ],
-                                "false": []
-                            }
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "updateScript": [],
-                    "collisionGroup": ""
-                }
-            ],
-            "triggers": [],
-            "collisions": [],
-            "script": [
-                {
-                    "id": "4238f3cb-81b4-4f62-882f-f9f03f16eb3e",
-                    "command": "EVENT_ACTOR_HIDE",
-                    "args": {
-                        "actorId": "player",
-                        "__collapse": false
-                    }
-                },
-                {
-                    "id": "19f14f5d-7925-459a-992c-ab6cb69b59f8",
-                    "command": "EVENT_MUSIC_PLAY",
-                    "args": {
-                        "musicId": "a48b4a96-9a5a-4511-b38a-98d56dd996ba",
-                        "loop": true
-                    }
-                },
-                {
-                    "id": "caf988fd-46ba-4df4-87e3-afe81256c4cd",
-                    "command": "EVENT_AWAIT_INPUT",
-                    "args": {
-                        "input": [
-                            "a",
-                            "b",
-                            "start",
-                            "select"
-                        ],
-                        "__collapse": false
-                    }
-                },
-                {
-                    "id": "868089ea-cc3b-415b-8035-76dfd7578842",
-                    "command": "EVENT_SWITCH_SCENE",
-                    "args": {
-                        "sceneId": "7ff8891e-d21c-4938-ba71-028a1964edf6",
-                        "x": 0,
-                        "y": 0,
-                        "direction": "",
-                        "fadeSpeed": "2"
-                    }
-                }
-            ],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "tileColors": [],
-            "paletteIds": [
-                "default-ui"
-            ],
-            "type": "TOPDOWN"
-        },
-        {
-            "name": "Menu Page 2",
-            "backgroundId": "816231e1-2147-462c-99c6-3f73e8535d25",
-            "width": 20,
-            "height": 18,
-            "collisions": [],
-            "tileColors": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "id": "7ff8891e-d21c-4938-ba71-028a1964edf6",
-            "x": 1151,
-            "y": 849.6666666666666,
-            "actors": [
-                {
-                    "id": "dbdbebfe-1c6d-4ebf-ab2f-b4b2dd45bc81",
-                    "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
-                    "x": 2,
-                    "y": 4,
-                    "movementType": "faceInteraction",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 255,
-                    "script": [],
-                    "name": "Quest7",
-                    "spriteType": "actor",
-                    "startScript": [
-                        {
-                            "id": "191f3750-5a1e-4f05-aa1b-bbf53c912a3e",
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "6",
-                                "__collapseElse": true,
-                                "__label": "Quest Check",
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "49bee08c-b165-42c5-97e2-48bd694c66a9",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    }
-                                ],
-                                "false": []
-                            }
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "updateScript": [],
-                    "collisionGroup": ""
-                },
-                {
-                    "id": "f36d8030-2596-419e-aabb-9e8b7476c991",
-                    "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
-                    "x": 2,
-                    "y": 7,
-                    "movementType": "faceInteraction",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 255,
-                    "script": [],
-                    "name": "Quest8",
-                    "spriteType": "actor",
-                    "startScript": [
-                        {
-                            "id": "e04a6094-f651-4a18-9003-7b62eb58307e",
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "7",
-                                "__collapseElse": true,
-                                "__label": "Quest Check",
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "d663b25b-7009-4003-a85f-2d2dac7fa856",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    }
-                                ],
-                                "false": []
-                            }
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "updateScript": [],
-                    "collisionGroup": ""
-                },
-                {
-                    "id": "88cae680-56d7-4452-9695-a1905fbe15a4",
-                    "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
-                    "x": 2,
-                    "y": 9,
-                    "movementType": "faceInteraction",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 255,
-                    "script": [],
-                    "name": "Quest9",
-                    "spriteType": "actor",
-                    "startScript": [
-                        {
-                            "id": "e6979f84-d91e-41f9-bf5d-5e06a329f436",
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "8",
-                                "__collapseElse": true,
-                                "__label": "Quest Check",
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "bf8bb163-a394-41f5-a8e6-cd8df4e134fc",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    }
-                                ],
-                                "false": []
-                            }
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "updateScript": [],
-                    "collisionGroup": ""
-                },
-                {
-                    "id": "a32b4864-cec9-4351-9afa-caf02345a043",
-                    "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
-                    "x": 2,
-                    "y": 11,
-                    "movementType": "faceInteraction",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 255,
-                    "script": [],
-                    "name": "Quest10",
-                    "spriteType": "actor",
-                    "startScript": [
-                        {
-                            "id": "79193e57-e3f2-470f-ba83-8b8f40972d0a",
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "9",
-                                "__collapseElse": true,
-                                "__label": "Quest Check",
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "7c96aa73-d543-49b9-ae7f-479eee81e718",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    }
-                                ],
-                                "false": []
-                            }
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "updateScript": [],
-                    "collisionGroup": ""
-                },
-                {
-                    "id": "c60f0deb-d700-470a-bbe6-ceb06befee1e",
-                    "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
-                    "x": 2,
-                    "y": 13,
-                    "movementType": "faceInteraction",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 255,
-                    "script": [],
-                    "name": "Quest11",
-                    "spriteType": "actor",
-                    "startScript": [
-                        {
-                            "id": "836801c5-e792-4fa0-9943-fcc922d8ee7e",
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "10",
-                                "__collapseElse": true,
-                                "__label": "Quest Check",
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "0a048581-baa0-424e-a5c9-9eeeb6137198",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    }
-                                ],
-                                "false": []
-                            }
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "updateScript": [],
-                    "collisionGroup": ""
-                }
-            ],
-            "triggers": [],
-            "script": [
-                {
-                    "id": "438493cd-01a3-4834-94bb-d54669adbfce",
-                    "command": "EVENT_ACTOR_HIDE",
-                    "args": {
-                        "actorId": "player"
-                    }
-                },
-                {
-                    "id": "465754f7-74aa-4ac6-b151-5cee26c58434",
-                    "command": "EVENT_AWAIT_INPUT",
-                    "args": {
-                        "input": [
-                            "a",
-                            "b",
-                            "start",
-                            "select"
-                        ],
-                        "__collapse": false
-                    }
-                },
-                {
-                    "id": "1091e174-6925-488e-bf3b-96305320e92a",
-                    "command": "EVENT_SCENE_POP_STATE",
-                    "args": {
-                        "fadeSpeed": "2"
-                    }
-                }
-            ],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "paletteIds": [
-                "default-ui"
             ],
             "type": "TOPDOWN"
         },
@@ -14209,7 +12839,7 @@
                     "args": {
                         "text": [
                             "I did it...\nI'm the greatest Bard...",
-                            "Are you proud grandpa?"
+                            "Are you proud...\ngrandpa?"
                         ],
                         "avatarId": ""
                     },
@@ -14239,7 +12869,7 @@
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "fd925d46-1e9a-4d4c-985a-a723e2b33d93",
-                        "x": 31,
+                        "x": 32,
                         "y": 11,
                         "direction": "right",
                         "fadeSpeed": "4"
@@ -17594,75 +16224,122 @@
                     ],
                     "startScript": [
                         {
-                            "command": "EVENT_ACTOR_EMOTE",
+                            "command": "EVENT_IF_TRUE",
                             "args": {
-                                "actorId": "player",
-                                "emoteId": "e20504d8-3d88-4b71-b6d3-0e291bab970b"
+                                "variable": "L1",
+                                "__collapseElse": false
                             },
-                            "id": "154d9d7b-5799-4ce9-b851-7fa42dcbfc1a"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Bardle. Bardle.\nDude wake up. ",
-                                    "I'm not doing this \nshift alone."
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_SET_POSITION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 19
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 11
+                                            }
+                                        },
+                                        "id": "68b69fa3-ee3f-4a17-93a8-b33d4cb1aa29"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "down"
+                                            }
+                                        },
+                                        "id": "e04c1fac-fb7a-4abd-8964-15a29cf3043a"
+                                    }
                                 ],
-                                "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                "false": [
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "e20504d8-3d88-4b71-b6d3-0e291bab970b"
+                                        },
+                                        "id": "154d9d7b-5799-4ce9-b851-7fa42dcbfc1a"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Bardle. Bardle.\nDude wake up. ",
+                                                "I'm not doing this \nshift alone."
+                                            ],
+                                            "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                        },
+                                        "id": "4b63d94e-2c44-4ac0-a15d-d0b9aa4c9b78"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "player",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "left"
+                                            }
+                                        },
+                                        "id": "bb1ec8f3-aacf-44e1-ad1a-d59bbc3a7dd3"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Good nap?",
+                                                "Don't answer that\nI don't care.",
+                                                "Go check on the \ncustomers.",
+                                                "...\nCustomer."
+                                            ],
+                                            "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                        },
+                                        "id": "e0a41d8a-ae4c-4092-bda4-3c6149712e85"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 19
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 11
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "50e88db5-dcab-4b76-83c7-ff1bf24c3f00"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "down"
+                                            }
+                                        },
+                                        "id": "eb74c7fc-3f62-48a3-89da-033f54f49214"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "L1"
+                                        },
+                                        "id": "dc504e8c-25cb-4cfa-a3ed-5c64ae2d6796"
+                                    }
+                                ]
                             },
-                            "id": "4b63d94e-2c44-4ac0-a15d-d0b9aa4c9b78"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_SET_DIRECTION",
-                            "args": {
-                                "actorId": "player",
-                                "direction": {
-                                    "type": "direction",
-                                    "value": "left"
-                                }
-                            },
-                            "id": "bb1ec8f3-aacf-44e1-ad1a-d59bbc3a7dd3"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Good nap?",
-                                    "Don't answer that\nI don't care.",
-                                    "Go check on the \ncustomers.",
-                                    "...\nCustomer."
-                                ],
-                                "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
-                            },
-                            "id": "e0a41d8a-ae4c-4092-bda4-3c6149712e85"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_MOVE_TO",
-                            "args": {
-                                "actorId": "$self$",
-                                "x": {
-                                    "type": "number",
-                                    "value": 19
-                                },
-                                "y": {
-                                    "type": "number",
-                                    "value": 11
-                                },
-                                "moveType": "horizontal",
-                                "useCollisions": false
-                            },
-                            "id": "50e88db5-dcab-4b76-83c7-ff1bf24c3f00"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_SET_DIRECTION",
-                            "args": {
-                                "actorId": "$self$",
-                                "direction": {
-                                    "type": "direction",
-                                    "value": "down"
-                                }
-                            },
-                            "id": "eb74c7fc-3f62-48a3-89da-033f54f49214"
+                            "id": "fec0865d-fd6e-4985-ae64-146532ac794a"
                         }
                     ],
                     "updateScript": [],
@@ -18639,6 +17316,38 @@
             ],
             "script": [
                 {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "select"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SCENE_PUSH_STATE",
+                                "args": {},
+                                "id": "e20d77cf-b0c2-49de-a611-8ec34b4816cc"
+                            },
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "a6fb696d-8bac-4c9d-97b4-f1e03e74f920",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "2a195959-5442-4887-a644-f0d5a2b150de"
+                            }
+                        ]
+                    },
+                    "id": "4614c98f-28e0-4797-8d2e-5840719c3b55"
+                },
+                {
                     "command": "EVENT_FADE_IN",
                     "args": {
                         "speed": "2"
@@ -18658,6 +17367,56 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "playerSpriteSheetId": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26"
+        },
+        {
+            "name": "Menu",
+            "backgroundId": "619a3c1f-bbb8-46b4-8fc8-49048d6b3cc1",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "id": "a6fb696d-8bac-4c9d-97b4-f1e03e74f920",
+            "x": 255.2,
+            "y": 598.4,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "dc7cb0f8-5b9c-4163-9142-63167c98f4a3"
+                },
+                {
+                    "command": "EVENT_AWAIT_INPUT",
+                    "args": {
+                        "input": [
+                            "a",
+                            "b",
+                            "left",
+                            "up",
+                            "down",
+                            "start",
+                            "select",
+                            "right"
+                        ]
+                    },
+                    "id": "9d241600-14f3-4392-8d34-b3abd2111927"
+                },
+                {
+                    "command": "EVENT_SCENE_POP_STATE",
+                    "args": {
+                        "fadeSpeed": "2"
+                    },
+                    "id": "a5e02e92-4526-4ef7-8315-4d0cffc76c73"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
         }
     ],
     "backgrounds": [
@@ -18700,6 +17459,15 @@
             "imageHeight": 144,
             "filename": "Fight_Menu_Test_Yes.png",
             "tileColors": []
+        },
+        {
+            "id": "619a3c1f-bbb8-46b4-8fc8-49048d6b3cc1",
+            "name": "Menu_Test",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Menu_Test.png"
         },
         {
             "id": "d3331508-e67c-45b8-aaad-32429464e7e1",
@@ -46687,7 +45455,7 @@
                                 "id": "dd21c899-25f7-41d8-a419-3a72e0b99ccb",
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "fd223a5f-7148-4705-98a7-b0ef56cb5c74",
+                                    "sceneId": "a6fb696d-8bac-4c9d-97b4-f1e03e74f920",
                                     "x": 0,
                                     "y": 0,
                                     "direction": "",
@@ -47990,6 +46758,10 @@
         {
             "id": "b7d1618f-1012-4af2-a6e1-0b3609dab525__L0",
             "name": "questpetstart"
+        },
+        {
+            "id": "b7d1618f-1012-4af2-a6e1-0b3609dab525__L1",
+            "name": "IntroDone"
         }
     ],
     "engineFieldValues": [
@@ -48001,15 +46773,15 @@
     "settings": {
         "startSceneId": "a5f430d1-da9c-4313-934a-79da3c40bbdc",
         "startX": 0,
-        "startY": 3,
+        "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 628,
-        "worldScrollY": 664,
-        "zoom": 225,
+        "worldScrollX": 169,
+        "worldScrollY": 0,
+        "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -48037,8 +46809,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            205,
-            531,
+            30,
+            708,
             30
         ],
         "showNavigator": true,

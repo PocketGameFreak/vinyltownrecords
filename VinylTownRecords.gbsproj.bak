@@ -18648,7 +18648,7 @@
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "0036cba5-4e75-4d2e-ae8b-9b065032d881",
+                        "musicId": "3ba795df-2457-47bf-b8b2-2ab4c64b0cc7",
                         "loop": true
                     },
                     "id": "edc9839c-56e6-466b-be35-98c7b741702e"
@@ -47534,6 +47534,13 @@
             "id": "7cf496a8-03ce-4b38-9b0d-096e4e26c060",
             "name": "big_battle",
             "filename": "big_battle.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "3ba795df-2457-47bf-b8b2-2ab4c64b0cc7",
+            "name": "record_shop",
+            "filename": "record_shop.uge",
             "settings": {},
             "type": "uge"
         },
