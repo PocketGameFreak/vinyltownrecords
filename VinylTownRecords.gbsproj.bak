@@ -15285,7 +15285,7 @@
                                                                         "option7": "",
                                                                         "option8": "",
                                                                         "cancelOnB": true,
-                                                                        "layout": "dialogue",
+                                                                        "layout": "menu",
                                                                         "cancelOnLastOption": false
                                                                     },
                                                                     "id": "3ddd04e1-0ab1-4e62-8e77-81ae37d82e81"
@@ -15297,7 +15297,7 @@
                                                                         "operator": "==",
                                                                         "comparator": 1,
                                                                         "__collapseElse": false,
-                                                                        "__collapse": true
+                                                                        "__collapse": false
                                                                     },
                                                                     "children": {
                                                                         "true": [
@@ -45255,8 +45255,8 @@
                     "args": {
                         "actorId": "0",
                         "frame": {
-                            "type": "number",
-                            "value": null
+                            "type": "variable",
+                            "value": "0"
                         },
                         "__collapse": false
                     },
@@ -45819,9 +45819,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 227,
-        "worldScrollY": 589,
-        "zoom": 175,
+        "worldScrollX": 1919,
+        "worldScrollY": 1986,
+        "zoom": 325,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
