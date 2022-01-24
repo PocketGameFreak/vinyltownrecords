@@ -2660,7 +2660,7 @@
                             "args": {
                                 "variable": "1",
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -2690,7 +2690,7 @@
                                                     "args": {
                                                         "text": [
                                                             "Heh. Sucker.\n",
-                                                            "Don't worry I'll give you\na cut."
+                                                            "Don't worry I'll give \nyou a cut."
                                                         ],
                                                         "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
                                                     },
@@ -2807,7 +2807,7 @@
                                                                 "args": {
                                                                     "text": [
                                                                         "Oh... you're one of\nthose.",
-                                                                        "There's a 2 vinyl \nminimum to be bullied"
+                                                                        "There's a 2 vinyl \nminimum to be bullied."
                                                                     ],
                                                                     "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
                                                                 },
@@ -2882,7 +2882,7 @@
                                                                 "args": {
                                                                     "text": [
                                                                         "It's important huh?",
-                                                                        "Maybe if you can beat\nmy high score.",
+                                                                        "Maybe if you can \nbeat my high score.",
                                                                         "In what?\nPetting Missy, duh.",
                                                                         "I put up a score \nchart in her corner.",
                                                                         "You're last."
@@ -3404,7 +3404,7 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "1",
-                                "__collapseElse": true
+                                "__collapseElse": false
                             },
                             "children": {
                                 "true": [
@@ -3412,7 +3412,7 @@
                                         "command": "EVENT_IF_TRUE",
                                         "args": {
                                             "variable": "2",
-                                            "__collapseElse": true,
+                                            "__collapseElse": false,
                                             "__collapse": false
                                         },
                                         "children": {
@@ -3469,7 +3469,7 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "She's so dreamy"
+                                                            "She's so dreamy~"
                                                         ],
                                                         "avatarId": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d"
                                                     },
@@ -3611,7 +3611,7 @@
                                     {
                                         "command": "EVENT_MUSIC_PLAY",
                                         "args": {
-                                            "musicId": "43a6db6c-8d91-4a55-a557-c72063378fec",
+                                            "musicId": "e2f25d94-36a6-40a1-88c9-bbdd9114d92f",
                                             "loop": true
                                         },
                                         "id": "b35fc9af-b25d-40ca-96f0-fb04b4a637b7"

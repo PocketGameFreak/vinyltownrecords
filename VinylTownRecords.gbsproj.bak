@@ -2660,7 +2660,7 @@
                             "args": {
                                 "variable": "1",
                                 "__collapseElse": false,
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -3850,6 +3850,276 @@
                     "id": "9a04143a-747f-4561-a1cf-5811642d26dc",
                     "x": 19,
                     "y": 19
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "3b4716af-9fb1-4547-8bd6-2fea2b080b15",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "1",
+                                "__collapseElse": false,
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The customers await...",
+                                                "You, not me."
+                                            ],
+                                            "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                        },
+                                        "id": "33d958c9-66c9-466d-977e-388e899f7542"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "2",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Heh. Sucker.\n",
+                                                            "Don't worry I'll give you\na cut."
+                                                        ],
+                                                        "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                    },
+                                                    "id": "de3c1d8d-6dbf-4484-a47b-7ea3fdec14e4"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_IF_TRUE",
+                                                    "args": {
+                                                        "variable": "3",
+                                                        "__collapseElse": false,
+                                                        "__collapse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923"
+                                                                },
+                                                                "id": "02111535-4300-4c5d-83fa-d5d7ea6f3faa"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "What?! \nHow did you beat me!",
+                                                                        "Urg. Fine.\nI'll talk to him."
+                                                                    ],
+                                                                    "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                                },
+                                                                "id": "b9e2ed11-750c-4176-ab27-b24ab6f53294"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "down"
+                                                                    }
+                                                                },
+                                                                "id": "f4b0a14e-b6c2-4e2f-a75b-a651024a05d8"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_MOVE_TO",
+                                                                "args": {
+                                                                    "actorId": "cff335f0-7630-452c-817e-8ed63a6894a5",
+                                                                    "x": {
+                                                                        "type": "number",
+                                                                        "value": 17
+                                                                    },
+                                                                    "y": {
+                                                                        "type": "number",
+                                                                        "value": 13
+                                                                    },
+                                                                    "moveType": "vertical",
+                                                                    "useCollisions": true
+                                                                },
+                                                                "id": "649afbb5-1934-4b97-97ee-3e3d14412b8a"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "What do you want?"
+                                                                    ],
+                                                                    "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                                },
+                                                                "id": "d6a50e7a-5cde-4aa2-a70a-a5f21a27f3ce"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Wowowowowowow\nShe's talking to me!"
+                                                                    ],
+                                                                    "avatarId": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d"
+                                                                },
+                                                                "id": "9c306056-851b-440e-9a67-685f1e8c5881"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Uh... What's your \nproblem?"
+                                                                    ],
+                                                                    "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                                },
+                                                                "id": "9fd1fb8e-fc35-4623-8a83-1acbfdebd5a1"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "She's just as rude as\neveryone says~"
+                                                                    ],
+                                                                    "avatarId": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d"
+                                                                },
+                                                                "id": "8eac94de-834c-449a-8921-8caef215a6c2"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "cff335f0-7630-452c-817e-8ed63a6894a5",
+                                                                    "emoteId": "4bc2c3bd-f20f-4497-af7c-38d1653b6e72"
+                                                                },
+                                                                "id": "a0f68e7a-5f1d-42ea-9ee6-4f850064f75b"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Oh... you're one of\nthose.",
+                                                                        "There's a 2 vinyl \nminimum to be bullied"
+                                                                    ],
+                                                                    "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                                },
+                                                                "id": "9595517a-c854-451a-9e36-4d93403cd676"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "I'll buy anything for\nyou!"
+                                                                    ],
+                                                                    "avatarId": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d"
+                                                                },
+                                                                "id": "427ed7e1-5acc-4a9c-bfc9-d4bd8b467392"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Sweet, sweet \ncommision money."
+                                                                    ],
+                                                                    "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                                },
+                                                                "id": "925f635b-1670-4956-b48b-222ff48ace35"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_MOVE_TO",
+                                                                "args": {
+                                                                    "actorId": "cff335f0-7630-452c-817e-8ed63a6894a5",
+                                                                    "x": {
+                                                                        "type": "number",
+                                                                        "value": 17
+                                                                    },
+                                                                    "y": {
+                                                                        "type": "number",
+                                                                        "value": 19
+                                                                    },
+                                                                    "moveType": "horizontal",
+                                                                    "useCollisions": false
+                                                                },
+                                                                "id": "bb91cb3f-cdcc-47ec-8af4-f3f09b7c4cc1"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_SET_TRUE",
+                                                                "args": {
+                                                                    "variable": "2"
+                                                                },
+                                                                "id": "990781e5-634c-4ab5-b601-ac4475bdfe40"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Talk to that guy?\nNo way."
+                                                                    ],
+                                                                    "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                                },
+                                                                "id": "0c9c9afe-d893-4292-9d7e-be5e61099c5b"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "emoteId": "a410a4c7-a37d-48ea-917b-f531ba557841"
+                                                                },
+                                                                "id": "c7f1ba63-e640-4411-8ba0-dd8ca0dd2e67"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "It's important huh?",
+                                                                        "Maybe if you can beat\nmy high score.",
+                                                                        "In what?\nPetting Missy, duh.",
+                                                                        "I put up a score \nchart in her corner.",
+                                                                        "You're last."
+                                                                    ],
+                                                                    "avatarId": "b5db412d-8d19-4bfe-8f3b-bdc309433e33"
+                                                                },
+                                                                "id": "1c4a5001-a9dd-4237-9223-9755c7d772e6"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "69a9849d-1e12-46d3-824e-d596c581d3bd"
+                                                }
+                                            ]
+                                        },
+                                        "id": "21481a6a-db19-43e0-a2fc-abb4936e5d61"
+                                    }
+                                ]
+                            },
+                            "id": "8b1bd709-7f59-4e92-ab87-99bba3e608ae"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "d822cec2-0290-4b5a-ab1e-f549eee1be33",
+                    "x": 19,
+                    "y": 12
                 }
             ],
             "triggers": [
@@ -4066,38 +4336,6 @@
                 }
             ],
             "script": [
-                {
-                    "command": "EVENT_SET_INPUT_SCRIPT",
-                    "args": {
-                        "input": [
-                            "select"
-                        ],
-                        "override": true,
-                        "__scriptTabs": "press",
-                        "__collapse": true
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_SCENE_PUSH_STATE",
-                                "args": {},
-                                "id": "e20d77cf-b0c2-49de-a611-8ec34b4816cc"
-                            },
-                            {
-                                "command": "EVENT_SWITCH_SCENE",
-                                "args": {
-                                    "sceneId": "a6fb696d-8bac-4c9d-97b4-f1e03e74f920",
-                                    "x": 0,
-                                    "y": 0,
-                                    "direction": "",
-                                    "fadeSpeed": "2"
-                                },
-                                "id": "2a195959-5442-4887-a644-f0d5a2b150de"
-                            }
-                        ]
-                    },
-                    "id": "4614c98f-28e0-4797-8d2e-5840719c3b55"
-                },
                 {
                     "command": "EVENT_FADE_IN",
                     "args": {
@@ -5951,14 +6189,14 @@
                                 "args": {
                                     "expression": "$L1$ <=0",
                                     "__collapseElse": false,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
                                         {
                                             "command": "EVENT_MUSIC_PLAY",
                                             "args": {
-                                                "musicId": "17190499-1e99-40e7-88b3-634a2b62ec23",
+                                                "musicId": "d07f1fa2-3112-40da-ad56-3686bc3ff40b",
                                                 "loop": true
                                             },
                                             "id": "001a8b0c-f235-4ace-83ee-f4dd00c856a6"
@@ -17044,7 +17282,7 @@
                                     {
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
-                                            "sceneId": "f5e6d22b-fbe2-435a-88b3-fb5f88291f84",
+                                            "sceneId": "6173b9cf-8c2f-4f58-a99d-4f47e03d92ed",
                                             "x": 0,
                                             "y": 0,
                                             "direction": "",
@@ -17623,6 +17861,420 @@
                         "loop": true
                     },
                     "id": "8da3b7ee-e3e8-413a-9ef8-61f1cf234ecf"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Credits",
+            "backgroundId": "e6109e46-859d-4ca0-b1f5-4bd45fb9a0d6",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "id": "6173b9cf-8c2f-4f58-a99d-4f47e03d92ed",
+            "x": 1786.6666666666667,
+            "y": 591.2,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "6c58028a-bd59-40a9-bfb6-f17e52ac7cc4"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "b30bf6df-bf08-436b-84d7-f546be07aaeb",
+                        "loop": true
+                    },
+                    "id": "e6f7c71d-5e76-4d6c-90ec-795dfd5a58c8"
+                },
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 10
+                    },
+                    "id": "74faf5e4-d197-4261-adf4-06eec9e0638f"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "19ccc38a-5b3a-4c98-abfe-f37d34202c43"
                 }
             ],
             "playerHit1Script": [],
@@ -47885,6 +48537,13 @@
             "type": "uge"
         },
         {
+            "id": "d07f1fa2-3112-40da-ad56-3686bc3ff40b",
+            "name": "sfx_victory",
+            "filename": "sfx_victory.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
@@ -48244,9 +48903,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 752,
+        "worldScrollX": 52,
         "worldScrollY": 0,
-        "zoom": 75,
+        "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
