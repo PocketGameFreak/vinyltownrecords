@@ -2788,7 +2788,7 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "She's just as rude as\neveryone says~"
+                                                                        "She's just as rude \nas everyone says~"
                                                                     ],
                                                                     "avatarId": "4bd5a64d-e1fb-47da-b84b-7a6bda5ff28d"
                                                                 },
@@ -11258,12 +11258,12 @@
                                     "I can't wait for The \nBattle of the Bards!",
                                     "Just gotta look over \nmy records...",
                                     "Pop is healing...",
-                                    "Pop is healing...",
-                                    "Pop is healing...",
+                                    "Classic squares up\nyour defense...",
+                                    "Rock does massive\ndamage...",
                                     "I'm never going to \nremember all this!"
                                 ],
                                 "avatarId": "",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "f79dbfc3-7f46-4e79-a26c-7b33631ee6a0"
                         }
@@ -48937,7 +48937,7 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 148,
+        "worldScrollX": 479,
         "worldScrollY": 0,
         "zoom": 125,
         "customColorsEnabled": true,
