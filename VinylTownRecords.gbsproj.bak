@@ -16891,7 +16891,7 @@
                             "command": "EVENT_GROUP",
                             "args": {
                                 "__label": "Rivale appears",
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -17231,6 +17231,27 @@
                     "id": "6c7395c0-9640-4e66-8e6a-a7fbe7068616",
                     "x": 88,
                     "y": 42
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "3b4716af-9fb1-4547-8bd6-2fea2b080b15",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "820542d7-a8e8-4e9a-aad1-503698ca51e9",
+                    "x": 81,
+                    "y": 45
                 }
             ],
             "triggers": [
@@ -36256,6 +36277,106 @@
             "animSpeed": 15
         },
         {
+            "id": "3b4716af-9fb1-4547-8bd6-2fea2b080b15",
+            "name": "countertop_interact",
+            "numFrames": 0.5,
+            "type": "animated",
+            "filename": "countertop_interact.png",
+            "checksum": "47f3cb048c00dca6c9d4ecda467629d1ed67badf",
+            "width": 8,
+            "height": 8,
+            "states": [
+                {
+                    "id": "1ab65a2a-ef22-433f-a394-0fd74ebdab97",
+                    "name": "",
+                    "animationType": "multi_movement",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "26701349-b02c-4aff-b861-600d76112760",
+                            "frames": [
+                                {
+                                    "id": "4a69ae4a-8b01-463e-a6e8-f4b83f6fe868",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1d139885-f971-43bd-a19f-62330961d271",
+                            "frames": [
+                                {
+                                    "id": "9c9b64ff-6eb5-42dd-9416-e2c77adf9757",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "8b0b03b2-76d5-4e44-9204-347ca043874f",
+                            "frames": [
+                                {
+                                    "id": "b39b9717-adb3-4f79-aa4f-1e7954516deb",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "db93c447-f8d1-4dc1-b760-e2edc2fb21d5",
+                            "frames": [
+                                {
+                                    "id": "28638340-81a3-4e2f-8994-41cf2887f9c1",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "7302b739-70a9-4221-8b11-2f7885346289",
+                            "frames": [
+                                {
+                                    "id": "39584b9e-3e8a-45f3-9ec3-c4687b6a3aa0",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f639129b-3874-4df9-8939-5ecd5daeb8af",
+                            "frames": [
+                                {
+                                    "id": "76f494d6-d6e7-4ef7-8158-c287421df81b",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "8b0007eb-0d7e-4eaa-b2af-07a48ba121f6",
+                            "frames": [
+                                {
+                                    "id": "82d33089-64b0-4c2d-89ee-486313e18bea",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b32b2967-1aa8-4518-a955-eb5c1ce1dbfd",
+                            "frames": [
+                                {
+                                    "id": "69763bf5-776b-4665-a96b-68fd5044ef49",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 32,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "a827b612-578f-4cb9-a2bf-fd54b197b83f",
             "name": "cursor",
             "numFrames": 2,
@@ -47777,9 +47898,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 5333,
-        "worldScrollY": 493,
-        "zoom": 325,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -47807,8 +47928,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            205,
-            514,
+            30,
+            690,
             30
         ],
         "showNavigator": true,
