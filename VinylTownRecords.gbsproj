@@ -4225,8 +4225,8 @@
                                                             "Entries are open!\nDown at the club!",
                                                             "for what?\nWHAT ELSE?!",
                                                             "BATTLE OF THE\nBAAAAARDS",
-                                                            "THE Bard event of \nthe \nyear!!!",
-                                                            "Well... the Bard event \nof Vinyltown at least.",
+                                                            "THE Bard event of \nthe year!!!",
+                                                            "Well... of Vinyltown \nat least.",
                                                             "LET'S GO!"
                                                         ],
                                                         "avatarId": "3242e475-df77-4bbc-8e78-2b6027f3c002"
@@ -11342,9 +11342,9 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "I hear the current champ is a \nvampire. ",
+                                    "I hear the current \nchamp is a vampire. ",
                                     "I guess that's not that\nweird. ",
-                                    " But as a vampire, it's\nnice to have some... ",
+                                    "But as a vampire, it's\nnice to have some... ",
                                     "...positive \nrepresentation."
                                 ],
                                 "avatarId": ""
@@ -11360,6 +11360,40 @@
                     "id": "8fb4ae61-034c-44f1-8ad7-96f413172e18",
                     "x": 34,
                     "y": 30
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "3b4716af-9fb1-4547-8bd6-2fea2b080b15",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "It looks like a fountain...",
+                                    "...but it's a statue.",
+                                    "It was the mayor's idea."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "d32c1155-280d-464c-9a75-9df2c1c09320"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "55751b58-af02-4c4e-bace-a5e77e6d64d9",
+                    "x": 49,
+                    "y": 13
                 }
             ],
             "triggers": [
@@ -48903,7 +48937,7 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 52,
+        "worldScrollX": 148,
         "worldScrollY": 0,
         "zoom": 125,
         "customColorsEnabled": true,
