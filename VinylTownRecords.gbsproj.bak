@@ -17172,7 +17172,7 @@
                             "command": "EVENT_IF_FALSE",
                             "args": {
                                 "variable": "9",
-                                "__collapseElse": true
+                                "__collapseElse": false
                             },
                             "children": {
                                 "true": [
@@ -17180,7 +17180,7 @@
                                         "command": "EVENT_GROUP",
                                         "args": {
                                             "__label": "Rivale appears",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -17430,26 +17430,35 @@
                                                         "variable": "9"
                                                     },
                                                     "id": "db697114-65ca-48ea-897c-5a5186139d39"
+                                                },
+                                                {
+                                                    "command": "EVENT_MUSIC_PLAY",
+                                                    "args": {
+                                                        "musicId": "b8534eb8-5a11-491c-b16c-dc462860389c",
+                                                        "loop": true
+                                                    },
+                                                    "id": "936b3770-4923-41df-9af3-0d7dd2a0b292"
                                                 }
                                             ]
                                         },
                                         "id": "3621a46d-8c3b-4dfd-ac52-e0a91a39e94b"
                                     }
                                 ],
-                                "false": []
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Well... guess you're\nentered now.",
+                                                "Better meet him back \nthere."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "7f822b4a-8edd-470e-90ff-ab9af1d71d21"
+                                    }
+                                ]
                             },
                             "id": "a6c7cfc9-dbe1-409c-8e11-a5e34cda7322"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Well... guess you're\nentered now.",
-                                    "Better meet him back \nthere."
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "7f822b4a-8edd-470e-90ff-ab9af1d71d21"
                         }
                     ],
                     "startScript": [],
@@ -48227,15 +48236,15 @@
         }
     ],
     "settings": {
-        "startSceneId": "f5e6d22b-fbe2-435a-88b3-fb5f88291f84",
-        "startX": 88,
-        "startY": 46,
+        "startSceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+        "startX": 3,
+        "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 29,
+        "worldScrollX": 752,
         "worldScrollY": 0,
         "zoom": 75,
         "customColorsEnabled": true,
