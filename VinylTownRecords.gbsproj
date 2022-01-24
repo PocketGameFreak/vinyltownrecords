@@ -4314,7 +4314,7 @@
                 0,
                 0,
                 0,
-                0,
+                15,
                 0,
                 0,
                 0,
@@ -4618,7 +4618,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Battle Setup"
                     },
                     "children": {
@@ -4646,7 +4646,7 @@
                                                 "variable": "L1",
                                                 "value": {
                                                     "type": "number",
-                                                    "value": 30
+                                                    "value": 25
                                                 }
                                             },
                                             "id": "31a606fc-bb4e-4290-b546-1478d71d5ebd"
@@ -4707,7 +4707,7 @@
                         "variable": "30",
                         "value": {
                             "type": "number",
-                            "value": 23
+                            "value": 25
                         }
                     },
                     "id": "25a66cf6-cec6-4a8d-9639-7108ca006e6a"
@@ -4718,9 +4718,9 @@
                         "variable": "8",
                         "value": {
                             "type": "number",
-                            "value": 10
+                            "value": 15
                         },
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "8990263c-b48f-450c-b6b3-ad8883d7651d"
                 },
@@ -5951,7 +5951,7 @@
                                 "args": {
                                     "expression": "$L1$ <=0",
                                     "__collapseElse": false,
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "children": {
                                     "true": [
@@ -11962,7 +11962,7 @@
                 0,
                 0,
                 0,
-                0,
+                15,
                 0,
                 0,
                 0,
@@ -14591,7 +14591,6 @@
                 0,
                 0,
                 15,
-                15,
                 0,
                 0,
                 0,
@@ -14618,6 +14617,7 @@
                 0,
                 0,
                 0,
+                0,
                 15,
                 0,
                 0,
@@ -14692,7 +14692,6 @@
                 0,
                 0,
                 0,
-                15,
                 15,
                 0,
                 0,
@@ -14720,6 +14719,7 @@
                 0,
                 0,
                 0,
+                0,
                 15,
                 0,
                 0,
@@ -14794,7 +14794,6 @@
                 0,
                 0,
                 0,
-                15,
                 15,
                 0,
                 0,
@@ -14822,6 +14821,7 @@
                 0,
                 0,
                 0,
+                0,
                 15,
                 0,
                 0,
@@ -14897,7 +14897,7 @@
                 0,
                 0,
                 15,
-                15,
+                0,
                 0,
                 0,
                 0,
@@ -14999,7 +14999,7 @@
                 0,
                 0,
                 15,
-                15,
+                0,
                 0,
                 0,
                 0,
@@ -15101,7 +15101,6 @@
                 0,
                 0,
                 15,
-                15,
                 0,
                 0,
                 0,
@@ -15128,6 +15127,7 @@
                 0,
                 0,
                 0,
+                0,
                 15,
                 0,
                 0,
@@ -15810,13 +15810,13 @@
                 0,
                 0,
                 0,
-                15,
                 15,
                 15,
                 15,
                 15,
                 15,
                 15,
+                0,
                 15,
                 15,
                 15,
@@ -15919,8 +15919,8 @@
                 15,
                 15,
                 15,
-                0,
-                0,
+                15,
+                15,
                 15,
                 15,
                 15,
@@ -16908,11 +16908,35 @@
                                         "command": "EVENT_IF_FALSE",
                                         "args": {
                                             "variable": "31",
-                                            "__collapseElse": true
+                                            "__collapseElse": false
                                         },
                                         "children": {
                                             "true": [],
-                                            "false": []
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Disapointing.",
+                                                            "Hmm? You want to try\nagain?",
+                                                            "Fine. I'll let you\nhumiliate yourself."
+                                                        ],
+                                                        "avatarId": "59225e9f-63db-4a49-8d0f-76522c25d1c9"
+                                                    },
+                                                    "id": "ceeb8fd0-5474-4026-a4f7-a0c44f5113fb"
+                                                },
+                                                {
+                                                    "command": "EVENT_SWITCH_SCENE",
+                                                    "args": {
+                                                        "sceneId": "2fcfc5c6-5f22-4f0e-8751-baff30c427d9",
+                                                        "x": 0,
+                                                        "y": 0,
+                                                        "direction": "",
+                                                        "fadeSpeed": "2"
+                                                    },
+                                                    "id": "64141390-0255-4433-aa24-28a0fc69b8f4"
+                                                }
+                                            ]
                                         },
                                         "id": "709ceec2-859f-4671-b466-0db26ab0b9e5"
                                     },
@@ -16921,12 +16945,112 @@
                                         "args": {
                                             "text": [
                                                 "You win.\nHeh. Very good.",
-                                                "I hope I see you at\nthe end of the contest.",
+                                                "I'll see you at the \nend of the contest.",
                                                 "I'll meet you there\nwith my full strength."
                                             ],
-                                            "avatarId": ""
+                                            "avatarId": "59225e9f-63db-4a49-8d0f-76522c25d1c9"
                                         },
                                         "id": "af9dc4cb-7dc8-468a-9c58-97673ec6e2c5"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_POSITION",
+                                        "args": {
+                                            "actorId": "6c7395c0-9640-4e66-8e6a-a7fbe7068616",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 21
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 37
+                                            }
+                                        },
+                                        "id": "7eedf659-3e2f-4cde-9ec0-8d40a297a7c8"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "6c7395c0-9640-4e66-8e6a-a7fbe7068616",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 8
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 37
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "cb416d03-f17c-4706-9870-4511f704607a"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "player",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "down"
+                                            }
+                                        },
+                                        "id": "c77277ca-acf6-4d91-91c6-ed442571c46f"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "6c7395c0-9640-4e66-8e6a-a7fbe7068616",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "up"
+                                            }
+                                        },
+                                        "id": "044df0a0-8ff6-4a0a-a9db-7d3b946e2081"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Bardle! You did it!\nYou're officially...",
+                                                "THE BEST BARD...",
+                                                "...I've ever met...\nwho is currently...",
+                                                "...entered in The\nBattle of the Bards!",
+                                                "I'm so proud. "
+                                            ],
+                                            "avatarId": "3242e475-df77-4bbc-8e78-2b6027f3c002"
+                                        },
+                                        "id": "82ca34e9-e72d-405d-9091-c9ee442bc0f9"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "6c7395c0-9640-4e66-8e6a-a7fbe7068616",
+                                            "emoteId": "e9e38933-9942-44ca-943c-a85fa46d8139"
+                                        },
+                                        "id": "16babe50-1200-4e40-b302-7d8ef7b4a128"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "You have a long \nroad in front of you.",
+                                                "Or a very short one!",
+                                                "It all depends on \nthose lazy devs!",
+                                                "Cue Credits!"
+                                            ],
+                                            "avatarId": "3242e475-df77-4bbc-8e78-2b6027f3c002"
+                                        },
+                                        "id": "631611fc-9836-4095-9f46-3a5bc268ee3b"
+                                    },
+                                    {
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "f5e6d22b-fbe2-435a-88b3-fb5f88291f84",
+                                            "x": 0,
+                                            "y": 0,
+                                            "direction": "",
+                                            "fadeSpeed": "2"
+                                        },
+                                        "id": "e4e97a54-4668-484c-80e0-4e89a0f07f66"
                                     }
                                 ],
                                 "false": []
@@ -17048,7 +17172,7 @@
                             "command": "EVENT_IF_FALSE",
                             "args": {
                                 "variable": "9",
-                                "__collapseElse": true
+                                "__collapseElse": false
                             },
                             "children": {
                                 "true": [
@@ -17056,7 +17180,7 @@
                                         "command": "EVENT_GROUP",
                                         "args": {
                                             "__label": "Rivale appears",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -17306,26 +17430,35 @@
                                                         "variable": "9"
                                                     },
                                                     "id": "db697114-65ca-48ea-897c-5a5186139d39"
+                                                },
+                                                {
+                                                    "command": "EVENT_MUSIC_PLAY",
+                                                    "args": {
+                                                        "musicId": "b8534eb8-5a11-491c-b16c-dc462860389c",
+                                                        "loop": true
+                                                    },
+                                                    "id": "936b3770-4923-41df-9af3-0d7dd2a0b292"
                                                 }
                                             ]
                                         },
                                         "id": "3621a46d-8c3b-4dfd-ac52-e0a91a39e94b"
                                     }
                                 ],
-                                "false": []
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Well... guess you're\nentered now.",
+                                                "Better meet him back \nthere."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "7f822b4a-8edd-470e-90ff-ab9af1d71d21"
+                                    }
+                                ]
                             },
                             "id": "a6c7cfc9-dbe1-409c-8e11-a5e34cda7322"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Well... guess you're\nentered now.",
-                                    "Better meet him back \nthere."
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "7f822b4a-8edd-470e-90ff-ab9af1d71d21"
                         }
                     ],
                     "startScript": [],
@@ -17418,6 +17551,44 @@
                     "id": "96171bfd-98c4-407b-bc0a-767144567cf0",
                     "x": 31,
                     "y": 28
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "13a45525-d032-4f89-bbfe-d8c0946f666e",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "G O T H W A VE",
+                                    "huh? oh I'm not Rivale.\nI'm a Rivale cosplayer.",
+                                    "I was just practicing my\nG O T H W A V E",
+                                    "It's Rivale's signature \nmove!",
+                                    "It's said if you hear it\nplayed...",
+                                    "...you'll lose half the life\nyou have left.",
+                                    "That's just a rumor tho."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "46140a03-9056-4d25-9acb-01728d9071a6"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "557b27da-39f8-48e4-bad0-a81ee5322bf0",
+                    "x": 60,
+                    "y": 15
                 }
             ],
             "triggers": [
@@ -18290,6 +18461,15 @@
                 0,
                 0
             ]
+        },
+        {
+            "id": "e6109e46-859d-4ca0-b1f5-4bd45fb9a0d6",
+            "name": "credits",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "credits.png"
         },
         {
             "id": "4135b165-6706-4d52-b77b-6314650b175e",
@@ -48056,17 +48236,17 @@
         }
     ],
     "settings": {
-        "startSceneId": "f5e6d22b-fbe2-435a-88b3-fb5f88291f84",
-        "startX": 88,
-        "startY": 46,
+        "startSceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+        "startX": 3,
+        "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2589,
-        "worldScrollY": 196,
-        "zoom": 175,
+        "worldScrollX": 752,
+        "worldScrollY": 0,
+        "zoom": 75,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
