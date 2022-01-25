@@ -349,8 +349,8 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000005  ___bank_scene_3_sprites            scene_3_sprites
      00000005  ___bank_scene_4_collisions         scene_4_collisions
      00000005  ___bank_scene_5_collisions         scene_5_collisions
-     00000005  ___bank_script_s2a6_interact       script_s2a6_interact
      00000005  ___bank_script_s2t0_interact       script_s2t0_interact
+     00000005  ___bank_script_s4t1_interact       script_s4t1_interact
      00000005  ___bank_tilemap_0                  tilemap_0
      00000005  l__CRASH_HEADER0                
      00000005  l__HEADER1                      
@@ -371,21 +371,22 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000006  ___bank_tilemap_attr_4             tilemap_attr_4
      00000006  l__HEADER7                      
      00000007  ___bank_font_0                     font_0
-     00000007  ___bank_music_track_1__Data        music_track_1__Data
-     00000007  ___bank_scene_5_triggers           scene_5_triggers
-     00000007  ___bank_script_s4a5_interact       script_s4a5_interact
+     00000007  ___bank_scene_2_sprites            scene_2_sprites
+     00000007  ___bank_script_s3_init             script_s3_init
+     00000007  ___bank_script_s4a4_interact       script_s4a4_interact
      00000007  ___bank_tileset_3                  tileset_3
      00000007  ___bank_tileset_5                  tileset_5
      00000007  ___bank_tileset_6                  tileset_6
      00000007  l__HEADER2                      
-     00000008  ___bank_cursor_image               cursor_image
+     00000008  ___bank_background_0               background_0
+     00000008  ___bank_music_track_1__Data        music_track_1__Data
      00000008  ___bank_music_track_5__Data        music_track_5__Data
-     00000008  ___bank_scene_2_collisions         scene_2_collisions
      00000008  ___bank_scene_7_collisions         scene_7_collisions
      00000008  ___bank_script_s2a0_interact       script_s2a0_interact
      00000008  ___bank_script_s2a10_interact      script_s2a10_interact
-     00000008  ___bank_script_s2a1_interact       script_s2a1_interact
-     00000008  ___bank_script_s3_init             script_s3_init
+     00000008  ___bank_script_s2a4_interact       script_s2a4_interact
+     00000008  ___bank_script_s5a1_interact       script_s5a1_interact
+     00000008  ___bank_script_s5a7_interact       script_s5a7_interact
      00000008  ___bank_tilemap_3                  tilemap_3
      00000008  ___bank_tilemap_attr_3             tilemap_attr_3
      00000008  ___bank_tileset_0                  tileset_0
@@ -399,15 +400,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000009  ___bank_music_track_4__Data        music_track_4__Data
      00000009  ___bank_music_track_6__Data        music_track_6__Data
      00000009  ___bank_music_track_8__Data        music_track_8__Data
-     00000009  ___bank_music_track_9__Data        music_track_9__Data
-     00000009  ___bank_script_s2a9_interact       script_s2a9_interact
-     00000009  ___bank_script_s3a0_update         script_s3a0_update
+     00000009  ___bank_scene_2_collisions         scene_2_collisions
+     00000009  ___bank_scene_5_triggers           scene_5_triggers
+     00000009  ___bank_script_s4a5_interact       script_s4a5_interact
      00000009  ___bank_script_s5a3_interact       script_s5a3_interact
      00000009  ___bank_tilemap_2                  tilemap_2
      00000009  ___bank_tilemap_attr_2             tilemap_attr_2
-     00000009  ___bank_tileset_15                 tileset_15
      0000000A  ___bank_avatar_font_0              avatar_font_0
      0000000A  ___bank_music_track_7__Data        music_track_7__Data
+     0000000A  ___bank_music_track_9__Data        music_track_9__Data
      0000000A  ___bank_scene_0_collisions         scene_0_collisions
      0000000A  ___bank_scene_1_collisions         scene_1_collisions
      0000000A  ___bank_scene_2_actors             scene_2_actors
@@ -415,7 +416,6 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000000A  ___bank_scene_4_actors             scene_4_actors
      0000000A  ___bank_scene_5_actors             scene_5_actors
      0000000A  ___bank_scene_6_collisions         scene_6_collisions
-     0000000A  ___bank_scene_7_sprites            scene_7_sprites
      0000000A  ___bank_script_s1_init             script_s1_init
 ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
 Hexadecimal  [32-Bits]
@@ -427,13 +427,11 @@ Area                                    Addr        Size        Decimal Bytes (A
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
      0000000A  ___bank_script_s2_init             script_s2_init
-     0000000A  ___bank_script_s2a4_interact       script_s2a4_interact
+     0000000A  ___bank_script_s2a1_interact       script_s2a1_interact
      0000000A  ___bank_script_s2a5_interact       script_s2a5_interact
-     0000000A  ___bank_script_s4a4_interact       script_s4a4_interact
-     0000000A  ___bank_script_s4a6_interact       script_s4a6_interact
-     0000000A  ___bank_script_s4t0_interact       script_s4t0_interact
-     0000000A  ___bank_script_s5a1_interact       script_s5a1_interact
-     0000000A  ___bank_script_s5a4_interact       script_s5a4_interact
+     0000000A  ___bank_script_s2a9_interact       script_s2a9_interact
+     0000000A  ___bank_script_s4a0_interact       script_s4a0_interact
+     0000000A  ___bank_script_s5a5_interact       script_s5a5_interact
      0000000A  ___bank_script_s5a6_interact       script_s5a6_interact
      0000000A  ___bank_script_s7a0_interact       script_s7a0_interact
      0000000A  ___bank_tilemap_1                  tilemap_1
@@ -444,13 +442,13 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000000A  ___bank_tilemap_attr_5             tilemap_attr_5
      0000000A  ___bank_tileset_1                  tileset_1
      0000000A  ___bank_tileset_11                 tileset_11
+     0000000A  ___bank_tileset_15                 tileset_15
      0000000A  ___bank_tileset_16                 tileset_16
      0000000A  ___bank_tileset_19                 tileset_19
      0000000A  ___bank_tileset_2                  tileset_2
      0000000A  ___bank_tileset_20                 tileset_20
      0000000A  ___bank_tileset_7                  tileset_7
      0000000A  ___bank_tileset_8                  tileset_8
-     0000000B  ___bank_background_0               background_0
      0000000B  ___bank_background_1               background_1
      0000000B  ___bank_background_2               background_2
      0000000B  ___bank_background_3               background_3
@@ -459,24 +457,26 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000000B  ___bank_background_6               background_6
      0000000B  ___bank_background_7               background_7
      0000000B  ___bank_bootstrap_script           
+     0000000B  ___bank_cursor_image               cursor_image
      0000000B  ___bank_emote_0                    emote_0
      0000000B  ___bank_emote_1                    emote_1
      0000000B  ___bank_emote_2                    emote_2
      0000000B  ___bank_emote_3                    emote_3
      0000000B  ___bank_emote_4                    emote_4
      0000000B  ___bank_emote_5                    emote_5
+     0000000B  ___bank_emote_6                    emote_6
      0000000B  ___bank_frame_image                frame_image
      0000000B  ___bank_palette_0                  palette_0
      0000000B  ___bank_palette_1                  palette_1
      0000000B  ___bank_scene_0                    scene_0
      0000000B  ___bank_scene_1                    scene_1
      0000000B  ___bank_scene_2                    scene_2
-     0000000B  ___bank_scene_2_sprites            scene_2_sprites
      0000000B  ___bank_scene_2_triggers           scene_2_triggers
      0000000B  ___bank_scene_3                    scene_3
      0000000B  ___bank_scene_3_actors             scene_3_actors
      0000000B  ___bank_scene_4                    scene_4
      0000000B  ___bank_scene_4_triggers           scene_4_triggers
+     0000000B  ___bank_scene_5                    scene_5
 ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
 Hexadecimal  [32-Bits]
 
@@ -486,11 +486,12 @@ Area                                    Addr        Size        Decimal Bytes (A
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     0000000B  ___bank_scene_5                    scene_5
      0000000B  ___bank_scene_5_sprites            scene_5_sprites
      0000000B  ___bank_scene_6                    scene_6
      0000000B  ___bank_scene_7                    scene_7
      0000000B  ___bank_scene_7_actors             scene_7_actors
+     0000000B  ___bank_scene_7_sprites            scene_7_sprites
+     0000000B  ___bank_scene_7_triggers           scene_7_triggers
      0000000B  ___bank_script_engine_init         
      0000000B  ___bank_script_input_0             script_input_0
      0000000B  ___bank_script_manage_mphp         script_manage_mphp
@@ -498,26 +499,30 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000000B  ___bank_script_s0_init             script_s0_init
      0000000B  ___bank_script_s2a2_interact       script_s2a2_interact
      0000000B  ___bank_script_s2a2_update         script_s2a2_update
+     0000000B  ___bank_script_s2a6_interact       script_s2a6_interact
      0000000B  ___bank_script_s2a8_interact       script_s2a8_interact
      0000000B  ___bank_script_s2t1_interact       script_s2t1_interact
+     0000000B  ___bank_script_s3a0_update         script_s3a0_update
      0000000B  ___bank_script_s3a2_update         script_s3a2_update
      0000000B  ___bank_script_s3a3_update         script_s3a3_update
      0000000B  ___bank_script_s4_init             script_s4_init
-     0000000B  ___bank_script_s4a0_interact       script_s4a0_interact
      0000000B  ___bank_script_s4a1_interact       script_s4a1_interact
      0000000B  ___bank_script_s4a2_interact       script_s4a2_interact
      0000000B  ___bank_script_s4a3_interact       script_s4a3_interact
+     0000000B  ___bank_script_s4a6_interact       script_s4a6_interact
      0000000B  ___bank_script_s4a7_interact       script_s4a7_interact
-     0000000B  ___bank_script_s4t1_interact       script_s4t1_interact
+     0000000B  ___bank_script_s4t0_interact       script_s4t0_interact
      0000000B  ___bank_script_s4t2_interact       script_s4t2_interact
      0000000B  ___bank_script_s4t3_interact       script_s4t3_interact
      0000000B  ___bank_script_s4t4_interact       script_s4t4_interact
      0000000B  ___bank_script_s4t5_interact       script_s4t5_interact
      0000000B  ___bank_script_s5_init             script_s5_init
      0000000B  ___bank_script_s5a2_interact       script_s5a2_interact
-     0000000B  ___bank_script_s5a5_interact       script_s5a5_interact
+     0000000B  ___bank_script_s5a4_interact       script_s5a4_interact
      0000000B  ___bank_script_s5t0_interact       script_s5t0_interact
      0000000B  ___bank_script_s6_init             script_s6_init
+     0000000B  ___bank_script_s7_init             script_s7_init
+     0000000B  ___bank_script_s7t0_interact       script_s7t0_interact
      0000000B  ___bank_spritesheet_0              spritesheet_0
      0000000B  ___bank_spritesheet_1              spritesheet_1
      0000000B  ___bank_spritesheet_10             spritesheet_10
@@ -532,11 +537,6 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000000B  ___bank_spritesheet_7              spritesheet_7
      0000000B  ___bank_spritesheet_8              spritesheet_8
      0000000B  ___bank_spritesheet_9              spritesheet_9
-     0000000B  ___bank_spritesheet_none           spritesheet_none
-     0000000B  ___bank_tileset_10                 tileset_10
-     0000000B  ___bank_tileset_12                 tileset_12
-     0000000B  ___bank_tileset_13                 tileset_13
-     0000000B  ___bank_tileset_14                 tileset_14
 ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
 Hexadecimal  [32-Bits]
 
@@ -546,6 +546,11 @@ Area                                    Addr        Size        Decimal Bytes (A
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
+     0000000B  ___bank_spritesheet_none           spritesheet_none
+     0000000B  ___bank_tileset_10                 tileset_10
+     0000000B  ___bank_tileset_12                 tileset_12
+     0000000B  ___bank_tileset_13                 tileset_13
+     0000000B  ___bank_tileset_14                 tileset_14
      0000000B  ___bank_tileset_17                 tileset_17
      0000000B  ___bank_tileset_18                 tileset_18
      0000000B  ___bank_tileset_9                  tileset_9
@@ -561,7 +566,7 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000C06  l__CODE                         
      00000E06  s__HOME                         
      000018FB  l__DATA                         
-     00001951  l__CODE_11                      
+     00001BF2  l__CODE_11                      
      00002000  _rROMB0                            
      000027A6  l__HOME                         
      00002947  l__CODE_4                       
@@ -575,8 +580,8 @@ Area                                    Addr        Size        Decimal Bytes (A
      000035BA  s__GSINIT                       
      000035E7  s__GSFINAL                      
      0000395A  l__CODE_2                       
-     00003FFE  l__CODE_5                       
      00003FFE  l__CODE_9                       
+     00003FFF  l__CODE_5                       
      00003FFF  l__CODE_8                       
      00004000  _RTC_SELECT_REG                    vm_rtc
      00004000  _rRAMB                             
@@ -592,11 +597,6 @@ Area                                    Addr        Size        Decimal Bytes (A
      00009C00  __SCRN1                            
      0000A000  _RTC_VALUE_REG                     vm_rtc
      0000A000  __SRAM                             
-     0000C000  __RAM                              
-     0000C000  _shadow_OAM                     
-     0000C0A0  s__DATA                         
-     0000D000  __RAMBANK                          
-     0000D99B  s__BSS                          
 ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
 Hexadecimal  [32-Bits]
 
@@ -606,6 +606,11 @@ Area                                    Addr        Size        Decimal Bytes (A
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
+     0000C000  __RAM                              
+     0000C000  _shadow_OAM                     
+     0000C0A0  s__DATA                         
+     0000D000  __RAMBANK                          
+     0000D99B  s__BSS                          
      0000D99B  s__INITIALIZED                  
      0000D9A9  s__HEAP                         
      0000DF00  .STACK                          
@@ -652,11 +657,6 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FF44  _LY_REG                            
      0000FF45  _LYC_REG                           
      0000FF46  _DMA_REG                           
-     0000FF47  _BGP_REG                           
-     0000FF48  _OBP0_REG                          
-     0000FF49  _OBP1_REG                          
-     0000FF4A  _WY_REG                            
-     0000FF4B  _WX_REG                            
 ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
 Hexadecimal  [32-Bits]
 
@@ -666,6 +666,11 @@ Area                                    Addr        Size        Decimal Bytes (A
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
+     0000FF47  _BGP_REG                           
+     0000FF48  _OBP0_REG                          
+     0000FF49  _OBP1_REG                          
+     0000FF4A  _WY_REG                            
+     0000FF4B  _WX_REG                            
      0000FF4D  _KEY1_REG                          
      0000FF4F  _VBK_REG                           
      0000FF51  _HDMA1_REG                         
@@ -695,7 +700,6 @@ Area                                    Addr        Size        Decimal Bytes (A
      00094000  s__CODE_9                       
      000A4000  s__CODE_10                      
      000B4000  s__CODE_11                      
-
 ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
 Hexadecimal  [32-Bits]
 
@@ -1436,292 +1440,301 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_11                            000B4000    00001951 =        6481. bytes (REL,CON)
+_CODE_11                            000B4000    00001BF2 =        7154. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
      000B4000  _bootstrap_script                  
-     000B400B  ___func_background_0               background_0
-     000B400B  _background_0                      background_0
-     000B4019  ___func_background_1               background_1
-     000B4019  _background_1                      background_1
-     000B4027  ___func_background_2               background_2
-     000B4027  _background_2                      background_2
-     000B4035  ___func_background_3               background_3
-     000B4035  _background_3                      background_3
-     000B4043  ___func_background_4               background_4
-     000B4043  _background_4                      background_4
-     000B4051  ___func_background_5               background_5
-     000B4051  _background_5                      background_5
-     000B405F  ___func_background_6               background_6
-     000B405F  _background_6                      background_6
-     000B406D  ___func_background_7               background_7
-     000B406D  _background_7                      background_7
-     000B407B  ___func_emote_0                    emote_0
-     000B407B  _emote_0                           emote_0
-     000B40BB  ___func_emote_1                    emote_1
-     000B40BB  _emote_1                           emote_1
-     000B40FB  ___func_emote_2                    emote_2
-     000B40FB  _emote_2                           emote_2
-     000B413B  ___func_emote_3                    emote_3
-     000B413B  _emote_3                           emote_3
-     000B417B  ___func_emote_4                    emote_4
-     000B417B  _emote_4                           emote_4
-     000B41BB  ___func_emote_5                    emote_5
-     000B41BB  _emote_5                           emote_5
-     000B41FB  ___func_frame_image                frame_image
-     000B41FB  _frame_image                       frame_image
-     000B428B  ___func_palette_0                  palette_0
-     000B428B  _palette_0                         palette_0
-     000B42CE  ___func_palette_1                  palette_1
-     000B42CE  _palette_1                         palette_1
-     000B4311  ___func_scene_0                    scene_0
-     000B4311  _scene_0                           scene_0
-     000B434B  ___func_scene_1                    scene_1
-     000B434B  _scene_1                           scene_1
-     000B4385  ___func_scene_2_sprites            scene_2_sprites
-     000B4385  _scene_2_sprites                   scene_2_sprites
-     000B439D  ___func_scene_2_triggers           scene_2_triggers
-     000B439D  _scene_2_triggers                  scene_2_triggers
-     000B43AD  ___func_scene_2                    scene_2
-     000B43AD  _scene_2                           scene_2
-     000B43E7  ___func_scene_3_actors             scene_3_actors
-     000B43E7  _scene_3_actors                    scene_3_actors
-     000B44AF  ___func_scene_3                    scene_3
-     000B44AF  _scene_3                           scene_3
-     000B44E9  ___func_scene_4_triggers           scene_4_triggers
+     000B400B  ___func_background_1               background_1
+     000B400B  _background_1                      background_1
+     000B4019  ___func_background_2               background_2
+     000B4019  _background_2                      background_2
+     000B4027  ___func_background_3               background_3
+     000B4027  _background_3                      background_3
+     000B4035  ___func_background_4               background_4
+     000B4035  _background_4                      background_4
+     000B4043  ___func_background_5               background_5
+     000B4043  _background_5                      background_5
+     000B4051  ___func_background_6               background_6
+     000B4051  _background_6                      background_6
+     000B405F  ___func_background_7               background_7
+     000B405F  _background_7                      background_7
+     000B406D  ___func_cursor_image               cursor_image
+     000B406D  _cursor_image                      cursor_image
+     000B407D  ___func_emote_0                    emote_0
+     000B407D  _emote_0                           emote_0
+     000B40BD  ___func_emote_1                    emote_1
+     000B40BD  _emote_1                           emote_1
+     000B40FD  ___func_emote_2                    emote_2
+     000B40FD  _emote_2                           emote_2
+     000B413D  ___func_emote_3                    emote_3
+     000B413D  _emote_3                           emote_3
+     000B417D  ___func_emote_4                    emote_4
+     000B417D  _emote_4                           emote_4
+     000B41BD  ___func_emote_5                    emote_5
+     000B41BD  _emote_5                           emote_5
+     000B41FD  ___func_emote_6                    emote_6
+     000B41FD  _emote_6                           emote_6
+     000B423D  ___func_frame_image                frame_image
+     000B423D  _frame_image                       frame_image
+     000B42CD  ___func_palette_0                  palette_0
+     000B42CD  _palette_0                         palette_0
+     000B4310  ___func_palette_1                  palette_1
+     000B4310  _palette_1                         palette_1
+     000B4353  ___func_scene_0                    scene_0
+     000B4353  _scene_0                           scene_0
+     000B438D  ___func_scene_1                    scene_1
+     000B438D  _scene_1                           scene_1
+     000B43C7  ___func_scene_2_triggers           scene_2_triggers
+     000B43C7  _scene_2_triggers                  scene_2_triggers
+     000B43D7  ___func_scene_2                    scene_2
+     000B43D7  _scene_2                           scene_2
+     000B4411  ___func_scene_3_actors             scene_3_actors
+     000B4411  _scene_3_actors                    scene_3_actors
+     000B44D9  ___func_scene_3                    scene_3
+     000B44D9  _scene_3                           scene_3
+     000B4513  ___func_scene_4_triggers           scene_4_triggers
 ASxxxx Linker V03.00 + NoICE + sdld,  page 47.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_11                            000B4000    00001951 =        6481. bytes (REL,CON)
+_CODE_11                            000B4000    00001BF2 =        7154. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     000B44E9  _scene_4_triggers                  scene_4_triggers
-     000B4519  ___func_scene_4                    scene_4
-     000B4519  _scene_4                           scene_4
-     000B4553  ___func_scene_5_sprites            scene_5_sprites
-     000B4553  _scene_5_sprites                   scene_5_sprites
-     000B4565  ___func_scene_5                    scene_5
-     000B4565  _scene_5                           scene_5
-     000B459F  ___func_scene_6                    scene_6
-     000B459F  _scene_6                           scene_6
-     000B45D9  ___func_scene_7_actors             scene_7_actors
-     000B45D9  _scene_7_actors                    scene_7_actors
-     000B463D  ___func_scene_7                    scene_7
-     000B463D  _scene_7                           scene_7
-     000B4677  _script_engine_init                
-     000B46BF  _script_input_0                    script_input_0
-     000B46EE  _script_manage_mphp                script_manage_mphp
-     000B4770  _script_npc_face_player            script_npc_face_player
-     000B4808  _script_s0_init                    script_s0_init
-     000B483C  _script_s2a2_interact              script_s2a2_interact
-     000B4899  _script_s2a2_update                script_s2a2_update
-     000B48B8  _script_s2a8_interact              script_s2a8_interact
-     000B4932  _script_s2t1_interact              script_s2t1_interact
-     000B496E  _script_s3a2_update                script_s3a2_update
-     000B4991  _script_s3a3_update                script_s3a3_update
-     000B49B4  _script_s4_init                    script_s4_init
-     000B49CB  _script_s4a0_interact              script_s4a0_interact
-     000B4A28  _script_s4a1_interact              script_s4a1_interact
-     000B4A68  _script_s4a2_interact              script_s4a2_interact
-     000B4AEE  _script_s4a3_interact              script_s4a3_interact
-     000B4BC9  _script_s4a7_interact              script_s4a7_interact
-     000B4C45  _script_s4t1_interact              script_s4t1_interact
-     000B4C91  _script_s4t2_interact              script_s4t2_interact
-     000B4CCE  _script_s4t3_interact              script_s4t3_interact
-     000B4D0B  _script_s4t4_interact              script_s4t4_interact
-     000B4D48  _script_s4t5_interact              script_s4t5_interact
-     000B4D78  _script_s5_init                    script_s5_init
-     000B4DB3  _script_s5a2_interact              script_s5a2_interact
-     000B4E39  _script_s5a5_interact              script_s5a5_interact
-     000B4EE5  _script_s5t0_interact              script_s5t0_interact
-     000B4F15  _script_s6_init                    script_s6_init
-     000B4FCA  ___func_spritesheet_0              spritesheet_0
-     000B4FCA  _spritesheet_0_metasprite_0        spritesheet_0
-     000B4FD6  _spritesheet_0_metasprite_1        spritesheet_0
-     000B4FE2  _spritesheet_0_metasprite_2        spritesheet_0
-     000B4FEE  _spritesheet_0_metasprite_3        spritesheet_0
-     000B4FFA  _spritesheet_0_metasprite_4        spritesheet_0
-     000B5006  _spritesheet_0_metasprite_5        spritesheet_0
-     000B5012  _spritesheet_0_metasprite_6        spritesheet_0
-     000B501E  _spritesheet_0_metasprite_7        spritesheet_0
-     000B502A  _spritesheet_0_metasprites         spritesheet_0
-     000B5042  _spritesheet_0_animations          spritesheet_0
+     000B4513  _scene_4_triggers                  scene_4_triggers
+     000B4543  ___func_scene_4                    scene_4
+     000B4543  _scene_4                           scene_4
+     000B457D  ___func_scene_5_sprites            scene_5_sprites
+     000B457D  _scene_5_sprites                   scene_5_sprites
+     000B4592  ___func_scene_5                    scene_5
+     000B4592  _scene_5                           scene_5
+     000B45CC  ___func_scene_6                    scene_6
+     000B45CC  _scene_6                           scene_6
+     000B4606  ___func_scene_7_actors             scene_7_actors
+     000B4606  _scene_7_actors                    scene_7_actors
+     000B466A  ___func_scene_7_sprites            scene_7_sprites
+     000B466A  _scene_7_sprites                   scene_7_sprites
+     000B4670  ___func_scene_7_triggers           scene_7_triggers
+     000B4670  _scene_7_triggers                  scene_7_triggers
+     000B4678  ___func_scene_7                    scene_7
+     000B4678  _scene_7                           scene_7
+     000B46B2  _script_engine_init                
+     000B46FA  _script_input_0                    script_input_0
+     000B4729  _script_manage_mphp                script_manage_mphp
+     000B47AB  _script_npc_face_player            script_npc_face_player
+     000B4843  _script_s0_init                    script_s0_init
+     000B4877  _script_s2a2_interact              script_s2a2_interact
+     000B48D4  _script_s2a2_update                script_s2a2_update
+     000B48F3  _script_s2a6_interact              script_s2a6_interact
+     000B4979  _script_s2a8_interact              script_s2a8_interact
+     000B49F3  _script_s2t1_interact              script_s2t1_interact
+     000B4A2F  _script_s3a0_update                script_s3a0_update
+     000B4A52  _script_s3a2_update                script_s3a2_update
+     000B4A75  _script_s3a3_update                script_s3a3_update
+     000B4A98  _script_s4_init                    script_s4_init
+     000B4AAF  _script_s4a1_interact              script_s4a1_interact
+     000B4AEF  _script_s4a2_interact              script_s4a2_interact
+     000B4B75  _script_s4a3_interact              script_s4a3_interact
+     000B4C50  _script_s4a6_interact              script_s4a6_interact
+     000B4D2D  _script_s4a7_interact              script_s4a7_interact
+     000B4DA9  _script_s4t0_interact              script_s4t0_interact
+     000B4E92  _script_s4t2_interact              script_s4t2_interact
+     000B4ECF  _script_s4t3_interact              script_s4t3_interact
+     000B4F0C  _script_s4t4_interact              script_s4t4_interact
+     000B4F49  _script_s4t5_interact              script_s4t5_interact
+     000B4F79  _script_s5_init                    script_s5_init
+     000B4FB4  _script_s5a2_interact              script_s5a2_interact
+     000B503A  _script_s5a4_interact              script_s5a4_interact
+     000B50D9  _script_s5t0_interact              script_s5t0_interact
+     000B5109  _script_s6_init                    script_s6_init
+     000B51BE  _script_s7_init                    script_s7_init
+     000B51E8  _script_s7t0_interact              script_s7t0_interact
+     000B526B  ___func_spritesheet_0              spritesheet_0
+     000B526B  _spritesheet_0_metasprite_0        spritesheet_0
+     000B5277  _spritesheet_0_metasprite_1        spritesheet_0
 ASxxxx Linker V03.00 + NoICE + sdld,  page 48.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_11                            000B4000    00001951 =        6481. bytes (REL,CON)
+_CODE_11                            000B4000    00001BF2 =        7154. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     000B5052  _spritesheet_0_animations_lookup   spritesheet_0
-     000B5054  _spritesheet_0                     spritesheet_0
-     000B5067  ___func_spritesheet_1              spritesheet_1
-     000B5067  _spritesheet_1_metasprite_0        spritesheet_1
-     000B5073  _spritesheet_1_metasprite_1        spritesheet_1
-     000B507F  _spritesheet_1_metasprite_2        spritesheet_1
-     000B508B  _spritesheet_1_metasprite_3        spritesheet_1
-     000B5097  _spritesheet_1_metasprite_4        spritesheet_1
-     000B50A3  _spritesheet_1_metasprite_5        spritesheet_1
-     000B50AF  _spritesheet_1_metasprite_6        spritesheet_1
-     000B50BB  _spritesheet_1_metasprite_7        spritesheet_1
-     000B50C7  _spritesheet_1_metasprites         spritesheet_1
-     000B50DF  _spritesheet_1_animations          spritesheet_1
-     000B50EF  _spritesheet_1_animations_lookup   spritesheet_1
-     000B50F1  _spritesheet_1                     spritesheet_1
-     000B5104  ___func_spritesheet_10             spritesheet_10
-     000B5104  _spritesheet_10_metasprite_0       spritesheet_10
-     000B5110  _spritesheet_10_metasprite_1       spritesheet_10
-     000B511C  _spritesheet_10_metasprite_2       spritesheet_10
-     000B5128  _spritesheet_10_metasprite_3       spritesheet_10
-     000B5134  _spritesheet_10_metasprites        spritesheet_10
-     000B513C  _spritesheet_10_animations         spritesheet_10
-     000B514C  _spritesheet_10_animations_looku   spritesheet_10
-     000B514E  _spritesheet_10                    spritesheet_10
-     000B5161  ___func_spritesheet_11             spritesheet_11
-     000B5161  _spritesheet_11_metasprite_0       spritesheet_11
-     000B516D  _spritesheet_11_metasprite_1       spritesheet_11
-     000B5179  _spritesheet_11_metasprite_2       spritesheet_11
-     000B5185  _spritesheet_11_metasprite_3       spritesheet_11
-     000B5191  _spritesheet_11_metasprites        spritesheet_11
-     000B5199  _spritesheet_11_animations         spritesheet_11
-     000B51A9  _spritesheet_11_animations_looku   spritesheet_11
-     000B51AB  _spritesheet_11                    spritesheet_11
-     000B51BE  ___func_spritesheet_12             spritesheet_12
-     000B51BE  _spritesheet_12_metasprite_0       spritesheet_12
-     000B51CA  _spritesheet_12_metasprite_1       spritesheet_12
-     000B51D6  _spritesheet_12_metasprite_2       spritesheet_12
-     000B51E2  _spritesheet_12_metasprite_3       spritesheet_12
-     000B51EE  _spritesheet_12_metasprite_4       spritesheet_12
-     000B51FA  _spritesheet_12_metasprite_5       spritesheet_12
-     000B5206  _spritesheet_12_metasprite_6       spritesheet_12
-     000B5212  _spritesheet_12_metasprite_7       spritesheet_12
-     000B521E  _spritesheet_12_metasprites        spritesheet_12
-     000B5236  _spritesheet_12_animations         spritesheet_12
-     000B5246  _spritesheet_12_animations_looku   spritesheet_12
-     000B5248  _spritesheet_12                    spritesheet_12
-     000B525B  ___func_spritesheet_13             spritesheet_13
-     000B525B  _spritesheet_13_metasprite_0       spritesheet_13
-     000B5267  _spritesheet_13_metasprite_1       spritesheet_13
-     000B5273  _spritesheet_13_metasprite_2       spritesheet_13
-     000B527F  _spritesheet_13_metasprite_3       spritesheet_13
+     000B5283  _spritesheet_0_metasprite_2        spritesheet_0
+     000B528F  _spritesheet_0_metasprite_3        spritesheet_0
+     000B529B  _spritesheet_0_metasprite_4        spritesheet_0
+     000B52A7  _spritesheet_0_metasprite_5        spritesheet_0
+     000B52B3  _spritesheet_0_metasprite_6        spritesheet_0
+     000B52BF  _spritesheet_0_metasprite_7        spritesheet_0
+     000B52CB  _spritesheet_0_metasprites         spritesheet_0
+     000B52E3  _spritesheet_0_animations          spritesheet_0
+     000B52F3  _spritesheet_0_animations_lookup   spritesheet_0
+     000B52F5  _spritesheet_0                     spritesheet_0
+     000B5308  ___func_spritesheet_1              spritesheet_1
+     000B5308  _spritesheet_1_metasprite_0        spritesheet_1
+     000B5314  _spritesheet_1_metasprite_1        spritesheet_1
+     000B5320  _spritesheet_1_metasprite_2        spritesheet_1
+     000B532C  _spritesheet_1_metasprite_3        spritesheet_1
+     000B5338  _spritesheet_1_metasprite_4        spritesheet_1
+     000B5344  _spritesheet_1_metasprite_5        spritesheet_1
+     000B5350  _spritesheet_1_metasprite_6        spritesheet_1
+     000B535C  _spritesheet_1_metasprite_7        spritesheet_1
+     000B5368  _spritesheet_1_metasprites         spritesheet_1
+     000B5380  _spritesheet_1_animations          spritesheet_1
+     000B5390  _spritesheet_1_animations_lookup   spritesheet_1
+     000B5392  _spritesheet_1                     spritesheet_1
+     000B53A5  ___func_spritesheet_10             spritesheet_10
+     000B53A5  _spritesheet_10_metasprite_0       spritesheet_10
+     000B53B1  _spritesheet_10_metasprite_1       spritesheet_10
+     000B53BD  _spritesheet_10_metasprite_2       spritesheet_10
+     000B53C9  _spritesheet_10_metasprite_3       spritesheet_10
+     000B53D5  _spritesheet_10_metasprites        spritesheet_10
+     000B53DD  _spritesheet_10_animations         spritesheet_10
+     000B53ED  _spritesheet_10_animations_looku   spritesheet_10
+     000B53EF  _spritesheet_10                    spritesheet_10
+     000B5402  ___func_spritesheet_11             spritesheet_11
+     000B5402  _spritesheet_11_metasprite_0       spritesheet_11
+     000B540E  _spritesheet_11_metasprite_1       spritesheet_11
+     000B541A  _spritesheet_11_metasprite_2       spritesheet_11
+     000B5426  _spritesheet_11_metasprite_3       spritesheet_11
+     000B5432  _spritesheet_11_metasprites        spritesheet_11
+     000B543A  _spritesheet_11_animations         spritesheet_11
+     000B544A  _spritesheet_11_animations_looku   spritesheet_11
+     000B544C  _spritesheet_11                    spritesheet_11
+     000B545F  ___func_spritesheet_12             spritesheet_12
+     000B545F  _spritesheet_12_metasprite_0       spritesheet_12
+     000B546B  _spritesheet_12_metasprite_1       spritesheet_12
+     000B5477  _spritesheet_12_metasprite_2       spritesheet_12
+     000B5483  _spritesheet_12_metasprite_3       spritesheet_12
+     000B548F  _spritesheet_12_metasprite_4       spritesheet_12
+     000B549B  _spritesheet_12_metasprite_5       spritesheet_12
+     000B54A7  _spritesheet_12_metasprite_6       spritesheet_12
+     000B54B3  _spritesheet_12_metasprite_7       spritesheet_12
+     000B54BF  _spritesheet_12_metasprites        spritesheet_12
 ASxxxx Linker V03.00 + NoICE + sdld,  page 49.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_11                            000B4000    00001951 =        6481. bytes (REL,CON)
+_CODE_11                            000B4000    00001BF2 =        7154. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     000B528B  _spritesheet_13_metasprite_4       spritesheet_13
-     000B5297  _spritesheet_13_metasprite_5       spritesheet_13
-     000B52A3  _spritesheet_13_metasprite_6       spritesheet_13
-     000B52AF  _spritesheet_13_metasprite_7       spritesheet_13
-     000B52BB  _spritesheet_13_metasprite_8       spritesheet_13
-     000B52C7  _spritesheet_13_metasprite_9       spritesheet_13
-     000B52D3  _spritesheet_13_metasprites        spritesheet_13
-     000B52F3  _spritesheet_13_animations         spritesheet_13
-     000B5303  _spritesheet_13_animations_looku   spritesheet_13
-     000B5305  _spritesheet_13                    spritesheet_13
-     000B5318  ___func_spritesheet_2              spritesheet_2
-     000B5318  _spritesheet_2_metasprite_0        spritesheet_2
-     000B5324  _spritesheet_2_metasprites         spritesheet_2
-     000B5326  _spritesheet_2_animations          spritesheet_2
-     000B5336  _spritesheet_2_animations_lookup   spritesheet_2
-     000B5338  _spritesheet_2                     spritesheet_2
-     000B534B  ___func_spritesheet_3              spritesheet_3
-     000B534B  _spritesheet_3_metasprite_0        spritesheet_3
-     000B5357  _spritesheet_3_metasprites         spritesheet_3
-     000B5359  _spritesheet_3_animations          spritesheet_3
-     000B5369  _spritesheet_3_animations_lookup   spritesheet_3
-     000B536B  _spritesheet_3                     spritesheet_3
-     000B537E  ___func_spritesheet_4              spritesheet_4
-     000B537E  _spritesheet_4_metasprite_0        spritesheet_4
-     000B538A  _spritesheet_4_metasprite_1        spritesheet_4
-     000B5396  _spritesheet_4_metasprite_2        spritesheet_4
-     000B53A2  _spritesheet_4_metasprite_3        spritesheet_4
-     000B53AE  _spritesheet_4_metasprite_4        spritesheet_4
-     000B53BA  _spritesheet_4_metasprite_5        spritesheet_4
-     000B53C6  _spritesheet_4_metasprite_6        spritesheet_4
-     000B53D2  _spritesheet_4_metasprite_7        spritesheet_4
-     000B53DE  _spritesheet_4_metasprites         spritesheet_4
-     000B53F6  _spritesheet_4_animations          spritesheet_4
-     000B5406  _spritesheet_4_animations_lookup   spritesheet_4
-     000B5408  _spritesheet_4                     spritesheet_4
-     000B541B  ___func_spritesheet_5              spritesheet_5
-     000B541B  _spritesheet_5_metasprite_0        spritesheet_5
-     000B5427  _spritesheet_5_metasprite_1        spritesheet_5
-     000B5433  _spritesheet_5_metasprite_2        spritesheet_5
-     000B543F  _spritesheet_5_metasprite_3        spritesheet_5
-     000B544B  _spritesheet_5_metasprites         spritesheet_5
-     000B5453  _spritesheet_5_animations          spritesheet_5
-     000B5463  _spritesheet_5_animations_lookup   spritesheet_5
-     000B5465  _spritesheet_5                     spritesheet_5
-     000B5478  ___func_spritesheet_6              spritesheet_6
-     000B5478  _spritesheet_6_metasprite_0        spritesheet_6
-     000B5484  _spritesheet_6_metasprites         spritesheet_6
-     000B5486  _spritesheet_6_animations          spritesheet_6
-     000B5496  _spritesheet_6_animations_lookup   spritesheet_6
-     000B5498  _spritesheet_6                     spritesheet_6
-     000B54AB  ___func_spritesheet_7              spritesheet_7
+     000B54D7  _spritesheet_12_animations         spritesheet_12
+     000B54E7  _spritesheet_12_animations_looku   spritesheet_12
+     000B54E9  _spritesheet_12                    spritesheet_12
+     000B54FC  ___func_spritesheet_13             spritesheet_13
+     000B54FC  _spritesheet_13_metasprite_0       spritesheet_13
+     000B5508  _spritesheet_13_metasprite_1       spritesheet_13
+     000B5514  _spritesheet_13_metasprite_2       spritesheet_13
+     000B5520  _spritesheet_13_metasprite_3       spritesheet_13
+     000B552C  _spritesheet_13_metasprite_4       spritesheet_13
+     000B5538  _spritesheet_13_metasprite_5       spritesheet_13
+     000B5544  _spritesheet_13_metasprite_6       spritesheet_13
+     000B5550  _spritesheet_13_metasprite_7       spritesheet_13
+     000B555C  _spritesheet_13_metasprite_8       spritesheet_13
+     000B5568  _spritesheet_13_metasprite_9       spritesheet_13
+     000B5574  _spritesheet_13_metasprites        spritesheet_13
+     000B5594  _spritesheet_13_animations         spritesheet_13
+     000B55A4  _spritesheet_13_animations_looku   spritesheet_13
+     000B55A6  _spritesheet_13                    spritesheet_13
+     000B55B9  ___func_spritesheet_2              spritesheet_2
+     000B55B9  _spritesheet_2_metasprite_0        spritesheet_2
+     000B55C5  _spritesheet_2_metasprites         spritesheet_2
+     000B55C7  _spritesheet_2_animations          spritesheet_2
+     000B55D7  _spritesheet_2_animations_lookup   spritesheet_2
+     000B55D9  _spritesheet_2                     spritesheet_2
+     000B55EC  ___func_spritesheet_3              spritesheet_3
+     000B55EC  _spritesheet_3_metasprite_0        spritesheet_3
+     000B55F8  _spritesheet_3_metasprites         spritesheet_3
+     000B55FA  _spritesheet_3_animations          spritesheet_3
+     000B560A  _spritesheet_3_animations_lookup   spritesheet_3
+     000B560C  _spritesheet_3                     spritesheet_3
+     000B561F  ___func_spritesheet_4              spritesheet_4
+     000B561F  _spritesheet_4_metasprite_0        spritesheet_4
+     000B562B  _spritesheet_4_metasprite_1        spritesheet_4
+     000B5637  _spritesheet_4_metasprite_2        spritesheet_4
+     000B5643  _spritesheet_4_metasprite_3        spritesheet_4
+     000B564F  _spritesheet_4_metasprite_4        spritesheet_4
+     000B565B  _spritesheet_4_metasprite_5        spritesheet_4
+     000B5667  _spritesheet_4_metasprite_6        spritesheet_4
+     000B5673  _spritesheet_4_metasprite_7        spritesheet_4
+     000B567F  _spritesheet_4_metasprites         spritesheet_4
+     000B5697  _spritesheet_4_animations          spritesheet_4
+     000B56A7  _spritesheet_4_animations_lookup   spritesheet_4
+     000B56A9  _spritesheet_4                     spritesheet_4
+     000B56BC  ___func_spritesheet_5              spritesheet_5
+     000B56BC  _spritesheet_5_metasprite_0        spritesheet_5
+     000B56C8  _spritesheet_5_metasprite_1        spritesheet_5
+     000B56D4  _spritesheet_5_metasprite_2        spritesheet_5
+     000B56E0  _spritesheet_5_metasprite_3        spritesheet_5
+     000B56EC  _spritesheet_5_metasprites         spritesheet_5
+     000B56F4  _spritesheet_5_animations          spritesheet_5
+     000B5704  _spritesheet_5_animations_lookup   spritesheet_5
 ASxxxx Linker V03.00 + NoICE + sdld,  page 50.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_11                            000B4000    00001951 =        6481. bytes (REL,CON)
+_CODE_11                            000B4000    00001BF2 =        7154. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     000B54AB  _spritesheet_7_metasprite_0        spritesheet_7
-     000B54C7  _spritesheet_7_metasprites         spritesheet_7
-     000B54C9  _spritesheet_7_animations          spritesheet_7
-     000B54D9  _spritesheet_7_animations_lookup   spritesheet_7
-     000B54DB  _spritesheet_7                     spritesheet_7
-     000B54EE  ___func_spritesheet_8              spritesheet_8
-     000B54EE  _spritesheet_8_metasprite_0        spritesheet_8
-     000B54F2  _spritesheet_8_metasprites         spritesheet_8
-     000B54F4  _spritesheet_8_animations          spritesheet_8
-     000B5504  _spritesheet_8_animations_lookup   spritesheet_8
-     000B5506  _spritesheet_8                     spritesheet_8
-     000B5519  ___func_spritesheet_9              spritesheet_9
-     000B5519  _spritesheet_9_metasprite_0        spritesheet_9
-     000B5525  _spritesheet_9_metasprite_1        spritesheet_9
-     000B5531  _spritesheet_9_metasprite_2        spritesheet_9
-     000B553D  _spritesheet_9_metasprite_3        spritesheet_9
-     000B5549  _spritesheet_9_metasprite_4        spritesheet_9
-     000B5555  _spritesheet_9_metasprite_5        spritesheet_9
-     000B5561  _spritesheet_9_metasprite_6        spritesheet_9
-     000B556D  _spritesheet_9_metasprite_7        spritesheet_9
-     000B5579  _spritesheet_9_metasprite_8        spritesheet_9
-     000B5585  _spritesheet_9_metasprite_9        spritesheet_9
-     000B5591  _spritesheet_9_metasprites         spritesheet_9
-     000B55A5  _spritesheet_9_animations          spritesheet_9
-     000B55B5  _spritesheet_9_animations_lookup   spritesheet_9
-     000B55B7  _spritesheet_9                     spritesheet_9
-     000B55CA  _spritesheet_none_metasprite       spritesheet_none
-     000B55CE  _spritesheet_none_metasprites      spritesheet_none
-     000B55D0  _spritesheet_none                  spritesheet_none
-     000B55E3  ___func_tileset_10                 tileset_10
-     000B55E3  _tileset_10                        tileset_10
-     000B5625  ___func_tileset_12                 tileset_12
-     000B5625  _tileset_12                        tileset_12
-     000B56E7  ___func_tileset_13                 tileset_13
-     000B56E7  _tileset_13                        tileset_13
-     000B5729  ___func_tileset_14                 tileset_14
-     000B5729  _tileset_14                        tileset_14
-     000B578B  ___func_tileset_17                 tileset_17
-     000B578B  _tileset_17                        tileset_17
-     000B584D  ___func_tileset_18                 tileset_18
-     000B584D  _tileset_18                        tileset_18
-     000B590F  ___func_tileset_9                  tileset_9
-     000B590F  _tileset_9                         tileset_9
+     000B5706  _spritesheet_5                     spritesheet_5
+     000B5719  ___func_spritesheet_6              spritesheet_6
+     000B5719  _spritesheet_6_metasprite_0        spritesheet_6
+     000B5725  _spritesheet_6_metasprites         spritesheet_6
+     000B5727  _spritesheet_6_animations          spritesheet_6
+     000B5737  _spritesheet_6_animations_lookup   spritesheet_6
+     000B5739  _spritesheet_6                     spritesheet_6
+     000B574C  ___func_spritesheet_7              spritesheet_7
+     000B574C  _spritesheet_7_metasprite_0        spritesheet_7
+     000B5768  _spritesheet_7_metasprites         spritesheet_7
+     000B576A  _spritesheet_7_animations          spritesheet_7
+     000B577A  _spritesheet_7_animations_lookup   spritesheet_7
+     000B577C  _spritesheet_7                     spritesheet_7
+     000B578F  ___func_spritesheet_8              spritesheet_8
+     000B578F  _spritesheet_8_metasprite_0        spritesheet_8
+     000B5793  _spritesheet_8_metasprites         spritesheet_8
+     000B5795  _spritesheet_8_animations          spritesheet_8
+     000B57A5  _spritesheet_8_animations_lookup   spritesheet_8
+     000B57A7  _spritesheet_8                     spritesheet_8
+     000B57BA  ___func_spritesheet_9              spritesheet_9
+     000B57BA  _spritesheet_9_metasprite_0        spritesheet_9
+     000B57C6  _spritesheet_9_metasprite_1        spritesheet_9
+     000B57D2  _spritesheet_9_metasprite_2        spritesheet_9
+     000B57DE  _spritesheet_9_metasprite_3        spritesheet_9
+     000B57EA  _spritesheet_9_metasprite_4        spritesheet_9
+     000B57F6  _spritesheet_9_metasprite_5        spritesheet_9
+     000B5802  _spritesheet_9_metasprite_6        spritesheet_9
+     000B580E  _spritesheet_9_metasprite_7        spritesheet_9
+     000B581A  _spritesheet_9_metasprite_8        spritesheet_9
+     000B5826  _spritesheet_9_metasprite_9        spritesheet_9
+     000B5832  _spritesheet_9_metasprites         spritesheet_9
+     000B5846  _spritesheet_9_animations          spritesheet_9
+     000B5856  _spritesheet_9_animations_lookup   spritesheet_9
+     000B5858  _spritesheet_9                     spritesheet_9
+     000B586B  _spritesheet_none_metasprite       spritesheet_none
+     000B586F  _spritesheet_none_metasprites      spritesheet_none
+     000B5871  _spritesheet_none                  spritesheet_none
+     000B5884  ___func_tileset_10                 tileset_10
+     000B5884  _tileset_10                        tileset_10
+     000B58C6  ___func_tileset_12                 tileset_12
+     000B58C6  _tileset_12                        tileset_12
+     000B5988  ___func_tileset_13                 tileset_13
+     000B5988  _tileset_13                        tileset_13
+     000B59CA  ___func_tileset_14                 tileset_14
+     000B59CA  _tileset_14                        tileset_14
+     000B5A2C  ___func_tileset_17                 tileset_17
+     000B5A2C  _tileset_17                        tileset_17
+     000B5AEE  ___func_tileset_18                 tileset_18
+     000B5AEE  _tileset_18                        tileset_18
+     000B5BB0  ___func_tileset_9                  tileset_9
+     000B5BB0  _tileset_9                         tileset_9
+
 ASxxxx Linker V03.00 + NoICE + sdld,  page 51.
 Hexadecimal  [32-Bits]
 
@@ -2028,53 +2041,53 @@ _CODE_10                            000A4000    00004000 =       16384. bytes (R
      000A4000  ___func_avatar_font_0              avatar_font_0
      000A4154  _avatar_font_0                     avatar_font_0
      000A45B5  _music_track_7__Data               music_track_7__Data
-     000A45CA  ___func_scene_0_collisions         scene_0_collisions
-     000A45CA  _scene_0_collisions                scene_0_collisions
-     000A4732  ___func_scene_1_collisions         scene_1_collisions
-     000A4732  _scene_1_collisions                scene_1_collisions
-     000A489A  ___func_scene_2_actors             scene_2_actors
-     000A489A  _scene_2_actors                    scene_2_actors
-     000A4AC0  ___func_scene_3_collisions         scene_3_collisions
-     000A4AC0  _scene_3_collisions                scene_3_collisions
-     000A4C28  ___func_scene_4_actors             scene_4_actors
-     000A4C28  _scene_4_actors                    scene_4_actors
-     000A4DB8  ___func_scene_5_actors             scene_5_actors
-     000A4DB8  _scene_5_actors                    scene_5_actors
-     000A4F16  ___func_scene_6_collisions         scene_6_collisions
-     000A4F16  _scene_6_collisions                scene_6_collisions
-     000A507E  ___func_scene_7_sprites            scene_7_sprites
-     000A507E  _scene_7_sprites                   scene_7_sprites
-     000A5084  _script_s1_init                    script_s1_init
-     000A523D  _script_s2_init                    script_s2_init
-     000A543A  _script_s2a4_interact              script_s2a4_interact
-     000A571E  _script_s2a5_interact              script_s2a5_interact
-     000A58AD  _script_s4a4_interact              script_s4a4_interact
-     000A59D8  _script_s4a6_interact              script_s4a6_interact
-     000A5AB5  _script_s4t0_interact              script_s4t0_interact
-     000A5B9E  _script_s5a1_interact              script_s5a1_interact
-     000A6067  _script_s5a4_interact              script_s5a4_interact
-     000A6106  _script_s5a6_interact              script_s5a6_interact
-     000A625D  _script_s7a0_interact              script_s7a0_interact
-     000A6710  ___func_tilemap_1                  tilemap_1
-     000A6710  _tilemap_1                         tilemap_1
-     000A6878  ___func_tilemap_5                  tilemap_5
-     000A6878  _tilemap_5                         tilemap_5
-     000A69E0  ___func_tilemap_6                  tilemap_6
-     000A69E0  _tilemap_6                         tilemap_6
-     000A6B48  ___func_tilemap_7                  tilemap_7
-     000A6B48  _tilemap_7                         tilemap_7
-     000A6CB0  ___func_tilemap_attr_1             tilemap_attr_1
-     000A6CB0  _tilemap_attr_1                    tilemap_attr_1
-     000A6E18  ___func_tilemap_attr_5             tilemap_attr_5
-     000A6E18  _tilemap_attr_5                    tilemap_attr_5
-     000A6F80  ___func_tileset_1                  tileset_1
-     000A6F80  _tileset_1                         tileset_1
-     000A71E2  ___func_tileset_11                 tileset_11
-     000A71E2  _tileset_11                        tileset_11
+     000A4AE3  _music_track_9__Data               music_track_9__Data
+     000A4AF8  ___func_scene_0_collisions         scene_0_collisions
+     000A4AF8  _scene_0_collisions                scene_0_collisions
+     000A4C60  ___func_scene_1_collisions         scene_1_collisions
+     000A4C60  _scene_1_collisions                scene_1_collisions
+     000A4DC8  ___func_scene_2_actors             scene_2_actors
+     000A4DC8  _scene_2_actors                    scene_2_actors
+     000A4FEE  ___func_scene_3_collisions         scene_3_collisions
+     000A4FEE  _scene_3_collisions                scene_3_collisions
+     000A5156  ___func_scene_4_actors             scene_4_actors
+     000A5156  _scene_4_actors                    scene_4_actors
+     000A52E6  ___func_scene_5_actors             scene_5_actors
+     000A52E6  _scene_5_actors                    scene_5_actors
+     000A5476  ___func_scene_6_collisions         scene_6_collisions
+     000A5476  _scene_6_collisions                scene_6_collisions
+     000A55DE  _script_s1_init                    script_s1_init
+     000A579E  _script_s2_init                    script_s2_init
+     000A599B  _script_s2a1_interact              script_s2a1_interact
+     000A5C1C  _script_s2a5_interact              script_s2a5_interact
+     000A5DAB  _script_s2a9_interact              script_s2a9_interact
+     000A5EA1  _script_s4a0_interact              script_s4a0_interact
+     000A6041  _script_s5a5_interact              script_s5a5_interact
+     000A60ED  _script_s5a6_interact              script_s5a6_interact
+     000A6245  _script_s7a0_interact              script_s7a0_interact
+     000A670D  ___func_tilemap_1                  tilemap_1
+     000A670D  _tilemap_1                         tilemap_1
+     000A6875  ___func_tilemap_5                  tilemap_5
+     000A6875  _tilemap_5                         tilemap_5
+     000A69DD  ___func_tilemap_6                  tilemap_6
+     000A69DD  _tilemap_6                         tilemap_6
+     000A6B45  ___func_tilemap_7                  tilemap_7
+     000A6B45  _tilemap_7                         tilemap_7
+     000A6CAD  ___func_tilemap_attr_1             tilemap_attr_1
+     000A6CAD  _tilemap_attr_1                    tilemap_attr_1
+     000A6E15  ___func_tilemap_attr_5             tilemap_attr_5
+     000A6E15  _tilemap_attr_5                    tilemap_attr_5
+     000A6F7D  ___func_tileset_1                  tileset_1
+     000A6F7D  _tileset_1                         tileset_1
+     000A71DF  ___func_tileset_11                 tileset_11
+     000A71DF  _tileset_11                        tileset_11
+     000A7361  ___func_tileset_15                 tileset_15
+     000A7361  _tileset_15                        tileset_15
      000A7364  ___func_tileset_16                 tileset_16
      000A7364  _tileset_16                        tileset_16
      000A7586  ___func_tileset_19                 tileset_19
      000A7586  _tileset_19                        tileset_19
+     000A7708  ___func_tileset_2                  tileset_2
 ASxxxx Linker V03.00 + NoICE + sdld,  page 62.
 Hexadecimal  [32-Bits]
 
@@ -2084,7 +2097,6 @@ _CODE_10                            000A4000    00004000 =       16384. bytes (R
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     000A7708  ___func_tileset_2                  tileset_2
      000A7708  _tileset_2                         tileset_2
      000A7B7A  ___func_tileset_20                 tileset_20
      000A7B7A  _tileset_20                        tileset_20
@@ -2092,7 +2104,6 @@ _CODE_10                            000A4000    00004000 =       16384. bytes (R
      000A7CFC  _tileset_7                         tileset_7
      000A7E7E  ___func_tileset_8                  tileset_8
      000A7E7E  _tileset_8                         tileset_8
-
 ASxxxx Linker V03.00 + NoICE + sdld,  page 63.
 Hexadecimal  [32-Bits]
 
@@ -2102,17 +2113,17 @@ _CODE_8                             00084000    00003FFF =       16383. bytes (R
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00084000  ___func_cursor_image               cursor_image
-     00084000  _cursor_image                      cursor_image
-     00084601  _music_track_5__Data               music_track_5__Data
-     00084616  ___func_scene_2_collisions         scene_2_collisions
-     00084616  _scene_2_collisions                scene_2_collisions
-     00084B77  ___func_scene_7_collisions         scene_7_collisions
-     00084B77  _scene_7_collisions                scene_7_collisions
-     00085143  _script_s2a0_interact              script_s2a0_interact
-     000856C3  _script_s2a1_interact              script_s2a1_interact
-     00085944  _script_s2a10_interact             script_s2a10_interact
-     00085EC0  _script_s3_init                    script_s3_init
+     00084000  ___func_background_0               background_0
+     00084000  _background_0                      background_0
+     0008484F  _music_track_1__Data               music_track_1__Data
+     00084E55  _music_track_5__Data               music_track_5__Data
+     00084E6A  ___func_scene_7_collisions         scene_7_collisions
+     00084E6A  _scene_7_collisions                scene_7_collisions
+     00085436  _script_s2a0_interact              script_s2a0_interact
+     000859BB  _script_s2a10_interact             script_s2a10_interact
+     00085F37  _script_s2a4_interact              script_s2a4_interact
+     0008621B  _script_s5a1_interact              script_s5a1_interact
+     000867B1  _script_s5a7_interact              script_s5a7_interact
      000868C3  ___func_tilemap_3                  tilemap_3
      000868C3  _tilemap_3                         tilemap_3
      00086E8F  ___func_tilemap_attr_3             tilemap_attr_3
@@ -2133,16 +2144,16 @@ _CODE_7                             00074000    00004000 =       16384. bytes (R
       -----  --------------------------------   ------------------------
      00074000  ___func_font_0                     font_0
      00074E6A  _font_0                            font_0
-     000758F3  _music_track_1__Data               music_track_1__Data
-     00075908  ___func_scene_5_triggers           scene_5_triggers
-     00075908  _scene_5_triggers                  scene_5_triggers
-     00075910  _script_s4a5_interact              script_s4a5_interact
-     000759DA  ___func_tileset_3                  tileset_3
-     000759DA  _tileset_3                         tileset_3
-     000765DC  ___func_tileset_5                  tileset_5
-     000765DC  _tileset_5                         tileset_5
-     0007701E  ___func_tileset_6                  tileset_6
-     0007701E  _tileset_6                         tileset_6
+     00074E72  ___func_scene_2_sprites            scene_2_sprites
+     00074E72  _scene_2_sprites                   scene_2_sprites
+     00074E8A  _script_s3_init                    script_s3_init
+     0007588F  _script_s4a4_interact              script_s4a4_interact
+     000759BA  ___func_tileset_3                  tileset_3
+     000759BA  _tileset_3                         tileset_3
+     000765BC  ___func_tileset_5                  tileset_5
+     000765BC  _tileset_5                         tileset_5
+     00076FFE  ___func_tileset_6                  tileset_6
+     00076FFE  _tileset_6                         tileset_6
 ASxxxx Linker V03.00 + NoICE + sdld,  page 65.
 Hexadecimal  [32-Bits]
 
@@ -2160,16 +2171,16 @@ _CODE_9                             00094000    00003FFE =       16382. bytes (R
      00095F2F  _music_track_4__Data               music_track_4__Data
      0009645D  _music_track_6__Data               music_track_6__Data
      0009698B  _music_track_8__Data               music_track_8__Data
-     00096EB9  _music_track_9__Data               music_track_9__Data
-     00096ECE  _script_s2a9_interact              script_s2a9_interact
-     00096FC4  _script_s3a0_update                script_s3a0_update
-     00096FE7  _script_s5a3_interact              script_s5a3_interact
-     00097539  ___func_tilemap_2                  tilemap_2
-     00097539  _tilemap_2                         tilemap_2
-     00097A9A  ___func_tilemap_attr_2             tilemap_attr_2
-     00097A9A  _tilemap_attr_2                    tilemap_attr_2
-     00097FFB  ___func_tileset_15                 tileset_15
-     00097FFB  _tileset_15                        tileset_15
+     000969A0  ___func_scene_2_collisions         scene_2_collisions
+     000969A0  _scene_2_collisions                scene_2_collisions
+     00096F01  ___func_scene_5_triggers           scene_5_triggers
+     00096F01  _scene_5_triggers                  scene_5_triggers
+     00096F09  _script_s4a5_interact              script_s4a5_interact
+     00096FD3  _script_s5a3_interact              script_s5a3_interact
+     0009753C  ___func_tilemap_2                  tilemap_2
+     0009753C  _tilemap_2                         tilemap_2
+     00097A9D  ___func_tilemap_attr_2             tilemap_attr_2
+     00097A9D  _tilemap_attr_2                    tilemap_attr_2
 ASxxxx Linker V03.00 + NoICE + sdld,  page 66.
 Hexadecimal  [32-Bits]
 
@@ -2195,7 +2206,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_5                             00054000    00003FFE =       16382. bytes (REL,CON)
+_CODE_5                             00054000    00003FFF =       16383. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2205,10 +2216,10 @@ _CODE_5                             00054000    00003FFE =       16382. bytes (R
      00054003  _scene_4_collisions                scene_4_collisions
      00055133  ___func_scene_5_collisions         scene_5_collisions
      00055133  _scene_5_collisions                scene_5_collisions
-     000566B7  _script_s2a6_interact              script_s2a6_interact
-     0005673D  _script_s2t0_interact              script_s2t0_interact
-     00056A7A  ___func_tilemap_0                  tilemap_0
-     00056A7A  _tilemap_0                         tilemap_0
+     000566B7  _script_s2t0_interact              script_s2t0_interact
+     00056A2F  _script_s4t1_interact              script_s4t1_interact
+     00056A7B  ___func_tilemap_0                  tilemap_0
+     00056A7B  _tilemap_0                         tilemap_0
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 68.
 Hexadecimal  [32-Bits]
@@ -2380,6 +2391,8 @@ C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/emote_4.rel
                                           [ emote_4 ]
 C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/emote_5.rel
                                           [ emote_5 ]
+C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/emote_6.rel
+                                          [ emote_6 ]
 C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/font_0.rel
                                           [ font_0 ]
 C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/frame_image.rel
@@ -2470,6 +2483,8 @@ C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/scene_7_collisions.rel
                                           [ scene_7_collisions ]
 C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/scene_7_sprites.rel
                                           [ scene_7_sprites ]
+C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/scene_7_triggers.rel
+                                          [ scene_7_triggers ]
 C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/scene_7.rel
                                           [ scene_7 ]
 C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/script_engine_init.rel
@@ -2564,12 +2579,18 @@ C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/script_s5a5_interact.rel
                                           [ script_s5a5_interact ]
 C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/script_s5a6_interact.rel
                                           [ script_s5a6_interact ]
+C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/script_s5a7_interact.rel
+                                          [ script_s5a7_interact ]
 C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/script_s5t0_interact.rel
                                           [ script_s5t0_interact ]
 C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/script_s6_init.rel
                                           [ script_s6_init ]
+C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/script_s7_init.rel
+                                          [ script_s7_init ]
 C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/script_s7a0_interact.rel
                                           [ script_s7a0_interact ]
+C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/script_s7t0_interact.rel
+                                          [ script_s7t0_interact ]
 C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/spritesheet_0.rel
                                           [ spritesheet_0 ]
 C:/Users/Lexie/AppData/Local/Temp/_gbsbuild/obj/spritesheet_1.rel
